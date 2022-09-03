@@ -265,6 +265,17 @@ UnityEngine.CanvasRenderer::set_cull
 UnityEngine.CanvasRenderer::set_hasPopInstruction
 UnityEngine.CanvasRenderer::set_materialCount
 UnityEngine.CanvasRenderer::set_popMaterialCount
+UnityEngine.CapsuleCollider::set_center_Injected
+UnityEngine.CapsuleCollider::set_height
+UnityEngine.CapsuleCollider::set_radius
+UnityEngine.CharacterController::get_isGrounded
+UnityEngine.CharacterController::get_height
+UnityEngine.CharacterController::get_radius
+UnityEngine.CharacterController::get_skinWidth
+UnityEngine.CharacterController::get_center_Injected
+UnityEngine.CharacterController::set_center_Injected
+UnityEngine.CharacterController::set_height
+UnityEngine.CharacterController::Move_Injected
 UnityEngine.Collider::get_isTrigger
 UnityEngine.Collider::get_attachedRigidbody
 UnityEngine.Component::BroadcastMessage
@@ -560,6 +571,7 @@ UnityEngine.Object::Internal_CloneSingle
 UnityEngine.Object::Internal_CloneSingleWithParent
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.Physics::GetIgnoreLayerCollision
 UnityEngine.Physics::IgnoreCollision
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
 UnityEngine.Physics::Internal_RaycastAll_Injected
@@ -663,6 +675,7 @@ UnityEngine.Rigidbody::get_isKinematic
 UnityEngine.Rigidbody::AddForceAtPosition_Injected
 UnityEngine.Rigidbody::ResetCenterOfMass
 UnityEngine.Rigidbody::get_angularVelocity_Injected
+UnityEngine.Rigidbody::get_position_Injected
 UnityEngine.Rigidbody::get_velocity_Injected
 UnityEngine.Rigidbody::set_angularDrag
 UnityEngine.Rigidbody::set_angularVelocity_Injected
@@ -671,6 +684,7 @@ UnityEngine.Rigidbody::set_drag
 UnityEngine.Rigidbody::set_isKinematic
 UnityEngine.Rigidbody::set_mass
 UnityEngine.Rigidbody::set_maxAngularVelocity
+UnityEngine.Rigidbody::set_position_Injected
 UnityEngine.Rigidbody::set_useGravity
 UnityEngine.Rigidbody::set_velocity_Injected
 UnityEngine.Screen::get_fullScreen

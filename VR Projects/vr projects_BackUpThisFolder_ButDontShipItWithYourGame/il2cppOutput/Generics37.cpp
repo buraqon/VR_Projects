@@ -251,6 +251,8 @@ struct TransitionEventsFrameState_tE30358B7263E3BE53EB8E856D7B0E1980F1AD855;
 struct ValueCollection_t65B544B071475F1D6AA36F54F506E013AC0D137E;
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair,UnityEngine.UIElements.StylePropertyAnimationSystem/TransitionState>
 struct ValueCollection_t6A97FB8D601D8DB0AEB18A1FA9C9B42007CB71FC;
+// Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>
+struct ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC;
 // Zinnia.Data.Operation.Extraction.ValueExtractor`4<UnityEngine.RaycastHit,System.Object,System.Object,UnityEngine.RaycastHit>
 struct ValueExtractor_4_tB6DA3A84C75EDC963ABA14607B4D117BD251A474;
 // UnityEngine.UIElements.StylePropertyAnimationSystem/ValuesDiscrete`1<UnityEngine.UIElements.Background>
@@ -1418,6 +1420,13 @@ struct TimingData_tAC897652D090176D4DE63A3E05988D165A785F09
 	bool ___isStarted_5;
 	// System.Int32 UnityEngine.UIElements.StylePropertyAnimationSystem/Values`1/TimingData::delayMs
 	int32_t ___delayMs_6;
+};
+
+// UnityEngine.Events.UnityEvent`1<System.Object>
+struct UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205  : public UnityEventBase_t4968A4C72559F35C0923E4BD9C042C3A842E1DB8
+{
+	// System.Object[] UnityEngine.Events.UnityEvent`1::m_InvokeArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_InvokeArray_3;
 };
 
 // UnityEngine.Events.UnityEvent`1<UnityEngine.RaycastHit>
@@ -3118,6 +3127,19 @@ struct TransitionRunEvent_t66B0D9314D2E48D69E5848848B085655F02BF1AF  : public Tr
 // UnityEngine.UIElements.TransitionStartEvent
 struct TransitionStartEvent_t1DCCFED2B1D4744B1884EEF23EF75A03B8D2E5DF  : public TransitionEventBase_1_t1FB26EAAAF9B2F0657560F33B4BB75695CAF7579
 {
+};
+
+// Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>
+struct ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// TEvent Zinnia.Data.Operation.Extraction.ValueExtractor`4::Extracted
+	RuntimeObject* ___Extracted_4;
+	// UnityEngine.Events.UnityEvent Zinnia.Data.Operation.Extraction.ValueExtractor`4::Failed
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___Failed_5;
+	// TSourceElement Zinnia.Data.Operation.Extraction.ValueExtractor`4::source
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___source_6;
+	// TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4::<Result>k__BackingField
+	RuntimeObject* ___U3CResultU3Ek__BackingField_7;
 };
 
 // Zinnia.Data.Operation.Extraction.ValueExtractor`4<UnityEngine.RaycastHit,System.Object,System.Object,UnityEngine.RaycastHit>
@@ -5230,6 +5252,285 @@ inline void Span_1__ctor_m143009D8D6D0129C1D86B783427FADE8A0E61936_inline (Span_
 {
 	((  void (*) (Span_1_t3F436092261253E8F2AF9867CA253C3B370766C2*, RuntimeObject**, int32_t, const RuntimeMethod*))Span_1__ctor_m143009D8D6D0129C1D86B783427FADE8A0E61936_gshared_inline)(__this, ___ptr0, ___length1, method);
 }
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// TSourceElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::get_Source()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ValueExtractor_4_get_Source_mE978F33814D563452A4A16ED9F94DD25CC028491_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	{
+		// return source;
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_0 = (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5)__this->___source_6;
+		return L_0;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::set_Source(TSourceElement)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_set_Source_m453C5A77B1E236790DCCC3BC13077138DE0962F2_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___value0, const RuntimeMethod* method) 
+{
+	{
+		// source = value;
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_0 = ___value0;
+		__this->___source_6 = L_0;
+		// }
+		return;
+	}
+}
+// TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::get_Result()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueExtractor_4_get_Result_m34D16EEBDB696965A83A7C5E489E4F040E968150_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	{
+		// public TResultElement Result { get; protected set; }
+		RuntimeObject* L_0 = (RuntimeObject*)__this->___U3CResultU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::set_Result(TResultElement)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_set_Result_mC1627E10B09C08F442BD90DABAABCDC5FF4E384F_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, RuntimeObject* ___value0, const RuntimeMethod* method) 
+{
+	{
+		// public TResultElement Result { get; protected set; }
+		RuntimeObject* L_0 = ___value0;
+		__this->___U3CResultU3Ek__BackingField_7 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CResultU3Ek__BackingField_7), (void*)L_0);
+		return;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::ClearSource()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_ClearSource_m363D0BA30BB82022C0CC5E40200A8A19B7BA9DA6_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// Source = default;
+		il2cpp_codegen_initobj((&V_0), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_0 = V_0;
+		((  void (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		// }
+		return;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Process()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_Process_m83841F3D3FDAD52CFD75A22B04BE44DDAEA27B7D_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	{
+		// DoExtract();
+		VirtualActionInvoker0::Invoke(8 /* System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::DoExtract() */, __this);
+		// }
+		return;
+	}
+}
+// TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Extract()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueExtractor_4_Extract_m8900A701E0CDBB9603CF4E3B3B06E368D69E6F14_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B5_0 = NULL;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B4_0 = NULL;
+	{
+		// if (!this.IsValidState())
+		bool L_0;
+		L_0 = BehaviourExtensions_IsValidState_mBA1012037B7E32F4D4057CC2A1727031B1A46A38((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)__this, (int32_t)2, (bool)1, NULL);
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		// return default;
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
+		RuntimeObject* L_1 = V_0;
+		return L_1;
+	}
+
+IL_0014:
+	{
+		// Result = ExtractValue();
+		RuntimeObject* L_2;
+		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(11 /* TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::ExtractValue() */, __this);
+		((  void (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		// if (!InvokeResult(Result))
+		RuntimeObject* L_3;
+		L_3 = ((  RuntimeObject* (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		bool L_4;
+		L_4 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(12 /* System.Boolean Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::InvokeResult(TResultElement) */, __this, L_3);
+		if (L_4)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		// Failed?.Invoke();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_5 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)__this->___Failed_5;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_6 = L_5;
+		G_B4_0 = L_6;
+		if (L_6)
+		{
+			G_B5_0 = L_6;
+			goto IL_003a;
+		}
+	}
+	{
+		goto IL_003f;
+	}
+
+IL_003a:
+	{
+		NullCheck(G_B5_0);
+		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B5_0, NULL);
+	}
+
+IL_003f:
+	{
+		// return Result;
+		RuntimeObject* L_7;
+		L_7 = ((  RuntimeObject* (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		return L_7;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::DoExtract()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_DoExtract_m42225CE0F4E286D91A718AB129168CEC89427899_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	{
+		// Extract();
+		RuntimeObject* L_0;
+		L_0 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(7 /* TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Extract() */, __this);
+		// }
+		return;
+	}
+}
+// TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Extract(TSourceElement)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ValueExtractor_4_Extract_m0D34B0E8D086C28E556BB3F7C5214F6AFBECDD44_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___data0, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		// if (!this.IsValidState())
+		bool L_0;
+		L_0 = BehaviourExtensions_IsValidState_mBA1012037B7E32F4D4057CC2A1727031B1A46A38((Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA*)__this, (int32_t)2, (bool)1, NULL);
+		if (L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		// return default;
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
+		RuntimeObject* L_1 = V_0;
+		return L_1;
+	}
+
+IL_0014:
+	{
+		// Source = data;
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = ___data0;
+		((  void (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 0)))(__this, L_2, il2cpp_rgctx_method(method->klass->rgctx_data, 0));
+		// return Extract();
+		RuntimeObject* L_3;
+		L_3 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(7 /* TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Extract() */, __this);
+		return L_3;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::DoExtract(TSourceElement)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_DoExtract_mED9C417FCFD0A8EF564F5136BF3B826F7B357E7C_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___data0, const RuntimeMethod* method) 
+{
+	{
+		// Extract(data);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_0 = ___data0;
+		RuntimeObject* L_1;
+		L_1 = VirtualFuncInvoker1< RuntimeObject*, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 >::Invoke(9 /* TResultElement Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::Extract(TSourceElement) */, __this, L_0);
+		// }
+		return;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::OnDisable()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4_OnDisable_m446963216F36AD13C90C54EFCBBB80AF6FE33965_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	RuntimeObject* V_0 = NULL;
+	{
+		// Result = default;
+		il2cpp_codegen_initobj((&V_0), sizeof(RuntimeObject*));
+		RuntimeObject* L_0 = V_0;
+		((  void (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 4)))(__this, L_0, il2cpp_rgctx_method(method->klass->rgctx_data, 4));
+		// }
+		return;
+	}
+}
+// System.Boolean Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::InvokeEvent(TEventElement)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueExtractor_4_InvokeEvent_m7F6AA9B9CAF48627EC72DC536926863C38228EE6_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, RuntimeObject* ___data0, const RuntimeMethod* method) 
+{
+	RuntimeObject* G_B4_0 = NULL;
+	RuntimeObject* G_B3_0 = NULL;
+	{
+		// if (Result == null)
+		RuntimeObject* L_0;
+		L_0 = ((  RuntimeObject* (*) (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 5)))(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 5));
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		// return false;
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		// Extracted?.Invoke(data);
+		RuntimeObject* L_1 = (RuntimeObject*)__this->___Extracted_4;
+		RuntimeObject* L_2 = L_1;
+		G_B3_0 = ((RuntimeObject*)(L_2));
+		if (L_2)
+		{
+			G_B4_0 = ((RuntimeObject*)(L_2));
+			goto IL_0020;
+		}
+	}
+	{
+		goto IL_0026;
+	}
+
+IL_0020:
+	{
+		RuntimeObject* L_3 = ___data0;
+		NullCheck((UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205*)G_B4_0);
+		((  void (*) (UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 12)))((UnityEvent_1_t3CE03B42D5873C0C0E0692BEE72E1E6D5399F205*)G_B4_0, L_3, il2cpp_rgctx_method(method->klass->rgctx_data, 12));
+	}
+
+IL_0026:
+	{
+		// return true;
+		return (bool)1;
+	}
+}
+// System.Void Zinnia.Data.Operation.Extraction.ValueExtractor`4<System.Object,UnityEngine.RaycastHit,System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ValueExtractor_4__ctor_m020144D884E1DED3EAFD8FFCE255536B34013C6F_gshared (ValueExtractor_4_tB6D77DC90F84D09AA08E311ABBA2AAA8D95671BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// public TEvent Extracted = new TEvent();
+		RuntimeObject* L_0;
+		L_0 = ((  RuntimeObject* (*) (const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(il2cpp_rgctx_method(method->klass->rgctx_data, 13));
+		__this->___Extracted_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extracted_4), (void*)L_0);
+		// public UnityEvent Failed = new UnityEvent();
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_1 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
+		NullCheck(L_1);
+		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_1, NULL);
+		__this->___Failed_5 = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Failed_5), (void*)L_1);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E((MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71*)__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
