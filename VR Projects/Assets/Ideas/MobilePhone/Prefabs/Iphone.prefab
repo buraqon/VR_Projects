@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 6876158194994875803}
   - component: {fileID: 6903394656831168301}
   m_Layer: 0
-  m_Name: Interactions.Interactable_IPhone_Visual
+  m_Name: Iphone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
