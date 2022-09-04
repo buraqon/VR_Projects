@@ -8388,6 +8388,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1879311798512239275}
+  - component: {fileID: 4758450026981032078}
   m_Layer: 0
   m_Name: LeftController
   m_TagString: Untagged
@@ -8419,6 +8420,115 @@ Transform:
   m_Father: {fileID: 1879311799228133626}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4758450026981032078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879311798512239268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebba9e68f56a0845aa9832c81b4e3bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PressedDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 0
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 010000000000000002000000030000000400000005000000060000000700000008000000
+    _keys: 010000000000000002000000030000000400000005000000060000000700000008000000
+    _values:
+    - {fileID: 1879311799308910451}
+    - {fileID: 1879311799382775276}
+    - {fileID: 1879311799020326830}
+    - {fileID: 1879311799314291808}
+    - {fileID: 1879311799886540121}
+    - {fileID: 1879311799500970706}
+    - {fileID: 1879311798451944567}
+    - {fileID: 1879311798352218315}
+    - {fileID: 1879311799555811774}
+  TouchedDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 0
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 01000000000000000200000003000000
+    _keys: 01000000000000000200000003000000
+    _values:
+    - {fileID: 1879311798675758959}
+    - {fileID: 1879311798280113336}
+    - {fileID: 1879311798319115663}
+    - {fileID: 1879311799582123089}
+  AxisDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 0
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 0
+    _keyValues: 010000000000000002000000030000000400000005000000
+    _keys: 010000000000000002000000030000000400000005000000
+    _values:
+    - {fileID: 1879311799693676016}
+    - {fileID: 1879311799211060424}
+    - {fileID: 1879311798162437652}
+    - {fileID: 1879311798275217872}
+    - {fileID: 1879311799583200020}
+    - {fileID: 1879311797981526098}
 --- !u!1 &1879311798516601287
 GameObject:
   m_ObjectHideFlags: 0
@@ -9774,6 +9884,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1879311799236832030}
+  - component: {fileID: 2065245358}
   m_Layer: 0
   m_Name: RightController
   m_TagString: Untagged
@@ -9805,6 +9916,115 @@ Transform:
   m_Father: {fileID: 1879311799228133626}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065245358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879311799236832031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ebba9e68f56a0845aa9832c81b4e3bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PressedDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 010000000000000002000000030000000400000005000000060000000700000008000000
+    _keys: 010000000000000002000000030000000400000005000000060000000700000008000000
+    _values:
+    - {fileID: 1879311799385696807}
+    - {fileID: 1879311799455793410}
+    - {fileID: 1879311799131335537}
+    - {fileID: 1879311797899909514}
+    - {fileID: 1879311798698536635}
+    - {fileID: 1879311799740831484}
+    - {fileID: 1879311799862083647}
+    - {fileID: 1879311798007913586}
+    - {fileID: 1879311798697646856}
+  TouchedDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 01000000000000000200000003000000
+    _keys: 01000000000000000200000003000000
+    _values:
+    - {fileID: 1879311797771908772}
+    - {fileID: 1879311799514420032}
+    - {fileID: 1879311798325955696}
+    - {fileID: 1879311798886784796}
+  AxisDict:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 010000000000000002000000030000000400000005000000
+    _keys: 010000000000000002000000030000000400000005000000
+    _values:
+    - {fileID: 1879311799374798081}
+    - {fileID: 1879311798282142926}
+    - {fileID: 1879311799626511813}
+    - {fileID: 1879311799794953956}
+    - {fileID: 1879311798580775728}
+    - {fileID: 1879311799037701441}
 --- !u!1 &1879311799308910413
 GameObject:
   m_ObjectHideFlags: 0
@@ -10593,6 +10813,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1879311799535410130}
+  - component: {fileID: 423727792}
   m_Layer: 0
   m_Name: InputSystem
   m_TagString: Untagged
@@ -10617,6 +10838,20 @@ Transform:
   m_Father: {fileID: 6113238569411893452}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &423727792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879311799535410131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202dd2ef0a1c494458f5770654344a61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftController: {fileID: 4758450026981032078}
+  rightController: {fileID: 2065245358}
 --- !u!1 &1879311799536888353
 GameObject:
   m_ObjectHideFlags: 0

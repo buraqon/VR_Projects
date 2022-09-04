@@ -9,7 +9,6 @@ namespace HippoGamez
         public static Controller_Manager instance;
         private void Awake()
         {
-
             instance = this;
         }
         [SerializeField] Controller_InputHandler leftController;
