@@ -1,0 +1,3117 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+#include <stdint.h>
+
+
+
+// Zinnia.Action.Action`3<Zinnia.Action.BooleanAction,System.Boolean,Zinnia.Action.BooleanAction/UnityEvent>
+struct Action_3_tAB0B844DB62E1DB5EABF32957B0CBE95441E7344;
+// Zinnia.Action.Action`3<Zinnia.Action.FloatAction,System.Single,Zinnia.Action.FloatAction/UnityEvent>
+struct Action_3_tF46623224A87298328D210CF1DC16D68CAD7C623;
+// Zinnia.Action.Action`3<System.Object,System.Boolean,System.Object>
+struct Action_3_t78E3C1C038B259D2B0FC078000DA74292F7CF0DB;
+// Zinnia.Action.Action`3<System.Object,System.Single,System.Object>
+struct Action_3_t495F18D14335CEFDB39761D66DC1E2C5DC12DCC6;
+// System.Collections.Generic.Dictionary`2<UnityEngine.AudioClip,System.String>
+struct Dictionary_2_t4E29435C6C5EA7294DABA6D78116AD8D2CDB01E4;
+// System.Collections.Generic.Dictionary`2<Axis,Zinnia.Action.FloatAction>
+struct Dictionary_2_t8B03F647DFA54ACE6B215A990096D7D93D82A626;
+// System.Collections.Generic.Dictionary`2<System.Char,System.Int32>
+struct Dictionary_2_t63C09FF55518C7D6184D63646025DC0B7B1785D0;
+// System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.Int32>
+struct Dictionary_2_tECA53E61DAB68E3E567ED8D25539CC2ED041E740;
+// System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,System.String>
+struct Dictionary_2_t15A9DEF843D5DA84170CD8536BA0EBB039EB4ADF;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Gradient,System.Int32>
+struct Dictionary_2_t16D21746986E8A3AC5F9DB06F4088C8A37B62521;
+// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GameObject>
+struct Dictionary_2_t3ED995699F3E88D06E5DA7362BEB7584DBD61662;
+// System.Collections.Generic.Dictionary`2<System.Int32,RotaryHeart.Lib.NestedExample>
+struct Dictionary_2_tFCA3A8C1C6B4C2A08DE6D729474929797D873FB5;
+// System.Collections.Generic.Dictionary`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ArrayTest>
+struct Dictionary_2_t8D33BE7FB8B6995A4C7B634E6E883EEE73A97335;
+// System.Collections.Generic.Dictionary`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct Dictionary_2_t79AE10E43111CB7CF37964EF8BE2A7BDD459ABC4;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Material,System.String>
+struct Dictionary_2_t13CDBDC70BB519923DB3C56C5C37FCB405FF0BBA;
+// System.Collections.Generic.Dictionary`2<Pressed,Zinnia.Action.BooleanAction>
+struct Dictionary_2_tAED8C80E385544F39745625F7AF82633D73FE2C5;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Quaternion,UnityEngine.Vector3>
+struct Dictionary_2_t1D51FA2ED4073FE046CDFE0F486A97FE3BD30CF5;
+// System.Collections.Generic.Dictionary`2<UnityEngine.QueryTriggerInteraction,System.String>
+struct Dictionary_2_tF6A95B7DE47FBC883BEAAF5ADA3862496C53CDB7;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.AudioClip>
+struct Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24;
+// System.Collections.Generic.Dictionary`2<System.String,RotaryHeart.Lib.Example>
+struct Dictionary_2_tC6EE7B91818A31662FCF8523326967D967300D2D;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GameObject>
+struct Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Material>
+struct Dictionary_2_t5B255487AF84FB5AB3382296BC4C30734ADE141F;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Sprite>
+struct Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516;
+// System.Collections.Generic.Dictionary`2<System.String,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct Dictionary_2_tB8F100E7B60B4EF77FAE6112547B1AD3BC9911F3;
+// System.Collections.Generic.Dictionary`2<Touched,Zinnia.Action.BooleanAction>
+struct Dictionary_2_t904A4BB782E000CE166E5CB43A5E322B8E665A38;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Vector3,UnityEngine.Quaternion>
+struct Dictionary_2_t8FCF4F7E5B32A60EF092FA286529972C01DF2ABD;
+// System.Collections.Generic.Dictionary`2<RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass,System.String>
+struct Dictionary_2_tC3A6CBB2E2510BAF5DDB7D2BAFB56EBE7EDBD325;
+// System.Collections.Generic.Dictionary`2<RotaryHeart.Lib.DataBaseExample/ClassTest,System.String>
+struct Dictionary_2_tB774CE0F401AC52105D14E16BC7512981A16CF03;
+// System.Collections.Generic.Dictionary`2<RotaryHeart.Lib.DataBaseExample/ClassTest,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct Dictionary_2_t2EC1D3F2A70E88C0FACA398C57192BF15B48E8EF;
+// System.Collections.Generic.Dictionary`2<RotaryHeart.Lib.DataBaseExample/EnumExample,System.String>
+struct Dictionary_2_t75D603A6146316D103D12E47178EDF72FC53F9B5;
+// System.Collections.Generic.List`1<UnityEngine.AudioClip>
+struct List_1_t33C1B21871505CF0516B63C148CD83EDA452BB5F;
+// System.Collections.Generic.List`1<Axis>
+struct List_1_t2C44D8F057B47B428F462B5EACB345B24F8D2876;
+// System.Collections.Generic.List`1<Zinnia.Action.BooleanAction>
+struct List_1_t12235B29D25E521224D1B3E7E775EBD17D5BFA71;
+// System.Collections.Generic.List`1<System.Char>
+struct List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.Example>
+struct List_1_t246BBCBB479E886AE89EA122DD961D9CFAFEAF2A;
+// System.Collections.Generic.List`1<Zinnia.Action.FloatAction>
+struct List_1_t686AACF1B4C121C206A9741317007D2B6DD9F689;
+// System.Collections.Generic.List`1<UnityEngine.GameObject>
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+// System.Collections.Generic.List`1<UnityEngine.Gradient>
+struct List_1_t44E2CFF22DAB286B26A73E224CF32B6E62372DE4;
+// System.Collections.Generic.List`1<System.Int32>
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+// System.Collections.Generic.List`1<UnityEngine.Material>
+struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.NestedExample>
+struct List_1_tEF3CD6CFDB928C29449F6B7C0C8EBEF9F535E078;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+// System.Collections.Generic.List`1<Pressed>
+struct List_1_t31122A09F6E65336A91C6D0F6E88D9DF58946512;
+// System.Collections.Generic.List`1<UnityEngine.Quaternion>
+struct List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523;
+// System.Collections.Generic.List`1<UnityEngine.QueryTriggerInteraction>
+struct List_1_tFDFA4AC6CC07E0A6F1A72FB4FDA847A8D08F700C;
+// System.Collections.Generic.List`1<UnityEngine.Sprite>
+struct List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+// System.Collections.Generic.List`1<Touched>
+struct List_1_t0714D40E2298A3556E887B08CA1AF831987FB893;
+// System.Collections.Generic.List`1<UnityEngine.Vector3>
+struct List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass>
+struct List_1_t92159215FC1E86857847624039CD0898395034CC;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.DataBaseExample/ArrayTest>
+struct List_1_tA0C907B0445098CDB96FA6C11B1D74F9EFD3189F;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF;
+// System.Collections.Generic.List`1<RotaryHeart.Lib.DataBaseExample/EnumExample>
+struct List_1_t34BE2BE621007F8FB66D2756CD789D77A36E677C;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.AudioClip,System.String>
+struct SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Axis,Zinnia.Action.FloatAction>
+struct SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Char,System.Int32>
+struct SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.Int32>
+struct SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.String>
+struct SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Gradient,System.Int32>
+struct SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,UnityEngine.GameObject>
+struct SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.NestedExample>
+struct SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,System.Object>
+struct SerializableDictionaryBase_2_t4D9FE4E3E06AB905064BF421765CD63F2FF8332E;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ArrayTest>
+struct SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32Enum,System.Object>
+struct SerializableDictionaryBase_2_tFD5409215BD28E7BDA14F557A9985AD27499285F;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Material,System.String>
+struct SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Object,System.Int32>
+struct SerializableDictionaryBase_2_t413CCA8AABA321D3F39A18742F5490C87C1B1E37;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Object,System.Object>
+struct SerializableDictionaryBase_2_t62F22C7A3D06E9337C547541550E2353BF519EE7;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Pressed,Zinnia.Action.BooleanAction>
+struct SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Quaternion,UnityEngine.Vector3>
+struct SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.QueryTriggerInteraction,System.String>
+struct SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.AudioClip>
+struct SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.Example>
+struct SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.GameObject>
+struct SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Material>
+struct SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Sprite>
+struct SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Touched,Zinnia.Action.BooleanAction>
+struct SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Vector3,UnityEngine.Quaternion>
+struct SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass,System.String>
+struct SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,System.String>
+struct SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E;
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/EnumExample,System.String>
+struct SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725;
+// System.Int32[]
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+// System.Type[]
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+// RotaryHeart.Lib.DataBaseExample/ChildTest[]
+struct ChildTestU5BU5D_tAE813140F1FDEF875FD153B09E1538FA7989B8B8;
+// System.Attribute
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA;
+// UnityEngine.AudioClip
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+// AxisDictionary
+struct AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E;
+// System.Reflection.Binder
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+// Zinnia.Action.BooleanAction
+struct BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E;
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+// HippoGamez.Controller_InputHandler
+struct Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F;
+// HippoGamez.Controller_Manager
+struct Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38;
+// RotaryHeart.Lib.DataBaseExample
+struct DataBaseExample_t7A4C16AAED16F3872341CA295CBD2FDE392AD71A;
+// RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute
+struct DrawKeyAsPropertyAttribute_t33E1C19EBFFB3F0A97508AA07E081EA8540977AD;
+// RotaryHeart.Lib.SerializableDictionary.DrawableDictionary
+struct DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2;
+// RotaryHeart.Lib.Example
+struct Example_tEDD34DA5C53315AEC26F86D1F38DBA082E8D8FB6;
+// Zinnia.Action.FloatAction
+struct FloatAction_t8E7E11E1DE4D3D8C387831B8E3881778B04B9C62;
+// UnityEngine.GameObject
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+// UnityEngine.Gradient
+struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E;
+// RotaryHeart.Lib.SerializableDictionary.IDAttribute
+struct IDAttribute_t4D30F6CCBF386F778D12F1F914C2A8FB39032FF0;
+// RotaryHeart.Lib.MainDict
+struct MainDict_tAD488DB322F47FFDE577430CAD18D3C1C4F28BAA;
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+// System.Reflection.MemberFilter
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// RotaryHeart.Lib.Nested2Dict
+struct Nested2Dict_t081CC73F8064AC01C8ACC78FD5A41402BFEDD43A;
+// RotaryHeart.Lib.NestedDB
+struct NestedDB_t4DF32B83AC7A5D48247128D52FD39A8289D78883;
+// RotaryHeart.Lib.NestedDict
+struct NestedDict_t716D44958B471F8E720A8855883D9F10448D275B;
+// RotaryHeart.Lib.NestedExample
+struct NestedExample_t3D1CC70A3949B9F1674C0FA236834FF17600F4AE;
+// PressedDictionary
+struct PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717;
+// UnityEngine.Renderer
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+// RotaryHeart.Lib.SerializableDictionary.ReorderableList
+struct ReorderableList_tCC3940A688A7EA9ED7B7BDBE5259111B02586356;
+// RotaryHeart.Lib.SerializableDictionary.RequiredReferences
+struct RequiredReferences_tD5108FC3712926BDFE0E8346C499B6B1E98B49A9;
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+// System.String
+struct String_t;
+// HippoGamez.Testing_Controls
+struct Testing_Controls_t4A14CEBD910D44AAEC0046CD0776799D6ABF571F;
+// TouchedDictionary
+struct TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622;
+// System.Type
+struct Type_t;
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+// Zinnia.Action.Action/BooleanUnityEvent
+struct BooleanUnityEvent_t88DFD031AB6B49F4F56CEE582BEBD380DBA655E8;
+// Zinnia.Action.BooleanAction/UnityEvent
+struct UnityEvent_tD80FF57F1E745668ED4120F4957F626D0602D776;
+// RotaryHeart.Lib.DataBaseExample/AC_S
+struct AC_S_t10D18F8E63B0C30C3E681DC3F517857F1B3DE3B0;
+// RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String
+struct AdvanGeneric_String_t764F537F5D271CDA41CB8B687E7A376D52A8B234;
+// RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass
+struct AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8;
+// RotaryHeart.Lib.DataBaseExample/ArrayTest
+struct ArrayTest_t62CBF96B23D57B3A55B73E6C59F4A52A0EAAD0C9;
+// RotaryHeart.Lib.DataBaseExample/C_Int
+struct C_Int_tFF9DCC017612B1974C79128888BB0B4157BD2136;
+// RotaryHeart.Lib.DataBaseExample/ChildTest
+struct ChildTest_t1877D57D37B93C618D99C38C7B7038AA0539F513;
+// RotaryHeart.Lib.DataBaseExample/ClassTest
+struct ClassTest_tD42ACF8027A4B6673EBC1416538C11C432126FC8;
+// RotaryHeart.Lib.DataBaseExample/Enum_String
+struct Enum_String_t19E95F171D577147A376C14215928926762DAF8B;
+// RotaryHeart.Lib.DataBaseExample/GO_I
+struct GO_I_tC9780EFC2870FC49D75F198A7B4FE7700A69535E;
+// RotaryHeart.Lib.DataBaseExample/GO_S
+struct GO_S_tE24369AA562CDE70E9B7F375BB7438FFC805255F;
+// RotaryHeart.Lib.DataBaseExample/G_Int
+struct G_Int_t77F24BB7D96D4DF71CF71D2B5E1ABB501E6F8664;
+// RotaryHeart.Lib.DataBaseExample/Generic_Generic
+struct Generic_Generic_tB1F03B51C267DB4C7A9E26FF63F7968F7B08A1BF;
+// RotaryHeart.Lib.DataBaseExample/Generic_String
+struct Generic_String_t2234285FF3DD0045F70BB0D8E44510799176671D;
+// RotaryHeart.Lib.DataBaseExample/I_GO
+struct I_GO_t7C29E0EBAC722236FDD99C51948BD0BD73AD1823;
+// RotaryHeart.Lib.DataBaseExample/I_GenericDictionary
+struct I_GenericDictionary_t86E2E60AAD364035640F35F6CC2B506E23FFADD4;
+// RotaryHeart.Lib.DataBaseExample/Int_IntArray
+struct Int_IntArray_tCA02FE89D18AFDDB451DAC944CA794EEB3DB709B;
+// RotaryHeart.Lib.DataBaseExample/Mat_S
+struct Mat_S_tEC995C514A1AA1D071B9A010F4AE1696D9A92BF2;
+// RotaryHeart.Lib.DataBaseExample/Q_V3
+struct Q_V3_t5BFCD4612600D3C64FA0F778F0BB8DCD3B866BB3;
+// RotaryHeart.Lib.DataBaseExample/S_AC
+struct S_AC_tED99629B7EE1A081768E144F52EB42FF7027A3AF;
+// RotaryHeart.Lib.DataBaseExample/S_GO
+struct S_GO_t9CC5BA3CE53956A968CBCBF4D6627527FCBE49E3;
+// RotaryHeart.Lib.DataBaseExample/S_GenericDictionary
+struct S_GenericDictionary_tEC88A15AA034F3A437E51164ED24E0BEC610BAA3;
+// RotaryHeart.Lib.DataBaseExample/S_Mat
+struct S_Mat_t1667342C2C0221F2B2E415570E6484B4276D1A51;
+// RotaryHeart.Lib.DataBaseExample/S_Sprite
+struct S_Sprite_t5F54C467068B7533EEEAE816B2E60DE43E31A100;
+// RotaryHeart.Lib.DataBaseExample/V3_Q
+struct V3_Q_t3E98CE3EF32328BB160DD9A514214ACA51DBAF34;
+// Zinnia.Action.FloatAction/UnityEvent
+struct UnityEvent_t6490727483865FDE17B834CA7CE45D8B1F8E8452;
+
+IL2CPP_EXTERN_C RuntimeClass* AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Action_3_get_Value_m6F9BDD5B1ED341789850F50A3AED1F79C3C32621_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_ContainsKey_m22FEDFB5EC34233F6A87DD1B0B1371202435C999_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_ContainsKey_m81729DC7A0B3702E73565C001628BC6999B5B969_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_ContainsKey_m9E3103D80B750291CAED69BE8306F28FCC8E7E35_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m05B2CB515AC1B1CA1E0BABBF783BC9F8C28E8BEE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m0616CA32A3F78EDFAE56196566C5B5004E792191_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m079FF38429225C8FA576951A9C43CFA8ED3744F0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m205792B75CF21B5FE3C96466D1FE8D905622029F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m3B93FA3EC99D99D646DB8096383FCDAC4DA88AAB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m456F702469F49C42B0D467DBE28B2B1EB2E0D7B7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m49F2F599156D6E39076FA33B338CECAA3CA0CA9F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m533EF54A5605862010AD147FAD45F2C35D8CDB05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m537E286071018D8015FF58E6E1476891B3189BCA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m630CD0A30091E0E690F9BA232799904E2A6CE09F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m6953F1B459B4A4CC98BDD79DD4CF9760B3A31E74_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m86A1AEBB9197D31B5DC481BAE2F19185CD844844_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m8B1AE0AC5C2B827EF9D4C4CA45518DC974691C3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_m9CACD18445AA3F07EB36B0E6BF42247CF4BC43B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mABFBD5EAC965AF71DFE8A1BD166DDF188F3B3995_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mB491E5CFA6C03DA0155F54C417B74A3CF5CD7AC1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mB533A587D149BFE81E55309ED24E6EF22EF437A7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mB6F532F0265BDD305727B82ACCE79E070B1A66A5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mB94B145453FCD5D7A4446E637993A56E9E882135_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mC6344D14CD6733E5F14776EA4E328DD981D1225C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mE0768488EECC889A9D8CAA79EE14583C9A3856FF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mE391E92B13E922D250B185E31474803A7735795C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2__ctor_mFE621481CCA0CB0B01061F07977C956890BBB563_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_get_Item_m0685ADF395D9BCF47C3B3D0F19913217FF7FF8FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_get_Item_m7D19BDD1F71DBFFA4EBE9BDBF2132C3918778D6A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SerializableDictionaryBase_2_get_Item_mFAA59C8A7875C915FE421B2DD8885C1E5208F96E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_0_0_0_var;
+
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// <Module>
+struct U3CModuleU3E_tBB65183F1134474D09FF49B95625D25472B9BA8B 
+{
+};
+struct Il2CppArrayBounds;
+
+// System.Attribute
+struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
+{
+};
+
+// RotaryHeart.Lib.SerializableDictionary.DrawableDictionary
+struct DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2  : public RuntimeObject
+{
+	// RotaryHeart.Lib.SerializableDictionary.ReorderableList RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::reorderableList
+	ReorderableList_tCC3940A688A7EA9ED7B7BDBE5259111B02586356* ___reorderableList_0;
+	// RotaryHeart.Lib.SerializableDictionary.RequiredReferences RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::reqReferences
+	RequiredReferences_tD5108FC3712926BDFE0E8346C499B6B1E98B49A9* ___reqReferences_1;
+	// System.Boolean RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::isExpanded
+	bool ___isExpanded_2;
+};
+
+// RotaryHeart.Lib.Example
+struct Example_tEDD34DA5C53315AEC26F86D1F38DBA082E8D8FB6  : public RuntimeObject
+{
+	// System.String RotaryHeart.Lib.Example::id
+	String_t* ___id_0;
+	// UnityEngine.QueryTriggerInteraction RotaryHeart.Lib.Example::enumVal
+	int32_t ___enumVal_1;
+	// RotaryHeart.Lib.NestedDict RotaryHeart.Lib.Example::nestedData
+	NestedDict_t716D44958B471F8E720A8855883D9F10448D275B* ___nestedData_2;
+};
+
+// System.Reflection.MemberInfo
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+
+// RotaryHeart.Lib.SerializableDictionary.ReorderableList
+struct ReorderableList_tCC3940A688A7EA9ED7B7BDBE5259111B02586356  : public RuntimeObject
+{
+};
+
+// System.String
+struct String_t  : public RuntimeObject
+{
+	// System.Int32 System.String::_stringLength
+	int32_t ____stringLength_4;
+	// System.Char System.String::_firstChar
+	Il2CppChar ____firstChar_5;
+};
+
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+// Native definition for P/Invoke marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.ValueType
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass
+struct AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8  : public RuntimeObject
+{
+	// System.Single RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::value
+	float ___value_0;
+};
+
+// RotaryHeart.Lib.DataBaseExample/ArrayTest
+struct ArrayTest_t62CBF96B23D57B3A55B73E6C59F4A52A0EAAD0C9  : public RuntimeObject
+{
+	// System.Int32[] RotaryHeart.Lib.DataBaseExample/ArrayTest::myArray
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___myArray_0;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.AudioClip,System.String>
+struct SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t4E29435C6C5EA7294DABA6D78116AD8D2CDB01E4* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t33C1B21871505CF0516B63C148CD83EDA452BB5F* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t33C1B21871505CF0516B63C148CD83EDA452BB5F* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t4E29435C6C5EA7294DABA6D78116AD8D2CDB01E4* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Axis,Zinnia.Action.FloatAction>
+struct SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t8B03F647DFA54ACE6B215A990096D7D93D82A626* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t2C44D8F057B47B428F462B5EACB345B24F8D2876* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t2C44D8F057B47B428F462B5EACB345B24F8D2876* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t686AACF1B4C121C206A9741317007D2B6DD9F689* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t8B03F647DFA54ACE6B215A990096D7D93D82A626* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Char,System.Int32>
+struct SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t63C09FF55518C7D6184D63646025DC0B7B1785D0* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t1FDED00FA37F39564E09D01CFDF33C22BCF5C8A7* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t63C09FF55518C7D6184D63646025DC0B7B1785D0* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.Int32>
+struct SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tECA53E61DAB68E3E567ED8D25539CC2ED041E740* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tECA53E61DAB68E3E567ED8D25539CC2ED041E740* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.String>
+struct SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t15A9DEF843D5DA84170CD8536BA0EBB039EB4ADF* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t15A9DEF843D5DA84170CD8536BA0EBB039EB4ADF* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Gradient,System.Int32>
+struct SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t16D21746986E8A3AC5F9DB06F4088C8A37B62521* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t44E2CFF22DAB286B26A73E224CF32B6E62372DE4* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t44E2CFF22DAB286B26A73E224CF32B6E62372DE4* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t16D21746986E8A3AC5F9DB06F4088C8A37B62521* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,UnityEngine.GameObject>
+struct SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t3ED995699F3E88D06E5DA7362BEB7584DBD61662* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t3ED995699F3E88D06E5DA7362BEB7584DBD61662* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.NestedExample>
+struct SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tFCA3A8C1C6B4C2A08DE6D729474929797D873FB5* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tEF3CD6CFDB928C29449F6B7C0C8EBEF9F535E078* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tFCA3A8C1C6B4C2A08DE6D729474929797D873FB5* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ArrayTest>
+struct SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t8D33BE7FB8B6995A4C7B634E6E883EEE73A97335* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tA0C907B0445098CDB96FA6C11B1D74F9EFD3189F* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t8D33BE7FB8B6995A4C7B634E6E883EEE73A97335* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t79AE10E43111CB7CF37964EF8BE2A7BDD459ABC4* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t79AE10E43111CB7CF37964EF8BE2A7BDD459ABC4* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Material,System.String>
+struct SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t13CDBDC70BB519923DB3C56C5C37FCB405FF0BBA* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t13CDBDC70BB519923DB3C56C5C37FCB405FF0BBA* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Pressed,Zinnia.Action.BooleanAction>
+struct SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tAED8C80E385544F39745625F7AF82633D73FE2C5* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t31122A09F6E65336A91C6D0F6E88D9DF58946512* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t31122A09F6E65336A91C6D0F6E88D9DF58946512* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t12235B29D25E521224D1B3E7E775EBD17D5BFA71* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tAED8C80E385544F39745625F7AF82633D73FE2C5* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Quaternion,UnityEngine.Vector3>
+struct SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t1D51FA2ED4073FE046CDFE0F486A97FE3BD30CF5* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t1D51FA2ED4073FE046CDFE0F486A97FE3BD30CF5* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.QueryTriggerInteraction,System.String>
+struct SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tF6A95B7DE47FBC883BEAAF5ADA3862496C53CDB7* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tFDFA4AC6CC07E0A6F1A72FB4FDA847A8D08F700C* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tFDFA4AC6CC07E0A6F1A72FB4FDA847A8D08F700C* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tF6A95B7DE47FBC883BEAAF5ADA3862496C53CDB7* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.AudioClip>
+struct SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t33C1B21871505CF0516B63C148CD83EDA452BB5F* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t3F562E9148A8E8AA20BC15F94541BEA78590DD24* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.Example>
+struct SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tC6EE7B91818A31662FCF8523326967D967300D2D* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t246BBCBB479E886AE89EA122DD961D9CFAFEAF2A* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tC6EE7B91818A31662FCF8523326967D967300D2D* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.GameObject>
+struct SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t0B15A60B00EC883D4249611C6C641C7BED5A71CE* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Material>
+struct SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t5B255487AF84FB5AB3382296BC4C30734ADE141F* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t5B255487AF84FB5AB3382296BC4C30734ADE141F* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Sprite>
+struct SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t7BE9C297880B5B41D1E6B89174D4394BF535D206* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tC7B9BD0CA755DD1E643DB18A74765E15DC3D9516* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tB8F100E7B60B4EF77FAE6112547B1AD3BC9911F3* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tB8F100E7B60B4EF77FAE6112547B1AD3BC9911F3* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Touched,Zinnia.Action.BooleanAction>
+struct SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t904A4BB782E000CE166E5CB43A5E322B8E665A38* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t0714D40E2298A3556E887B08CA1AF831987FB893* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t0714D40E2298A3556E887B08CA1AF831987FB893* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t12235B29D25E521224D1B3E7E775EBD17D5BFA71* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t904A4BB782E000CE166E5CB43A5E322B8E665A38* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Vector3,UnityEngine.Quaternion>
+struct SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t8FCF4F7E5B32A60EF092FA286529972C01DF2ABD* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t8FCF4F7E5B32A60EF092FA286529972C01DF2ABD* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass,System.String>
+struct SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tC3A6CBB2E2510BAF5DDB7D2BAFB56EBE7EDBD325* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t92159215FC1E86857847624039CD0898395034CC* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t92159215FC1E86857847624039CD0898395034CC* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tC3A6CBB2E2510BAF5DDB7D2BAFB56EBE7EDBD325* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,System.String>
+struct SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_tB774CE0F401AC52105D14E16BC7512981A16CF03* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_tB774CE0F401AC52105D14E16BC7512981A16CF03* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,RotaryHeart.Lib.DataBaseExample/ClassTest>
+struct SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t2EC1D3F2A70E88C0FACA398C57192BF15B48E8EF* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_t326E0475EFBA4E2A9FA4C005246100A86A912EEF* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t2EC1D3F2A70E88C0FACA398C57192BF15B48E8EF* ____staticEmptyDict_4;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/EnumExample,System.String>
+struct SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725  : public DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_dict
+	Dictionary_2_t75D603A6146316D103D12E47178EDF72FC53F9B5* ____dict_3;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keyValues
+	List_1_t34BE2BE621007F8FB66D2756CD789D77A36E677C* ____keyValues_5;
+	// System.Collections.Generic.List`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_keys
+	List_1_t34BE2BE621007F8FB66D2756CD789D77A36E677C* ____keys_6;
+	// System.Collections.Generic.List`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_values
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ____values_7;
+};
+
+struct SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725_StaticFields
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::_staticEmptyDict
+	Dictionary_2_t75D603A6146316D103D12E47178EDF72FC53F9B5* ____staticEmptyDict_4;
+};
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// UnityEngine.Color
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	// System.Single UnityEngine.Color::r
+	float ___r_0;
+	// System.Single UnityEngine.Color::g
+	float ___g_1;
+	// System.Single UnityEngine.Color::b
+	float ___b_2;
+	// System.Single UnityEngine.Color::a
+	float ___a_3;
+};
+
+// RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute
+struct DrawKeyAsPropertyAttribute_t33E1C19EBFFB3F0A97508AA07E081EA8540977AD  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+};
+
+// RotaryHeart.Lib.SerializableDictionary.IDAttribute
+struct IDAttribute_t4D30F6CCBF386F778D12F1F914C2A8FB39032FF0  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
+{
+	// System.String RotaryHeart.Lib.SerializableDictionary.IDAttribute::_id
+	String_t* ____id_0;
+};
+
+// System.Int32
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	// System.Int32 System.Int32::m_value
+	int32_t ___m_value_0;
+};
+
+// System.IntPtr
+struct IntPtr_t 
+{
+	// System.Void* System.IntPtr::m_value
+	void* ___m_value_0;
+};
+
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// UnityEngine.Quaternion
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	// System.Single UnityEngine.Quaternion::x
+	float ___x_0;
+	// System.Single UnityEngine.Quaternion::y
+	float ___y_1;
+	// System.Single UnityEngine.Quaternion::z
+	float ___z_2;
+	// System.Single UnityEngine.Quaternion::w
+	float ___w_3;
+};
+
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	// UnityEngine.Quaternion UnityEngine.Quaternion::identityQuaternion
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion_4;
+};
+
+// System.Single
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	// System.Single System.Single::m_value
+	float ___m_value_0;
+};
+
+// System.Void
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+
+// AxisDictionary
+struct AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E  : public SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69
+{
+};
+
+// RotaryHeart.Lib.MainDict
+struct MainDict_tAD488DB322F47FFDE577430CAD18D3C1C4F28BAA  : public SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4
+{
+};
+
+// RotaryHeart.Lib.Nested2Dict
+struct Nested2Dict_t081CC73F8064AC01C8ACC78FD5A41402BFEDD43A  : public SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923
+{
+};
+
+// RotaryHeart.Lib.NestedDict
+struct NestedDict_t716D44958B471F8E720A8855883D9F10448D275B  : public SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6
+{
+};
+
+// RotaryHeart.Lib.NestedExample
+struct NestedExample_t3D1CC70A3949B9F1674C0FA236834FF17600F4AE  : public RuntimeObject
+{
+	// UnityEngine.GameObject RotaryHeart.Lib.NestedExample::prefab
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___prefab_0;
+	// System.Single RotaryHeart.Lib.NestedExample::speed
+	float ___speed_1;
+	// UnityEngine.Color RotaryHeart.Lib.NestedExample::color
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_2;
+	// RotaryHeart.Lib.Nested2Dict RotaryHeart.Lib.NestedExample::deepNested
+	Nested2Dict_t081CC73F8064AC01C8ACC78FD5A41402BFEDD43A* ___deepNested_3;
+};
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	// System.IntPtr UnityEngine.Object::m_CachedPtr
+	intptr_t ___m_CachedPtr_0;
+};
+
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr_0;
+};
+// Native definition for COM marshalling of UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr_0;
+};
+
+// PressedDictionary
+struct PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717  : public SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90
+{
+};
+
+// System.RuntimeTypeHandle
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	// System.IntPtr System.RuntimeTypeHandle::value
+	intptr_t ___value_0;
+};
+
+// TouchedDictionary
+struct TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622  : public SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/AC_S
+struct AC_S_t10D18F8E63B0C30C3E681DC3F517857F1B3DE3B0  : public SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String
+struct AdvanGeneric_String_t764F537F5D271CDA41CB8B687E7A376D52A8B234  : public SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/C_Int
+struct C_Int_tFF9DCC017612B1974C79128888BB0B4157BD2136  : public SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/ChildTest
+struct ChildTest_t1877D57D37B93C618D99C38C7B7038AA0539F513  : public RuntimeObject
+{
+	// UnityEngine.Color RotaryHeart.Lib.DataBaseExample/ChildTest::myChildColor
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___myChildColor_0;
+	// System.Boolean RotaryHeart.Lib.DataBaseExample/ChildTest::myChildBool
+	bool ___myChildBool_1;
+	// UnityEngine.Gradient RotaryHeart.Lib.DataBaseExample/ChildTest::test
+	Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E* ___test_2;
+};
+
+// RotaryHeart.Lib.DataBaseExample/ClassTest
+struct ClassTest_tD42ACF8027A4B6673EBC1416538C11C432126FC8  : public RuntimeObject
+{
+	// System.String RotaryHeart.Lib.DataBaseExample/ClassTest::id
+	String_t* ___id_0;
+	// System.Single RotaryHeart.Lib.DataBaseExample/ClassTest::test
+	float ___test_1;
+	// System.String RotaryHeart.Lib.DataBaseExample/ClassTest::test2
+	String_t* ___test2_2;
+	// UnityEngine.Quaternion RotaryHeart.Lib.DataBaseExample/ClassTest::quat
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___quat_3;
+	// RotaryHeart.Lib.DataBaseExample/ChildTest[] RotaryHeart.Lib.DataBaseExample/ClassTest::childTest
+	ChildTestU5BU5D_tAE813140F1FDEF875FD153B09E1538FA7989B8B8* ___childTest_4;
+};
+
+// RotaryHeart.Lib.DataBaseExample/Enum_String
+struct Enum_String_t19E95F171D577147A376C14215928926762DAF8B  : public SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/GO_I
+struct GO_I_tC9780EFC2870FC49D75F198A7B4FE7700A69535E  : public SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/GO_S
+struct GO_S_tE24369AA562CDE70E9B7F375BB7438FFC805255F  : public SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/G_Int
+struct G_Int_t77F24BB7D96D4DF71CF71D2B5E1ABB501E6F8664  : public SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/Generic_Generic
+struct Generic_Generic_tB1F03B51C267DB4C7A9E26FF63F7968F7B08A1BF  : public SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/Generic_String
+struct Generic_String_t2234285FF3DD0045F70BB0D8E44510799176671D  : public SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/I_GO
+struct I_GO_t7C29E0EBAC722236FDD99C51948BD0BD73AD1823  : public SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/I_GenericDictionary
+struct I_GenericDictionary_t86E2E60AAD364035640F35F6CC2B506E23FFADD4  : public SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/Int_IntArray
+struct Int_IntArray_tCA02FE89D18AFDDB451DAC944CA794EEB3DB709B  : public SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/Mat_S
+struct Mat_S_tEC995C514A1AA1D071B9A010F4AE1696D9A92BF2  : public SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/Q_V3
+struct Q_V3_t5BFCD4612600D3C64FA0F778F0BB8DCD3B866BB3  : public SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/S_AC
+struct S_AC_tED99629B7EE1A081768E144F52EB42FF7027A3AF  : public SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/S_GO
+struct S_GO_t9CC5BA3CE53956A968CBCBF4D6627527FCBE49E3  : public SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/S_GenericDictionary
+struct S_GenericDictionary_tEC88A15AA034F3A437E51164ED24E0BEC610BAA3  : public SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/S_Mat
+struct S_Mat_t1667342C2C0221F2B2E415570E6484B4276D1A51  : public SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/S_Sprite
+struct S_Sprite_t5F54C467068B7533EEEAE816B2E60DE43E31A100  : public SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample/V3_Q
+struct V3_Q_t3E98CE3EF32328BB160DD9A514214ACA51DBAF34  : public SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA
+{
+};
+
+// UnityEngine.Component
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.Material
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+
+// UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+// Native definition for P/Invoke marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of UnityEngine.ScriptableObject
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+
+// System.Type
+struct Type_t  : public MemberInfo_t
+{
+	// System.RuntimeTypeHandle System.Type::_impl
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
+};
+
+struct Type_t_StaticFields
+{
+	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder_0;
+	// System.Char System.Type::Delimiter
+	Il2CppChar ___Delimiter_1;
+	// System.Type[] System.Type::EmptyTypes
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes_2;
+	// System.Object System.Type::Missing
+	RuntimeObject* ___Missing_3;
+	// System.Reflection.MemberFilter System.Type::FilterAttribute
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute_4;
+	// System.Reflection.MemberFilter System.Type::FilterName
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName_5;
+	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
+};
+
+// UnityEngine.Behaviour
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// RotaryHeart.Lib.DataBaseExample
+struct DataBaseExample_t7A4C16AAED16F3872341CA295CBD2FDE392AD71A  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// RotaryHeart.Lib.DataBaseExample/Generic_String RotaryHeart.Lib.DataBaseExample::_genericString
+	Generic_String_t2234285FF3DD0045F70BB0D8E44510799176671D* ____genericString_4;
+	// RotaryHeart.Lib.DataBaseExample/Generic_Generic RotaryHeart.Lib.DataBaseExample::_genericGeneric
+	Generic_Generic_tB1F03B51C267DB4C7A9E26FF63F7968F7B08A1BF* ____genericGeneric_5;
+	// RotaryHeart.Lib.DataBaseExample/S_GenericDictionary RotaryHeart.Lib.DataBaseExample::_stringGeneric
+	S_GenericDictionary_tEC88A15AA034F3A437E51164ED24E0BEC610BAA3* ____stringGeneric_6;
+	// RotaryHeart.Lib.DataBaseExample/I_GenericDictionary RotaryHeart.Lib.DataBaseExample::_intGeneric
+	I_GenericDictionary_t86E2E60AAD364035640F35F6CC2B506E23FFADD4* ____intGeneric_7;
+	// RotaryHeart.Lib.DataBaseExample/I_GO RotaryHeart.Lib.DataBaseExample::_intGameobject
+	I_GO_t7C29E0EBAC722236FDD99C51948BD0BD73AD1823* ____intGameobject_8;
+	// RotaryHeart.Lib.DataBaseExample/GO_I RotaryHeart.Lib.DataBaseExample::_gameobjectInt
+	GO_I_tC9780EFC2870FC49D75F198A7B4FE7700A69535E* ____gameobjectInt_9;
+	// RotaryHeart.Lib.DataBaseExample/S_GO RotaryHeart.Lib.DataBaseExample::_stringGameobject
+	S_GO_t9CC5BA3CE53956A968CBCBF4D6627527FCBE49E3* ____stringGameobject_10;
+	// RotaryHeart.Lib.DataBaseExample/GO_S RotaryHeart.Lib.DataBaseExample::_gameobjectString
+	GO_S_tE24369AA562CDE70E9B7F375BB7438FFC805255F* ____gameobjectString_11;
+	// RotaryHeart.Lib.DataBaseExample/S_Mat RotaryHeart.Lib.DataBaseExample::_stringMaterial
+	S_Mat_t1667342C2C0221F2B2E415570E6484B4276D1A51* ____stringMaterial_12;
+	// RotaryHeart.Lib.DataBaseExample/Mat_S RotaryHeart.Lib.DataBaseExample::_materialString
+	Mat_S_tEC995C514A1AA1D071B9A010F4AE1696D9A92BF2* ____materialString_13;
+	// RotaryHeart.Lib.DataBaseExample/V3_Q RotaryHeart.Lib.DataBaseExample::_vector3Quaternion
+	V3_Q_t3E98CE3EF32328BB160DD9A514214ACA51DBAF34* ____vector3Quaternion_14;
+	// RotaryHeart.Lib.DataBaseExample/Q_V3 RotaryHeart.Lib.DataBaseExample::_quaternionVector3
+	Q_V3_t5BFCD4612600D3C64FA0F778F0BB8DCD3B866BB3* ____quaternionVector3_15;
+	// RotaryHeart.Lib.DataBaseExample/S_AC RotaryHeart.Lib.DataBaseExample::_stringAudioClip
+	S_AC_tED99629B7EE1A081768E144F52EB42FF7027A3AF* ____stringAudioClip_16;
+	// RotaryHeart.Lib.DataBaseExample/AC_S RotaryHeart.Lib.DataBaseExample::_audioClipString
+	AC_S_t10D18F8E63B0C30C3E681DC3F517857F1B3DE3B0* ____audioClipString_17;
+	// RotaryHeart.Lib.DataBaseExample/C_Int RotaryHeart.Lib.DataBaseExample::_charInt
+	C_Int_tFF9DCC017612B1974C79128888BB0B4157BD2136* ____charInt_18;
+	// RotaryHeart.Lib.DataBaseExample/G_Int RotaryHeart.Lib.DataBaseExample::_gradientInt
+	G_Int_t77F24BB7D96D4DF71CF71D2B5E1ABB501E6F8664* ____gradientInt_19;
+	// RotaryHeart.Lib.DataBaseExample/Int_IntArray RotaryHeart.Lib.DataBaseExample::_intArray
+	Int_IntArray_tCA02FE89D18AFDDB451DAC944CA794EEB3DB709B* ____intArray_20;
+	// RotaryHeart.Lib.DataBaseExample/Enum_String RotaryHeart.Lib.DataBaseExample::_enumString
+	Enum_String_t19E95F171D577147A376C14215928926762DAF8B* ____enumString_21;
+	// RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String RotaryHeart.Lib.DataBaseExample::_advancedGenericKey
+	AdvanGeneric_String_t764F537F5D271CDA41CB8B687E7A376D52A8B234* ____advancedGenericKey_22;
+};
+
+// RotaryHeart.Lib.NestedDB
+struct NestedDB_t4DF32B83AC7A5D48247128D52FD39A8289D78883  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// RotaryHeart.Lib.MainDict RotaryHeart.Lib.NestedDB::nested
+	MainDict_tAD488DB322F47FFDE577430CAD18D3C1C4F28BAA* ___nested_4;
+};
+
+// UnityEngine.Renderer
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+
+// RotaryHeart.Lib.SerializableDictionary.RequiredReferences
+struct RequiredReferences_tD5108FC3712926BDFE0E8346C499B6B1E98B49A9  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	// UnityEngine.GameObject RotaryHeart.Lib.SerializableDictionary.RequiredReferences::_gameObject
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ____gameObject_4;
+	// UnityEngine.Material RotaryHeart.Lib.SerializableDictionary.RequiredReferences::_material
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ____material_5;
+	// UnityEngine.AudioClip RotaryHeart.Lib.SerializableDictionary.RequiredReferences::_audioClip
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ____audioClip_6;
+};
+
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+
+// UnityEngine.MonoBehaviour
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+
+// Zinnia.Action.Action
+struct Action_t1E748374AFC2E556FD182756180DEC3D5BA6CC70  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Zinnia.Action.Action/BooleanUnityEvent Zinnia.Action.Action::ActivationStateChanged
+	BooleanUnityEvent_t88DFD031AB6B49F4F56CEE582BEBD380DBA655E8* ___ActivationStateChanged_4;
+	// System.Boolean Zinnia.Action.Action::isActivated
+	bool ___isActivated_5;
+};
+
+// HippoGamez.Controller_InputHandler
+struct Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// PressedDictionary HippoGamez.Controller_InputHandler::PressedDict
+	PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717* ___PressedDict_4;
+	// TouchedDictionary HippoGamez.Controller_InputHandler::TouchedDict
+	TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622* ___TouchedDict_5;
+	// AxisDictionary HippoGamez.Controller_InputHandler::AxisDict
+	AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E* ___AxisDict_6;
+};
+
+// HippoGamez.Controller_Manager
+struct Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::leftController
+	Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* ___leftController_5;
+	// HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::rightController
+	Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* ___rightController_6;
+};
+
+struct Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_StaticFields
+{
+	// HippoGamez.Controller_Manager HippoGamez.Controller_Manager::instance
+	Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38* ___instance_4;
+};
+
+// HippoGamez.Testing_Controls
+struct Testing_Controls_t4A14CEBD910D44AAEC0046CD0776799D6ABF571F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.MeshRenderer HippoGamez.Testing_Controls::meshRenderer
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___meshRenderer_4;
+};
+
+// Zinnia.Action.Action`3<Zinnia.Action.BooleanAction,System.Boolean,Zinnia.Action.BooleanAction/UnityEvent>
+struct Action_3_tAB0B844DB62E1DB5EABF32957B0CBE95441E7344  : public Action_t1E748374AFC2E556FD182756180DEC3D5BA6CC70
+{
+	// TValue Zinnia.Action.Action`3::initialValue
+	bool ___initialValue_6;
+	// TValue Zinnia.Action.Action`3::defaultValue
+	bool ___defaultValue_7;
+	// System.Collections.Generic.List`1<TSelf> Zinnia.Action.Action`3::sources
+	List_1_t12235B29D25E521224D1B3E7E775EBD17D5BFA71* ___sources_8;
+	// TEvent Zinnia.Action.Action`3::Activated
+	UnityEvent_tD80FF57F1E745668ED4120F4957F626D0602D776* ___Activated_9;
+	// TEvent Zinnia.Action.Action`3::ValueChanged
+	UnityEvent_tD80FF57F1E745668ED4120F4957F626D0602D776* ___ValueChanged_10;
+	// TEvent Zinnia.Action.Action`3::ValueUnchanged
+	UnityEvent_tD80FF57F1E745668ED4120F4957F626D0602D776* ___ValueUnchanged_11;
+	// TEvent Zinnia.Action.Action`3::Deactivated
+	UnityEvent_tD80FF57F1E745668ED4120F4957F626D0602D776* ___Deactivated_12;
+	// TValue Zinnia.Action.Action`3::value
+	bool ___value_13;
+};
+
+// Zinnia.Action.Action`3<Zinnia.Action.FloatAction,System.Single,Zinnia.Action.FloatAction/UnityEvent>
+struct Action_3_tF46623224A87298328D210CF1DC16D68CAD7C623  : public Action_t1E748374AFC2E556FD182756180DEC3D5BA6CC70
+{
+	// TValue Zinnia.Action.Action`3::initialValue
+	float ___initialValue_6;
+	// TValue Zinnia.Action.Action`3::defaultValue
+	float ___defaultValue_7;
+	// System.Collections.Generic.List`1<TSelf> Zinnia.Action.Action`3::sources
+	List_1_t686AACF1B4C121C206A9741317007D2B6DD9F689* ___sources_8;
+	// TEvent Zinnia.Action.Action`3::Activated
+	UnityEvent_t6490727483865FDE17B834CA7CE45D8B1F8E8452* ___Activated_9;
+	// TEvent Zinnia.Action.Action`3::ValueChanged
+	UnityEvent_t6490727483865FDE17B834CA7CE45D8B1F8E8452* ___ValueChanged_10;
+	// TEvent Zinnia.Action.Action`3::ValueUnchanged
+	UnityEvent_t6490727483865FDE17B834CA7CE45D8B1F8E8452* ___ValueUnchanged_11;
+	// TEvent Zinnia.Action.Action`3::Deactivated
+	UnityEvent_t6490727483865FDE17B834CA7CE45D8B1F8E8452* ___Deactivated_12;
+	// TValue Zinnia.Action.Action`3::value
+	float ___value_13;
+};
+
+// Zinnia.Action.Action`3<System.Object,System.Boolean,System.Object>
+struct Action_3_t78E3C1C038B259D2B0FC078000DA74292F7CF0DB  : public Action_t1E748374AFC2E556FD182756180DEC3D5BA6CC70
+{
+	// TValue Zinnia.Action.Action`3::initialValue
+	bool ___initialValue_6;
+	// TValue Zinnia.Action.Action`3::defaultValue
+	bool ___defaultValue_7;
+	// System.Collections.Generic.List`1<TSelf> Zinnia.Action.Action`3::sources
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___sources_8;
+	// TEvent Zinnia.Action.Action`3::Activated
+	RuntimeObject* ___Activated_9;
+	// TEvent Zinnia.Action.Action`3::ValueChanged
+	RuntimeObject* ___ValueChanged_10;
+	// TEvent Zinnia.Action.Action`3::ValueUnchanged
+	RuntimeObject* ___ValueUnchanged_11;
+	// TEvent Zinnia.Action.Action`3::Deactivated
+	RuntimeObject* ___Deactivated_12;
+	// TValue Zinnia.Action.Action`3::value
+	bool ___value_13;
+};
+
+// Zinnia.Action.Action`3<System.Object,System.Single,System.Object>
+struct Action_3_t495F18D14335CEFDB39761D66DC1E2C5DC12DCC6  : public Action_t1E748374AFC2E556FD182756180DEC3D5BA6CC70
+{
+	// TValue Zinnia.Action.Action`3::initialValue
+	float ___initialValue_6;
+	// TValue Zinnia.Action.Action`3::defaultValue
+	float ___defaultValue_7;
+	// System.Collections.Generic.List`1<TSelf> Zinnia.Action.Action`3::sources
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ___sources_8;
+	// TEvent Zinnia.Action.Action`3::Activated
+	RuntimeObject* ___Activated_9;
+	// TEvent Zinnia.Action.Action`3::ValueChanged
+	RuntimeObject* ___ValueChanged_10;
+	// TEvent Zinnia.Action.Action`3::ValueUnchanged
+	RuntimeObject* ___ValueUnchanged_11;
+	// TEvent Zinnia.Action.Action`3::Deactivated
+	RuntimeObject* ___Deactivated_12;
+	// TValue Zinnia.Action.Action`3::value
+	float ___value_13;
+};
+
+// Zinnia.Action.BooleanAction
+struct BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E  : public Action_3_tAB0B844DB62E1DB5EABF32957B0CBE95441E7344
+{
+};
+
+// Zinnia.Action.FloatAction
+struct FloatAction_t8E7E11E1DE4D3D8C387831B8E3881778B04B9C62  : public Action_3_tF46623224A87298328D210CF1DC16D68CAD7C623
+{
+	// System.Single Zinnia.Action.FloatAction::equalityTolerance
+	float ___equalityTolerance_14;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// UnityEngine.Material[]
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* m_Items[1];
+
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32Enum,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared (SerializableDictionaryBase_2_tFD5409215BD28E7BDA14F557A9985AD27499285F* __this, const RuntimeMethod* method) ;
+// T UnityEngine.Component::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+// System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32Enum,System.Object>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool SerializableDictionaryBase_2_ContainsKey_mE51675D8CAAC306434DB21CF6E7F18A910B4B689_gshared (SerializableDictionaryBase_2_tFD5409215BD28E7BDA14F557A9985AD27499285F* __this, int32_t ___key0, const RuntimeMethod* method) ;
+// TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32Enum,System.Object>::get_Item(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SerializableDictionaryBase_2_get_Item_m095BBA95057A2AE0E180C192BA1E797AECD559D3_gshared (SerializableDictionaryBase_2_tFD5409215BD28E7BDA14F557A9985AD27499285F* __this, int32_t ___key0, const RuntimeMethod* method) ;
+// TValue Zinnia.Action.Action`3<System.Object,System.Boolean,System.Object>::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Action_3_get_Value_m5CC34C4B0E587E7F21B4D327E5FDF89EF8E1C0A0_gshared_inline (Action_3_t78E3C1C038B259D2B0FC078000DA74292F7CF0DB* __this, const RuntimeMethod* method) ;
+// TValue Zinnia.Action.Action`3<System.Object,System.Single,System.Object>::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Action_3_get_Value_m9ACA42E3B7A6CF3BB56366CF51908C3CF2B46704_gshared_inline (Action_3_t495F18D14335CEFDB39761D66DC1E2C5DC12DCC6* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Object,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared (SerializableDictionaryBase_2_t62F22C7A3D06E9337C547541550E2353BF519EE7* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Char,System.Int32>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A_gshared (SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Object,System.Int32>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_m98C2017BF61BA95551F0563DF32C29BEFF508D09_gshared (SerializableDictionaryBase_2_t413CCA8AABA321D3F39A18742F5490C87C1B1E37* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_mBBA2DCF09B9698C49062FE25E6DBBA50B5003A37_gshared (SerializableDictionaryBase_2_t4D9FE4E3E06AB905064BF421765CD63F2FF8332E* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Vector3,UnityEngine.Quaternion>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D_gshared (SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Quaternion,UnityEngine.Vector3>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D_gshared (SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6* __this, const RuntimeMethod* method) ;
+
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Pressed,Zinnia.Action.BooleanAction>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m0616CA32A3F78EDFAE56196566C5B5004E792191 (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Touched,Zinnia.Action.BooleanAction>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mABFBD5EAC965AF71DFE8A1BD166DDF188F3B3995 (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Axis,Zinnia.Action.FloatAction>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mB94B145453FCD5D7A4446E637993A56E9E882135 (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared)(__this, method);
+}
+// T UnityEngine.Component::GetComponent<UnityEngine.MeshRenderer>()
+inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+// HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Right()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4 (const RuntimeMethod* method) ;
+// System.Boolean HippoGamez.Controller_InputHandler::GetValue(Pressed)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Controller_InputHandler_GetValue_mCE56592DB7325E9CC2F855E7F7FB82A7D7B05293 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___pressed0, const RuntimeMethod* method) ;
+// System.Boolean HippoGamez.Controller_InputHandler::GetValue(Touched)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Controller_InputHandler_GetValue_mB20EC8E740148588CA0286FDF88BDFEE10C9CE13 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___touched0, const RuntimeMethod* method) ;
+// System.Single HippoGamez.Controller_InputHandler::GetValue(Axis)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Controller_InputHandler_GetValue_m5407C667CC8783F7A87734AF10572C29450CBF04 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___axis0, const RuntimeMethod* method) ;
+// System.Int32 System.Convert::ToInt32(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Convert_ToInt32_mD16970C5EE189AB763DADA2434A719FDB3FBF542 (bool ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Color::.ctor(System.Single,System.Single,System.Single)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, const RuntimeMethod* method) ;
+// UnityEngine.Material[] UnityEngine.Renderer::get_materials()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* Renderer_get_materials_m43D33328432700524EAEAB093C67AE5689976118 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Material::set_color(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___value0, const RuntimeMethod* method) ;
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Pressed,Zinnia.Action.BooleanAction>::ContainsKey(TKey)
+inline bool SerializableDictionaryBase_2_ContainsKey_m81729DC7A0B3702E73565C001628BC6999B5B969 (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_ContainsKey_mE51675D8CAAC306434DB21CF6E7F18A910B4B689_gshared)(__this, ___key0, method);
+}
+// TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Pressed,Zinnia.Action.BooleanAction>::get_Item(TKey)
+inline BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* SerializableDictionaryBase_2_get_Item_m0685ADF395D9BCF47C3B3D0F19913217FF7FF8FB (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* (*) (SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_get_Item_m095BBA95057A2AE0E180C192BA1E797AECD559D3_gshared)(__this, ___key0, method);
+}
+// TValue Zinnia.Action.Action`3<Zinnia.Action.BooleanAction,System.Boolean,Zinnia.Action.BooleanAction/UnityEvent>::get_Value()
+inline bool Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_inline (Action_3_tAB0B844DB62E1DB5EABF32957B0CBE95441E7344* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Action_3_tAB0B844DB62E1DB5EABF32957B0CBE95441E7344*, const RuntimeMethod*))Action_3_get_Value_m5CC34C4B0E587E7F21B4D327E5FDF89EF8E1C0A0_gshared_inline)(__this, method);
+}
+// System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Touched,Zinnia.Action.BooleanAction>::ContainsKey(TKey)
+inline bool SerializableDictionaryBase_2_ContainsKey_m9E3103D80B750291CAED69BE8306F28FCC8E7E35 (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_ContainsKey_mE51675D8CAAC306434DB21CF6E7F18A910B4B689_gshared)(__this, ___key0, method);
+}
+// TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Touched,Zinnia.Action.BooleanAction>::get_Item(TKey)
+inline BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* SerializableDictionaryBase_2_get_Item_m7D19BDD1F71DBFFA4EBE9BDBF2132C3918778D6A (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* (*) (SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_get_Item_m095BBA95057A2AE0E180C192BA1E797AECD559D3_gshared)(__this, ___key0, method);
+}
+// System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Axis,Zinnia.Action.FloatAction>::ContainsKey(TKey)
+inline bool SerializableDictionaryBase_2_ContainsKey_m22FEDFB5EC34233F6A87DD1B0B1371202435C999 (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  bool (*) (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_ContainsKey_mE51675D8CAAC306434DB21CF6E7F18A910B4B689_gshared)(__this, ___key0, method);
+}
+// TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<Axis,Zinnia.Action.FloatAction>::get_Item(TKey)
+inline FloatAction_t8E7E11E1DE4D3D8C387831B8E3881778B04B9C62* SerializableDictionaryBase_2_get_Item_mFAA59C8A7875C915FE421B2DD8885C1E5208F96E (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69* __this, int32_t ___key0, const RuntimeMethod* method)
+{
+	return ((  FloatAction_t8E7E11E1DE4D3D8C387831B8E3881778B04B9C62* (*) (SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69*, int32_t, const RuntimeMethod*))SerializableDictionaryBase_2_get_Item_m095BBA95057A2AE0E180C192BA1E797AECD559D3_gshared)(__this, ___key0, method);
+}
+// TValue Zinnia.Action.Action`3<Zinnia.Action.FloatAction,System.Single,Zinnia.Action.FloatAction/UnityEvent>::get_Value()
+inline float Action_3_get_Value_m6F9BDD5B1ED341789850F50A3AED1F79C3C32621_inline (Action_3_tF46623224A87298328D210CF1DC16D68CAD7C623* __this, const RuntimeMethod* method)
+{
+	return ((  float (*) (Action_3_tF46623224A87298328D210CF1DC16D68CAD7C623*, const RuntimeMethod*))Action_3_get_Value_m9ACA42E3B7A6CF3BB56366CF51908C3CF2B46704_gshared_inline)(__this, method);
+}
+// System.Void UnityEngine.ScriptableObject::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+// System.Void System.Object::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Type System.Object::GetType()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3 (RuntimeObject* __this, const RuntimeMethod* method) ;
+// System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+// System.Boolean System.Type::op_Inequality(System.Type,System.Type)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5 (Type_t* ___left0, Type_t* ___right1, const RuntimeMethod* method) ;
+// System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdvancedGenericClass_Equals_mAA940C368AD8933F9D055D26C5D96B837F4CF59C (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* __this, AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* ___other0, const RuntimeMethod* method) ;
+// System.Int32 System.Single::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2 (float* __this, const RuntimeMethod* method) ;
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m537E286071018D8015FF58E6E1476891B3189BCA (SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/ClassTest,RotaryHeart.Lib.DataBaseExample/ClassTest>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mB533A587D149BFE81E55309ED24E6EF22EF437A7 (SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Char,System.Int32>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A (SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Gradient,System.Int32>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m6953F1B459B4A4CC98BDD79DD4CF9760B3A31E74 (SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m98C2017BF61BA95551F0563DF32C29BEFF508D09_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,UnityEngine.GameObject>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m8B1AE0AC5C2B827EF9D4C4CA45518DC974691C3D (SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mBBA2DCF09B9698C49062FE25E6DBBA50B5003A37_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.Int32>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m3B93FA3EC99D99D646DB8096383FCDAC4DA88AAB (SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m98C2017BF61BA95551F0563DF32C29BEFF508D09_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.GameObject>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mC6344D14CD6733E5F14776EA4E328DD981D1225C (SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.GameObject,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mB6F532F0265BDD305727B82ACCE79E070B1A66A5 (SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Material>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m456F702469F49C42B0D467DBE28B2B1EB2E0D7B7 (SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Material,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m49F2F599156D6E39076FA33B338CECAA3CA0CA9F (SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.AudioClip>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m079FF38429225C8FA576951A9C43CFA8ED3744F0 (SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.AudioClip,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mE0768488EECC889A9D8CAA79EE14583C9A3856FF (SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,UnityEngine.Sprite>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m05B2CB515AC1B1CA1E0BABBF783BC9F8C28E8BEE (SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Vector3,UnityEngine.Quaternion>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D (SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.Quaternion,UnityEngine.Vector3>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D (SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.DataBaseExample/ClassTest>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m630CD0A30091E0E690F9BA232799904E2A6CE09F (SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ClassTest>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m9CACD18445AA3F07EB36B0E6BF42247CF4BC43B4 (SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mBBA2DCF09B9698C49062FE25E6DBBA50B5003A37_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.DataBaseExample/ArrayTest>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m205792B75CF21B5FE3C96466D1FE8D905622029F (SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mBBA2DCF09B9698C49062FE25E6DBBA50B5003A37_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/EnumExample,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mB491E5CFA6C03DA0155F54C417B74A3CF5CD7AC1 (SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mFE621481CCA0CB0B01061F07977C956890BBB563 (SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.String,RotaryHeart.Lib.Example>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_mE391E92B13E922D250B185E31474803A7735795C (SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_m749D34C8B3FE64E4E51C7EF4F385EFCFBA021B5D_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<System.Int32,RotaryHeart.Lib.NestedExample>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m533EF54A5605862010AD147FAD45F2C35D8CDB05 (SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mBBA2DCF09B9698C49062FE25E6DBBA50B5003A37_gshared)(__this, method);
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2<UnityEngine.QueryTriggerInteraction,System.String>::.ctor()
+inline void SerializableDictionaryBase_2__ctor_m86A1AEBB9197D31B5DC481BAE2F19185CD844844 (SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923* __this, const RuntimeMethod* method)
+{
+	((  void (*) (SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923*, const RuntimeMethod*))SerializableDictionaryBase_2__ctor_mE19364172A0963092CEFD221C9889DA3472E1C3D_gshared)(__this, method);
+}
+// System.Void System.Attribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2 (Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void PressedDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PressedDictionary__ctor_mE3A44A2BD3E078FC3AA36E7B24DB79269696D912 (PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m0616CA32A3F78EDFAE56196566C5B5004E792191_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t84F80609E677BE9EA6F29F1EEDA32362C2F55A90_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m0616CA32A3F78EDFAE56196566C5B5004E792191(__this, SerializableDictionaryBase_2__ctor_m0616CA32A3F78EDFAE56196566C5B5004E792191_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void TouchedDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TouchedDictionary__ctor_m6DF1DC3CDFDFCD136886BB2BE8FEF676E1EC3183 (TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mABFBD5EAC965AF71DFE8A1BD166DDF188F3B3995_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t482141AE767CB8B17A55A250A0572BC7DD99AD4E_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mABFBD5EAC965AF71DFE8A1BD166DDF188F3B3995(__this, SerializableDictionaryBase_2__ctor_mABFBD5EAC965AF71DFE8A1BD166DDF188F3B3995_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void AxisDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AxisDictionary__ctor_m2D66A53196C1EEB1426E2CD0532ADEA2C9B79C2D (AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mB94B145453FCD5D7A4446E637993A56E9E882135_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t744C261C93C496E60F5949138E453F8453519E69_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mB94B145453FCD5D7A4446E637993A56E9E882135(__this, SerializableDictionaryBase_2__ctor_mB94B145453FCD5D7A4446E637993A56E9E882135_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void HippoGamez.Testing_Controls::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Testing_Controls_Awake_mBA95A7862A897CE7DAD3EC68ACD3F62E0E1DCB62 (Testing_Controls_t4A14CEBD910D44AAEC0046CD0776799D6ABF571F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// meshRenderer = GetComponent<MeshRenderer>();
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_0;
+		L_0 = Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB(__this, Component_GetComponent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m0EDA0079FA3617687C4A28623B79A37D618D9CFB_RuntimeMethod_var);
+		__this->___meshRenderer_4 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___meshRenderer_4), (void*)L_0);
+		// }
+		return;
+	}
+}
+// System.Void HippoGamez.Testing_Controls::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Testing_Controls_Update_m643A989F53536C447D276401D55835CF7C10F262 (Testing_Controls_t4A14CEBD910D44AAEC0046CD0776799D6ABF571F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		// var press = Controller_Manager.Right.GetValue(Pressed.Primary);
+		Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* L_0;
+		L_0 = Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4(NULL);
+		NullCheck(L_0);
+		bool L_1;
+		L_1 = Controller_InputHandler_GetValue_mCE56592DB7325E9CC2F855E7F7FB82A7D7B05293(L_0, 3, NULL);
+		V_0 = L_1;
+		// var touch = Controller_Manager.Right.GetValue(Touched.Secondary);
+		Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* L_2;
+		L_2 = Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4(NULL);
+		NullCheck(L_2);
+		bool L_3;
+		L_3 = Controller_InputHandler_GetValue_mB20EC8E740148588CA0286FDF88BDFEE10C9CE13(L_2, 1, NULL);
+		V_1 = L_3;
+		// var axis = Controller_Manager.Right.GetValue(Axis.ThumbstickHorizontal);
+		Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* L_4;
+		L_4 = Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4(NULL);
+		NullCheck(L_4);
+		float L_5;
+		L_5 = Controller_InputHandler_GetValue_m5407C667CC8783F7A87734AF10572C29450CBF04(L_4, 2, NULL);
+		V_2 = L_5;
+		// var Color = new Color(Convert.ToInt32(press), Convert.ToInt32(touch), axis);
+		bool L_6 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		int32_t L_7;
+		L_7 = Convert_ToInt32_mD16970C5EE189AB763DADA2434A719FDB3FBF542(L_6, NULL);
+		bool L_8 = V_1;
+		int32_t L_9;
+		L_9 = Convert_ToInt32_mD16970C5EE189AB763DADA2434A719FDB3FBF542(L_8, NULL);
+		float L_10 = V_2;
+		Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline((&V_3), ((float)L_7), ((float)L_9), L_10, NULL);
+		// meshRenderer.materials[0].color = Color;
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_11 = __this->___meshRenderer_4;
+		NullCheck(L_11);
+		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_12;
+		L_12 = Renderer_get_materials_m43D33328432700524EAEAB093C67AE5689976118(L_11, NULL);
+		NullCheck(L_12);
+		int32_t L_13 = 0;
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_14 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_15 = V_3;
+		NullCheck(L_14);
+		Material_set_color_m5C32DEBB215FF9EE35E7B575297D8C2F29CC2A2D(L_14, L_15, NULL);
+		// }
+		return;
+	}
+}
+// System.Void HippoGamez.Testing_Controls::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Testing_Controls__ctor_mF1C9C74C1DDB7EDD66C200AA40CEA58C63431810 (Testing_Controls_t4A14CEBD910D44AAEC0046CD0776799D6ABF571F* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean HippoGamez.Controller_InputHandler::GetValue(Pressed)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Controller_InputHandler_GetValue_mCE56592DB7325E9CC2F855E7F7FB82A7D7B05293 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___pressed0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_ContainsKey_m81729DC7A0B3702E73565C001628BC6999B5B969_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_get_Item_m0685ADF395D9BCF47C3B3D0F19913217FF7FF8FB_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (PressedDict.ContainsKey(pressed))
+		PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717* L_0 = __this->___PressedDict_4;
+		int32_t L_1 = ___pressed0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = SerializableDictionaryBase_2_ContainsKey_m81729DC7A0B3702E73565C001628BC6999B5B969(L_0, L_1, SerializableDictionaryBase_2_ContainsKey_m81729DC7A0B3702E73565C001628BC6999B5B969_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// return PressedDict[pressed].Value;
+		PressedDictionary_t02FB23427C40371AB0EAEA98D081F3BF7C52B717* L_3 = __this->___PressedDict_4;
+		int32_t L_4 = ___pressed0;
+		NullCheck(L_3);
+		BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* L_5;
+		L_5 = SerializableDictionaryBase_2_get_Item_m0685ADF395D9BCF47C3B3D0F19913217FF7FF8FB(L_3, L_4, SerializableDictionaryBase_2_get_Item_m0685ADF395D9BCF47C3B3D0F19913217FF7FF8FB_RuntimeMethod_var);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_inline(L_5, Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_RuntimeMethod_var);
+		return L_6;
+	}
+
+IL_0020:
+	{
+		// return false;
+		return (bool)0;
+	}
+}
+// System.Boolean HippoGamez.Controller_InputHandler::GetValue(Touched)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Controller_InputHandler_GetValue_mB20EC8E740148588CA0286FDF88BDFEE10C9CE13 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___touched0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_ContainsKey_m9E3103D80B750291CAED69BE8306F28FCC8E7E35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_get_Item_m7D19BDD1F71DBFFA4EBE9BDBF2132C3918778D6A_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (TouchedDict.ContainsKey(touched))
+		TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622* L_0 = __this->___TouchedDict_5;
+		int32_t L_1 = ___touched0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = SerializableDictionaryBase_2_ContainsKey_m9E3103D80B750291CAED69BE8306F28FCC8E7E35(L_0, L_1, SerializableDictionaryBase_2_ContainsKey_m9E3103D80B750291CAED69BE8306F28FCC8E7E35_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// return TouchedDict[touched].Value;
+		TouchedDictionary_t1BE185AF3B3BA9311328DEA86523B7EF70DBB622* L_3 = __this->___TouchedDict_5;
+		int32_t L_4 = ___touched0;
+		NullCheck(L_3);
+		BooleanAction_tCC1DEE6FD8A0721BFDC6F3CFAEC8851587381D1E* L_5;
+		L_5 = SerializableDictionaryBase_2_get_Item_m7D19BDD1F71DBFFA4EBE9BDBF2132C3918778D6A(L_3, L_4, SerializableDictionaryBase_2_get_Item_m7D19BDD1F71DBFFA4EBE9BDBF2132C3918778D6A_RuntimeMethod_var);
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_inline(L_5, Action_3_get_Value_m0549FD302B64DDC652237EC80150446CE3F63AFB_RuntimeMethod_var);
+		return L_6;
+	}
+
+IL_0020:
+	{
+		// return false;
+		return (bool)0;
+	}
+}
+// System.Single HippoGamez.Controller_InputHandler::GetValue(Axis)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Controller_InputHandler_GetValue_m5407C667CC8783F7A87734AF10572C29450CBF04 (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, int32_t ___axis0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_3_get_Value_m6F9BDD5B1ED341789850F50A3AED1F79C3C32621_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_ContainsKey_m22FEDFB5EC34233F6A87DD1B0B1371202435C999_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_get_Item_mFAA59C8A7875C915FE421B2DD8885C1E5208F96E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (AxisDict.ContainsKey(axis))
+		AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E* L_0 = __this->___AxisDict_6;
+		int32_t L_1 = ___axis0;
+		NullCheck(L_0);
+		bool L_2;
+		L_2 = SerializableDictionaryBase_2_ContainsKey_m22FEDFB5EC34233F6A87DD1B0B1371202435C999(L_0, L_1, SerializableDictionaryBase_2_ContainsKey_m22FEDFB5EC34233F6A87DD1B0B1371202435C999_RuntimeMethod_var);
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		// return AxisDict[axis].Value;
+		AxisDictionary_t3295F725C89679A9C1132617CBF51111AD73637E* L_3 = __this->___AxisDict_6;
+		int32_t L_4 = ___axis0;
+		NullCheck(L_3);
+		FloatAction_t8E7E11E1DE4D3D8C387831B8E3881778B04B9C62* L_5;
+		L_5 = SerializableDictionaryBase_2_get_Item_mFAA59C8A7875C915FE421B2DD8885C1E5208F96E(L_3, L_4, SerializableDictionaryBase_2_get_Item_mFAA59C8A7875C915FE421B2DD8885C1E5208F96E_RuntimeMethod_var);
+		NullCheck(L_5);
+		float L_6;
+		L_6 = Action_3_get_Value_m6F9BDD5B1ED341789850F50A3AED1F79C3C32621_inline(L_5, Action_3_get_Value_m6F9BDD5B1ED341789850F50A3AED1F79C3C32621_RuntimeMethod_var);
+		return L_6;
+	}
+
+IL_0020:
+	{
+		// return 0f;
+		return (0.0f);
+	}
+}
+// System.Void HippoGamez.Controller_InputHandler::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Controller_InputHandler__ctor_m11E17C55CA6CB926ABFFBCE6CD5E60784D3D747D (Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void HippoGamez.Controller_Manager::Awake()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Controller_Manager_Awake_m348011C2B2B4FC55554D8E149D8EEFB44916C166 (Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// instance = this;
+		((Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_StaticFields*)il2cpp_codegen_static_fields_for(Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var))->___instance_4 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&((Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_StaticFields*)il2cpp_codegen_static_fields_for(Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var))->___instance_4), (void*)__this);
+		// }
+		return;
+	}
+}
+// HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Right()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return instance.rightController;
+		Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38* L_0 = ((Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_StaticFields*)il2cpp_codegen_static_fields_for(Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var))->___instance_4;
+		NullCheck(L_0);
+		Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* L_1 = L_0->___rightController_6;
+		return L_1;
+	}
+}
+// HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Left()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* Controller_Manager_get_Left_m4EBF71CC9422FBFBBE068EADAA5C3E4A81136D0D (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// return instance.leftController;
+		Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38* L_0 = ((Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_StaticFields*)il2cpp_codegen_static_fields_for(Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38_il2cpp_TypeInfo_var))->___instance_4;
+		NullCheck(L_0);
+		Controller_InputHandler_t0DCE4D3A799970099762DE223B6CB03A4964638F* L_1 = L_0->___leftController_5;
+		return L_1;
+	}
+}
+// System.Void HippoGamez.Controller_Manager::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Controller_Manager__ctor_mE0E5764220277331D031E3BBA34F6B62E0B2AC0D (Controller_Manager_tC805D284EC7EDBA469EB18166D23E4912714EE38* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataBaseExample__ctor_mAE8500D2F507D3B17FDC3BC266B7BEE4B49F046B (DataBaseExample_t7A4C16AAED16F3872341CA295CBD2FDE392AD71A* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/ChildTest::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChildTest__ctor_mA5789191220826471A8665143BC5D479E6AAAEF6 (ChildTest_t1877D57D37B93C618D99C38C7B7038AA0539F513* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/ClassTest::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ClassTest__ctor_m71E94E299C74E9D44F79D52F13BF16C5AC0C5375 (ClassTest_tD42ACF8027A4B6673EBC1416538C11C432126FC8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/ArrayTest::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArrayTest__ctor_m9761DD4A264377A78928280E61863C06E15253A0 (ArrayTest_t62CBF96B23D57B3A55B73E6C59F4A52A0EAAD0C9* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdvancedGenericClass_Equals_mAA940C368AD8933F9D055D26C5D96B837F4CF59C (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* __this, AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* ___other0, const RuntimeMethod* method) 
+{
+	{
+		// if (ReferenceEquals(null, other)) return false;
+		AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* L_0 = ___other0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		// if (ReferenceEquals(null, other)) return false;
+		return (bool)0;
+	}
+
+IL_0005:
+	{
+		// if (ReferenceEquals(this, other)) return true;
+		AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* L_1 = ___other0;
+		if ((!(((RuntimeObject*)(AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8*)__this) == ((RuntimeObject*)(AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8*)L_1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		// if (ReferenceEquals(this, other)) return true;
+		return (bool)1;
+	}
+
+IL_000b:
+	{
+		// return other.value == value;
+		AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* L_2 = ___other0;
+		NullCheck(L_2);
+		float L_3 = L_2->___value_0;
+		float L_4 = __this->___value_0;
+		return (bool)((((float)L_3) == ((float)L_4))? 1 : 0);
+	}
+}
+// System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AdvancedGenericClass_Equals_m58EFDCF5550E3A82947CFA4FF024121FB2680B69 (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* __this, RuntimeObject* ___obj0, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (ReferenceEquals(null, obj)) return false;
+		RuntimeObject* L_0 = ___obj0;
+		if (L_0)
+		{
+			goto IL_0005;
+		}
+	}
+	{
+		// if (ReferenceEquals(null, obj)) return false;
+		return (bool)0;
+	}
+
+IL_0005:
+	{
+		// if (ReferenceEquals(this, obj)) return true;
+		RuntimeObject* L_1 = ___obj0;
+		if ((!(((RuntimeObject*)(AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8*)__this) == ((RuntimeObject*)(RuntimeObject*)L_1))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		// if (ReferenceEquals(this, obj)) return true;
+		return (bool)1;
+	}
+
+IL_000b:
+	{
+		// if (obj.GetType() != typeof(AdvancedGenericClass)) return false;
+		RuntimeObject* L_2 = ___obj0;
+		NullCheck(L_2);
+		Type_t* L_3;
+		L_3 = Object_GetType_mE10A8FC1E57F3DF29972CCBC026C2DC3942263B3(L_2, NULL);
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_4 = { reinterpret_cast<intptr_t> (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
+		Type_t* L_5;
+		L_5 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_4, NULL);
+		bool L_6;
+		L_6 = Type_op_Inequality_m71AAC993EBBDBA44EE73847D68F71C70AF7AD1D5(L_3, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		// if (obj.GetType() != typeof(AdvancedGenericClass)) return false;
+		return (bool)0;
+	}
+
+IL_0024:
+	{
+		// return Equals((AdvancedGenericClass)obj);
+		RuntimeObject* L_7 = ___obj0;
+		bool L_8;
+		L_8 = AdvancedGenericClass_Equals_mAA940C368AD8933F9D055D26C5D96B837F4CF59C(__this, ((AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8*)CastclassClass((RuntimeObject*)L_7, AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8_il2cpp_TypeInfo_var)), NULL);
+		return L_8;
+	}
+}
+// System.Int32 RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::GetHashCode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AdvancedGenericClass_GetHashCode_m77CAEA1F904B62B7EB63FE51F8B9A1B04CB383D1 (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* __this, const RuntimeMethod* method) 
+{
+	{
+		// return value.GetHashCode();
+		float* L_0 = (&__this->___value_0);
+		int32_t L_1;
+		L_1 = Single_GetHashCode_mC3F1E099D1CF165C2D71FBCC5EF6A6792F9021D2(L_0, NULL);
+		return L_1;
+	}
+}
+// System.Void RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdvancedGenericClass__ctor_m5D3355F876D3875AD64CC03E83989947897DB926 (AdvancedGenericClass_t6A07D38B335065E0CF4829B9C9C0E3BF7C8C29C8* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Generic_String::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Generic_String__ctor_m0572D4249402B8FB881EE4414DC8B7AAAE5F4DCC (Generic_String_t2234285FF3DD0045F70BB0D8E44510799176671D* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m537E286071018D8015FF58E6E1476891B3189BCA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t7661DF0B3121AEE25F7E3C3C3F29908225B0BD7A_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m537E286071018D8015FF58E6E1476891B3189BCA(__this, SerializableDictionaryBase_2__ctor_m537E286071018D8015FF58E6E1476891B3189BCA_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Generic_Generic::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Generic_Generic__ctor_m5C60DFB7E4E9447FDB1E0B8BB74CAA84138920AC (Generic_Generic_tB1F03B51C267DB4C7A9E26FF63F7968F7B08A1BF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mB533A587D149BFE81E55309ED24E6EF22EF437A7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t0B5F156CD4F992E9031711B03C5FAB887A7E304E_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mB533A587D149BFE81E55309ED24E6EF22EF437A7(__this, SerializableDictionaryBase_2__ctor_mB533A587D149BFE81E55309ED24E6EF22EF437A7_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/C_Int::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void C_Int__ctor_m6170840A8D5B516671955325295ABD2B151F72D1 (C_Int_tFF9DCC017612B1974C79128888BB0B4157BD2136* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tC7DDA6CAEA187CC26CA56A52C495D4F14E0D7443_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A(__this, SerializableDictionaryBase_2__ctor_m1580EC95BD547106BAF190D852445D6B64E5C50A_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/G_Int::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void G_Int__ctor_m8442375FBE88D32D7201F2FDC59AEDB2CF35E862 (G_Int_t77F24BB7D96D4DF71CF71D2B5E1ABB501E6F8664* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m6953F1B459B4A4CC98BDD79DD4CF9760B3A31E74_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t2701267F51179D6B02FD337AC5BA1FBD864CE64D_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m6953F1B459B4A4CC98BDD79DD4CF9760B3A31E74(__this, SerializableDictionaryBase_2__ctor_m6953F1B459B4A4CC98BDD79DD4CF9760B3A31E74_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/I_GO::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void I_GO__ctor_m45E12EE36B08EB4610A4404352D1120DD1EE48D8 (I_GO_t7C29E0EBAC722236FDD99C51948BD0BD73AD1823* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m8B1AE0AC5C2B827EF9D4C4CA45518DC974691C3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t3C62299EF94A9C037C7C4AFEE063CE33DA89127F_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m8B1AE0AC5C2B827EF9D4C4CA45518DC974691C3D(__this, SerializableDictionaryBase_2__ctor_m8B1AE0AC5C2B827EF9D4C4CA45518DC974691C3D_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/GO_I::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GO_I__ctor_mEBB8643C1DAB790741B6F971419D50015B0D81D7 (GO_I_tC9780EFC2870FC49D75F198A7B4FE7700A69535E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m3B93FA3EC99D99D646DB8096383FCDAC4DA88AAB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t6EC90538B4951BF60A3E2C190C6CB125BB9C4404_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m3B93FA3EC99D99D646DB8096383FCDAC4DA88AAB(__this, SerializableDictionaryBase_2__ctor_m3B93FA3EC99D99D646DB8096383FCDAC4DA88AAB_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/S_GO::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void S_GO__ctor_m5167AFD593273611E3AFB1A81F178AE99CC132EF (S_GO_t9CC5BA3CE53956A968CBCBF4D6627527FCBE49E3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mC6344D14CD6733E5F14776EA4E328DD981D1225C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tD9463B5701AF253B611963279A14F5CFB419D3E8_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mC6344D14CD6733E5F14776EA4E328DD981D1225C(__this, SerializableDictionaryBase_2__ctor_mC6344D14CD6733E5F14776EA4E328DD981D1225C_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/GO_S::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GO_S__ctor_m0CE9D90CFF39489818166504867F3CC5396F7AEC (GO_S_tE24369AA562CDE70E9B7F375BB7438FFC805255F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mB6F532F0265BDD305727B82ACCE79E070B1A66A5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tA023BC935178BC9E782E10919CACD27F63DC313F_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mB6F532F0265BDD305727B82ACCE79E070B1A66A5(__this, SerializableDictionaryBase_2__ctor_mB6F532F0265BDD305727B82ACCE79E070B1A66A5_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/S_Mat::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void S_Mat__ctor_mA8CC0779695BF1D6585C5B59014A1722B0376620 (S_Mat_t1667342C2C0221F2B2E415570E6484B4276D1A51* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m456F702469F49C42B0D467DBE28B2B1EB2E0D7B7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t143ABF7B884655958AB5B7CEEF511FB4793A0D18_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m456F702469F49C42B0D467DBE28B2B1EB2E0D7B7(__this, SerializableDictionaryBase_2__ctor_m456F702469F49C42B0D467DBE28B2B1EB2E0D7B7_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Mat_S::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mat_S__ctor_mD721E0462FA9F45AAAF528595937FC479F31931E (Mat_S_tEC995C514A1AA1D071B9A010F4AE1696D9A92BF2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m49F2F599156D6E39076FA33B338CECAA3CA0CA9F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t00CAE4B863FACFFDD671D8FE9117CB0BE4886E8B_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m49F2F599156D6E39076FA33B338CECAA3CA0CA9F(__this, SerializableDictionaryBase_2__ctor_m49F2F599156D6E39076FA33B338CECAA3CA0CA9F_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/S_AC::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void S_AC__ctor_m470692949338BCF69EDCB5C400C5F2A0D7D50B52 (S_AC_tED99629B7EE1A081768E144F52EB42FF7027A3AF* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m079FF38429225C8FA576951A9C43CFA8ED3744F0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tEDE499141292B54304E4FE75C1B374EE574E5657_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m079FF38429225C8FA576951A9C43CFA8ED3744F0(__this, SerializableDictionaryBase_2__ctor_m079FF38429225C8FA576951A9C43CFA8ED3744F0_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/AC_S::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AC_S__ctor_m9510C5470A4D267199A0D88C0DC0163DE395EA23 (AC_S_t10D18F8E63B0C30C3E681DC3F517857F1B3DE3B0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mE0768488EECC889A9D8CAA79EE14583C9A3856FF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t5593B0F968AF2EED7BBB23846AE61C87B161BE66_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mE0768488EECC889A9D8CAA79EE14583C9A3856FF(__this, SerializableDictionaryBase_2__ctor_mE0768488EECC889A9D8CAA79EE14583C9A3856FF_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/S_Sprite::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void S_Sprite__ctor_m4702117B755C8210A04ACB6F46AC3BFC077E6291 (S_Sprite_t5F54C467068B7533EEEAE816B2E60DE43E31A100* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m05B2CB515AC1B1CA1E0BABBF783BC9F8C28E8BEE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t6668F2F3ACAC4CBE5976884F1BE56722D3F9E7F4_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m05B2CB515AC1B1CA1E0BABBF783BC9F8C28E8BEE(__this, SerializableDictionaryBase_2__ctor_m05B2CB515AC1B1CA1E0BABBF783BC9F8C28E8BEE_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/V3_Q::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void V3_Q__ctor_m6C4A3DE7861026AF0F1F1C6CF9A61D1A36ADD5D6 (V3_Q_t3E98CE3EF32328BB160DD9A514214ACA51DBAF34* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t80053145D2C2E137A48EABFE776974F96E99C4BA_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D(__this, SerializableDictionaryBase_2__ctor_m38B5E0368DD84C9557CBB03167609E82FF87A87D_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Q_V3::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Q_V3__ctor_m4F55D0A6B45C173E46261575D0FE6F9B7EC7AD42 (Q_V3_t5BFCD4612600D3C64FA0F778F0BB8DCD3B866BB3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t4F611225CCE8719BD1CA132D0CBCE599300D57E6_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D(__this, SerializableDictionaryBase_2__ctor_m76CE5A307320065BEA78715868F2E90AC77D6D2D_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/S_GenericDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void S_GenericDictionary__ctor_mA7A1BEF89C13AA3CDAA8D84D6AE53B8AB4544F29 (S_GenericDictionary_tEC88A15AA034F3A437E51164ED24E0BEC610BAA3* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m630CD0A30091E0E690F9BA232799904E2A6CE09F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tAA93C0A0389A82E255F8EF46B24B7FA71254EC1B_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m630CD0A30091E0E690F9BA232799904E2A6CE09F(__this, SerializableDictionaryBase_2__ctor_m630CD0A30091E0E690F9BA232799904E2A6CE09F_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/I_GenericDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void I_GenericDictionary__ctor_m7F20DC740BD2433DEC2685BE425E535D6B722C16 (I_GenericDictionary_t86E2E60AAD364035640F35F6CC2B506E23FFADD4* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m9CACD18445AA3F07EB36B0E6BF42247CF4BC43B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t05C97893AAB0671256FCD55DC05E16CE86EC3F9D_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m9CACD18445AA3F07EB36B0E6BF42247CF4BC43B4(__this, SerializableDictionaryBase_2__ctor_m9CACD18445AA3F07EB36B0E6BF42247CF4BC43B4_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Int_IntArray::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Int_IntArray__ctor_m569AC7EF9E30F9810FC68CFA578DC9F8D331136D (Int_IntArray_tCA02FE89D18AFDDB451DAC944CA794EEB3DB709B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m205792B75CF21B5FE3C96466D1FE8D905622029F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_tB49D53C936FD82E8BC1C6D339F6DC8B1B9D7CCCC_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m205792B75CF21B5FE3C96466D1FE8D905622029F(__this, SerializableDictionaryBase_2__ctor_m205792B75CF21B5FE3C96466D1FE8D905622029F_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/Enum_String::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enum_String__ctor_m431B75035DEC2A068405E2E8359B86527DE649A7 (Enum_String_t19E95F171D577147A376C14215928926762DAF8B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mB491E5CFA6C03DA0155F54C417B74A3CF5CD7AC1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t926B7BFDA035A4E6C83E547708908A4B5B7CB725_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mB491E5CFA6C03DA0155F54C417B74A3CF5CD7AC1(__this, SerializableDictionaryBase_2__ctor_mB491E5CFA6C03DA0155F54C417B74A3CF5CD7AC1_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AdvanGeneric_String__ctor_m52447A48B56FE282E7573E132BD94856B3A73A2A (AdvanGeneric_String_t764F537F5D271CDA41CB8B687E7A376D52A8B234* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mFE621481CCA0CB0B01061F07977C956890BBB563_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t8B6A5AC30EB40104B50B8673E0566D5683DF933C_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mFE621481CCA0CB0B01061F07977C956890BBB563(__this, SerializableDictionaryBase_2__ctor_mFE621481CCA0CB0B01061F07977C956890BBB563_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.NestedDB::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NestedDB__ctor_mDAEAB419C3258C8D1D792CD338E5908665212DAE (NestedDB_t4DF32B83AC7A5D48247128D52FD39A8289D78883* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.Example::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Example__ctor_mEBB17B53C6A8DEB84043A0A986F795B5316EC709 (Example_tEDD34DA5C53315AEC26F86D1F38DBA082E8D8FB6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.NestedExample::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NestedExample__ctor_mF138FB3804D51E3754C86B60A066E04986CBC014 (NestedExample_t3D1CC70A3949B9F1674C0FA236834FF17600F4AE* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.MainDict::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainDict__ctor_m70EC696D0331072593C73B42095F255976D4C2D3 (MainDict_tAD488DB322F47FFDE577430CAD18D3C1C4F28BAA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_mE391E92B13E922D250B185E31474803A7735795C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t01E2CC99F401F6825C88907A86E33CC90DA657A4_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_mE391E92B13E922D250B185E31474803A7735795C(__this, SerializableDictionaryBase_2__ctor_mE391E92B13E922D250B185E31474803A7735795C_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.NestedDict::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NestedDict__ctor_m8A39DEEB8D4A399A93B37484CFAD5DD0FEFAB148 (NestedDict_t716D44958B471F8E720A8855883D9F10448D275B* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m533EF54A5605862010AD147FAD45F2C35D8CDB05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t809B40FDA51264938603D975F96D5FBA4F2C92E6_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m533EF54A5605862010AD147FAD45F2C35D8CDB05(__this, SerializableDictionaryBase_2__ctor_m533EF54A5605862010AD147FAD45F2C35D8CDB05_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.Nested2Dict::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nested2Dict__ctor_m7E4671F946C8C9D96143B8DA1389A2A31B3C1871 (Nested2Dict_t081CC73F8064AC01C8ACC78FD5A41402BFEDD43A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2__ctor_m86A1AEBB9197D31B5DC481BAE2F19185CD844844_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(SerializableDictionaryBase_2_t385A278780BF13A8CA6D94CF19F12C4060E12923_il2cpp_TypeInfo_var);
+		SerializableDictionaryBase_2__ctor_m86A1AEBB9197D31B5DC481BAE2F19185CD844844(__this, SerializableDictionaryBase_2__ctor_m86A1AEBB9197D31B5DC481BAE2F19185CD844844_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DrawKeyAsPropertyAttribute__ctor_m6C0A24145A6EC7D0F69C90BA0E837830BF0760AC (DrawKeyAsPropertyAttribute_t33E1C19EBFFB3F0A97508AA07E081EA8540977AD* __this, const RuntimeMethod* method) 
+{
+	{
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.String RotaryHeart.Lib.SerializableDictionary.IDAttribute::get_Id()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IDAttribute_get_Id_m8C420508ADE5DB0E3A5F7F16B2724AE4D29097F4 (IDAttribute_t4D30F6CCBF386F778D12F1F914C2A8FB39032FF0* __this, const RuntimeMethod* method) 
+{
+	{
+		// get { return _id; }
+		String_t* L_0 = __this->____id_0;
+		return L_0;
+	}
+}
+// System.Void RotaryHeart.Lib.SerializableDictionary.IDAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IDAttribute__ctor_mFE72E88BF60846CB4F116DC284BA6FC38BA84F7B (IDAttribute_t4D30F6CCBF386F778D12F1F914C2A8FB39032FF0* __this, String_t* ___id0, const RuntimeMethod* method) 
+{
+	{
+		// public IDAttribute(string id)
+		Attribute__ctor_m79ED1BF1EE36D1E417BA89A0D9F91F8AAD8D19E2(__this, NULL);
+		// _id = id;
+		String_t* L_0 = ___id0;
+		__this->____id_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____id_0), (void*)L_0);
+		// }
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.SerializableDictionary.RequiredReferences::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RequiredReferences__ctor_m581E9AE121F1DCF3359E4EF1F96BBAC11745F0B0 (RequiredReferences_tD5108FC3712926BDFE0E8346C499B6B1E98B49A9* __this, const RuntimeMethod* method) 
+{
+	{
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.SerializableDictionary.ReorderableList::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ReorderableList__ctor_m480498869DED78754C4BA726A15C3706F7EFE5C4 (ReorderableList_tCC3940A688A7EA9ED7B7BDBE5259111B02586356* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DrawableDictionary__ctor_m11B9870540D9D6CFA91FC7A0003D09034ED25055 (DrawableDictionary_tC3085B334020EE4867AD5F9878C44FF35F358AC2* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_mCD6889CDE39F18704CD6EA8E2EFBFA48BA3E13B0_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___r0, float ___g1, float ___b2, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___r0;
+		__this->___r_0 = L_0;
+		float L_1 = ___g1;
+		__this->___g_1 = L_1;
+		float L_2 = ___b2;
+		__this->___b_2 = L_2;
+		__this->___a_3 = (1.0f);
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Action_3_get_Value_m5CC34C4B0E587E7F21B4D327E5FDF89EF8E1C0A0_gshared_inline (Action_3_t78E3C1C038B259D2B0FC078000DA74292F7CF0DB* __this, const RuntimeMethod* method) 
+{
+	{
+		// return value;
+		bool L_0 = (bool)__this->___value_13;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Action_3_get_Value_m9ACA42E3B7A6CF3BB56366CF51908C3CF2B46704_gshared_inline (Action_3_t495F18D14335CEFDB39761D66DC1E2C5DC12DCC6* __this, const RuntimeMethod* method) 
+{
+	{
+		// return value;
+		float L_0 = (float)__this->___value_13;
+		return L_0;
+	}
+}
