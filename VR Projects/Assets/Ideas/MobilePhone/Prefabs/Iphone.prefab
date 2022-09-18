@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 3655876805632002965}
   - component: {fileID: 6876158194994875803}
   - component: {fileID: 6903394656831168301}
+  - component: {fileID: 4818482475722106580}
   m_Layer: 0
   m_Name: Iphone
   m_TagString: Untagged
@@ -169,7 +170,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -246,6 +247,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58d6cb68905534b4d8baf13b96b36cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4818482475722106580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806439150134132533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b8841f2fe6cfd478e65925c7be0b44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6612038767961366502
@@ -1031,11 +1044,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6721068030636794536}
     m_Modifications:
-    - target: {fileID: 1268832455457877190, guid: 5371745a611d2d1459ba284f0acfb4f7,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1508459313745527675, guid: 5371745a611d2d1459ba284f0acfb4f7,
         type: 3}
       propertyPath: m_Name
@@ -1095,26 +1103,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2512035626023214654, guid: 5371745a611d2d1459ba284f0acfb4f7,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.008
-      objectReference: {fileID: 0}
-    - target: {fileID: 2512035626023214654, guid: 5371745a611d2d1459ba284f0acfb4f7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.0104
-      objectReference: {fileID: 0}
-    - target: {fileID: 5335482886859429623, guid: 5371745a611d2d1459ba284f0acfb4f7,
-        type: 3}
-      propertyPath: m_Name
-      value: FrontCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 6681291152077079038, guid: 5371745a611d2d1459ba284f0acfb4f7,
-        type: 3}
-      propertyPath: m_Name
-      value: Screen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5371745a611d2d1459ba284f0acfb4f7, type: 3}
