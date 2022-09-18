@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Iphone_Main : MonoBehaviour
 {
-    public void 
+    // public void 
 }
