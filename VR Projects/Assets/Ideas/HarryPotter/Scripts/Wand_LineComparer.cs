@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class LineComparer
+public class Wand_LineComparer
 {
     static public bool CompareLines(Vector3[] drawn, Vector3[] toMatch, float threshold)
     {

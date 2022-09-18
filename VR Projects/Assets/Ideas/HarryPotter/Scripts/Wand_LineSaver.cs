@@ -7,12 +7,12 @@ using TMPro;
 namespace HippoGamez
 {
 #if UNITY_EDITOR
-    public class LineSaver : MonoBehaviour
+    public class Wand_LineSaver : MonoBehaviour
     {
-        public LineDrawer lineDrawer;
+        public Wand_LineDrawer LineDrawer;
         public TMP_InputField SaveName;
 
-        private Vector3[] save;
+        private Vector3[] savedPoints;
         private const string SavePath = "Ideas/HarryPotter";
 
         private void Start()
@@ -24,17 +24,18 @@ namespace HippoGamez
         {
             if (Input.GetKeyDown(KeyCode.G))
             {
-                Save(lineDrawer.FollowObject.GetComponent<LineRenderer>());
+                Save(LineDrawer.FollowObject.GetComponent<LineRenderer>());
             }
         }
+
         void Save(LineRenderer lineRenderer)
         {
             var movement = new Vector3[] { };
-            Array.Resize(ref save, lineRenderer.positionCount);
-            lineRenderer.GetPositions(save);
+            Array.Resize(ref savedPoints, lineRenderer.positionCount);
+            lineRenderer.GetPositions(savedPoints);
 
-            var path = Application.dataPath + "/" + SavePath + "/Saves/Text" + SaveName.text + ".spell";
-            File.WriteAllText(path, SerializeVector3Array(save));
+            var path = Application.dataPath + "/" + SavePath + "/Saves/Text/" + SaveName.text + ".txt";
+            File.WriteAllText(path, SerializeVector3Array(savedPoints));
             SaveName.text = "";
         }
 
