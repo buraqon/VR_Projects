@@ -1083,6 +1083,16 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 2548222572636020857, guid: 6bfc5f80cfac6184ba5a766844c2e679,
         type: 3}
+      propertyPath: m_UseWorldSpace
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548222572636020857, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
+      propertyPath: m_Parameters.alignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548222572636020857, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
       propertyPath: m_Parameters.colorGradient.key0.a
       value: 0
       objectReference: {fileID: 0}
