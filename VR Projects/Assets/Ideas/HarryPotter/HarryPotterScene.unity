@@ -379,6 +379,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &688170340 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2548222571985810180, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+    type: 3}
+  m_PrefabInstance: {fileID: 2548222573615159376}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e865fe91f759748aff11bc077a842b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf1fe18e48108644187d452d67ffeb08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LineDrawer: {fileID: 0}
+  LineDrawer: {fileID: 688170340}
   SaveName: {fileID: 1296818425}
 --- !u!1 &1102200169
 GameObject:
@@ -1069,6 +1081,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 06903b7f3ec49204e898090d48a6161a,
         type: 2}
+    - target: {fileID: 2548222572636020857, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2548222572636020857, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5240252855876252009, guid: 6bfc5f80cfac6184ba5a766844c2e679,
         type: 3}
       propertyPath: m_Name
@@ -1127,6 +1149,16 @@ PrefabInstance:
     - target: {fileID: 5986838553838154288, guid: 6bfc5f80cfac6184ba5a766844c2e679,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458816879210738748, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458816879210738748, guid: 6bfc5f80cfac6184ba5a766844c2e679,
+        type: 3}
+      propertyPath: m_IsKinematic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

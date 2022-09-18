@@ -48007,6 +48007,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wraith_Cyberninja_Animated
       objectReference: {fileID: 0}
+    - target: {fileID: 4806566148090059577, guid: 0ae7d81078bf6c74799cf39619d00a25,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4897910433173842441, guid: 0ae7d81078bf6c74799cf39619d00a25,
         type: 3}
       propertyPath: Animator

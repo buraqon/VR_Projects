@@ -8,10 +8,20 @@ public class Wand_LineComparer
 {
     static public bool CompareLines(Vector3[] drawn, Vector3[] toMatch, float threshold)
     {
+        Normalize(ref drawn);
+        Normalize(ref toMatch);
         float diff = DifferenceBetweenLines(drawn, toMatch);
         Debug.Log(diff);
-
         return diff < threshold;
+    }
+
+    private static void Normalize(ref Vector3[] points)
+    {
+        var offset = points[0];
+        for (int i = 0; i < points.Length; i++)
+        {
+            points[i] -= offset;
+        }
     }
 
     static float DifferenceBetweenLines(Vector3[] drawn, Vector3[] toMatch)

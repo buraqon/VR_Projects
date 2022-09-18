@@ -5,12 +5,13 @@ namespace HippoGamez
 {
     public class Wand_LineDrawer : MonoBehaviour
     {
-        private const float Threshold = 1f;
+        private const float Threshold = 2f;
         public Transform FollowObject;
         public List<Wand_Spell_Data> SpellList;
         private bool isRecording;
         private Vector3 oldPosition;
         private LineRenderer lineRenderer;
+        private Vector3 direction;
 
         private void Start()
         {
@@ -35,6 +36,7 @@ namespace HippoGamez
             {
                 lineRenderer.enabled = true;
                 CreateLine();
+                direction = FollowObject.forward;
             }
             else if (Vector2.Distance(FollowObject.position, oldPosition) > .1f)
             {
@@ -51,6 +53,8 @@ namespace HippoGamez
                 Vector3[] lineBuffer = new Vector3[] { };
                 Array.Resize(ref lineBuffer, lineRenderer.positionCount);
                 lineRenderer.GetPositions(lineBuffer);
+                Matrix4x4 martix = lineRenderer.worldToLocalMatrix;
+                print(martix);
 
                 foreach (var spell in SpellList)
                 {
@@ -62,6 +66,7 @@ namespace HippoGamez
                         break;
                     }
                 }
+
             }
             lineRenderer.enabled = false;
             lineRenderer.positionCount = 2;

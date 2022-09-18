@@ -6,7 +6,6 @@ using TMPro;
 
 namespace HippoGamez
 {
-#if UNITY_EDITOR
     public class Wand_LineSaver : MonoBehaviour
     {
         public Wand_LineDrawer LineDrawer;
@@ -33,6 +32,7 @@ namespace HippoGamez
             var movement = new Vector3[] { };
             Array.Resize(ref savedPoints, lineRenderer.positionCount);
             lineRenderer.GetPositions(savedPoints);
+            
 
             var path = Application.dataPath + "/" + SavePath + "/Saves/Text/" + SaveName.text + ".txt";
             File.WriteAllText(path, SerializeVector3Array(savedPoints));
@@ -64,5 +64,4 @@ namespace HippoGamez
             return result;
         }
     }
-#endif
 }
