@@ -468,7 +468,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: BowlingBall
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2504644097937930455, guid: 02f550934f6382d419e6d78d38358467, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 02f550934f6382d419e6d78d38358467, type: 3}
 --- !u!1001 &1992216547
 PrefabInstance:
