@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0dc71d3579712f4bbefffaf43226146, type: 3}
   m_Name: TestSpell
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 919132149155446097, guid: eb59065d1cc823b4fa6098f24517da36, type: 3}
+  Prefab: {fileID: 121802, guid: 8f18e1d8c46c51f429429815455062fc, type: 3}
   recordedPoints: {fileID: 4900000, guid: 786b5818e21cb344cb983272ce15c028, type: 3}
