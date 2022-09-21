@@ -41,14 +41,14 @@ static Il2CppMethodPointer s_methodPointers[8] =
 };
 static const int32_t s_InvokerIndices[8] = 
 {
-	4548,
-	3691,
-	4548,
-	3691,
-	4548,
-	3691,
-	3691,
-	4665,
+	4779,
+	3876,
+	4779,
+	3876,
+	4779,
+	3876,
+	3876,
+	4908,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Tilia_CameraRigs_XRPluginFramework_Unity_Runtime_CodeGenModule;
 const Il2CppCodeGenModule g_Tilia_CameraRigs_XRPluginFramework_Unity_Runtime_CodeGenModule = 

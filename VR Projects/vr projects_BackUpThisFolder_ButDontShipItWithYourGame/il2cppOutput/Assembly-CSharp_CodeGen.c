@@ -12,249 +12,295 @@
 
 
 
-// 0x00000001 System.Void PressedDictionary::.ctor()
+// 0x00000001 System.Void Avatar_IK::Update()
+extern void Avatar_IK_Update_m11F77EB9F53B039806D2F9ECE0C5BFC4642CC413 (void);
+// 0x00000002 System.Void Avatar_IK::OnAnimatorIK(System.Int32)
+extern void Avatar_IK_OnAnimatorIK_mAAE86F323254B3E19820DED76D787567455942C6 (void);
+// 0x00000003 System.Void Avatar_IK::IKFollow(UnityEngine.AvatarIKGoal,UnityEngine.Transform,System.Single)
+extern void Avatar_IK_IKFollow_m24E77705A34497260EAF79298FF6EE6C5A0D54FE (void);
+// 0x00000004 System.Void Avatar_IK::.ctor()
+extern void Avatar_IK__ctor_mA6CE1556D10B64D9A99E948593285A499F285C8E (void);
+// 0x00000005 System.Void PressedDictionary::.ctor()
 extern void PressedDictionary__ctor_mE3A44A2BD3E078FC3AA36E7B24DB79269696D912 (void);
-// 0x00000002 System.Void TouchedDictionary::.ctor()
+// 0x00000006 System.Void TouchedDictionary::.ctor()
 extern void TouchedDictionary__ctor_m6DF1DC3CDFDFCD136886BB2BE8FEF676E1EC3183 (void);
-// 0x00000003 System.Void AxisDictionary::.ctor()
+// 0x00000007 System.Void AxisDictionary::.ctor()
 extern void AxisDictionary__ctor_m2D66A53196C1EEB1426E2CD0532ADEA2C9B79C2D (void);
-// 0x00000004 System.Boolean LineComparer::CompareLines(UnityEngine.Vector3[],UnityEngine.Vector3[],System.Single)
-extern void LineComparer_CompareLines_m8C326F7F49512A3205EF9A890CADA1928BA3F1F3 (void);
-// 0x00000005 System.Single LineComparer::DifferenceBetweenLines(UnityEngine.Vector3[],UnityEngine.Vector3[])
-extern void LineComparer_DifferenceBetweenLines_mE374A06A9F29699E4AABDE584BBAC0CA25E71571 (void);
-// 0x00000006 System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> LineComparer::WalkAlongLine(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Single)
-extern void LineComparer_WalkAlongLine_mF2708523134EC05850F24469176927AACBC51FE0 (void);
-// 0x00000007 System.Single LineComparer::SqrDistanceToLine(UnityEngine.Vector3[],UnityEngine.Vector3)
-extern void LineComparer_SqrDistanceToLine_m066CB4C679A278A27A68085C30795762B06D7C5A (void);
-// 0x00000008 System.Single LineComparer::SqrDistanceToSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void LineComparer_SqrDistanceToSegment_mE48482CC0441377C31252B4E11EA8CA490DD779B (void);
-// 0x00000009 System.Collections.Generic.IEnumerable`1<LineComparer/Segment> LineComparer::ListSegments(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>)
-extern void LineComparer_ListSegments_mF4BEB47FA180CAA89EF7B4525C3DE625413EA6D0 (void);
-// 0x0000000A System.Int32 LineComparer::PointOnWhichSideOfLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void LineComparer_PointOnWhichSideOfLineSegment_mEFA4FE7A0500BED2D625F456D9BB47C49259DDFB (void);
-// 0x0000000B UnityEngine.Vector3 LineComparer::ProjectPointOnLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void LineComparer_ProjectPointOnLine_mF40E58EC32E9AD851334DA8131A2BF0C5E50E579 (void);
-// 0x0000000C UnityEngine.Vector3 LineComparer::ProjectPointOnLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
-extern void LineComparer_ProjectPointOnLineSegment_mD347213313FB440B06482A58F461A3D4F6F7654E (void);
-// 0x0000000D System.Void LineComparer::.ctor()
-extern void LineComparer__ctor_mEE8C006C8F0972F33AABE339785B34FCD491A98B (void);
-// 0x0000000E System.Void LineComparer/<WalkAlongLine>d__2::.ctor(System.Int32)
-extern void U3CWalkAlongLineU3Ed__2__ctor_mBEE21C76F1DE15C985BE71E4DB305EB0B39CDB14 (void);
-// 0x0000000F System.Void LineComparer/<WalkAlongLine>d__2::System.IDisposable.Dispose()
-extern void U3CWalkAlongLineU3Ed__2_System_IDisposable_Dispose_m4A498187244F7A1B572257045DA7B54D3F142EBE (void);
-// 0x00000010 System.Boolean LineComparer/<WalkAlongLine>d__2::MoveNext()
-extern void U3CWalkAlongLineU3Ed__2_MoveNext_m6403D26FFA094ABD362594D77A937345700A2F7D (void);
-// 0x00000011 System.Void LineComparer/<WalkAlongLine>d__2::<>m__Finally1()
-extern void U3CWalkAlongLineU3Ed__2_U3CU3Em__Finally1_m4A77B958D09C86A44F1BBB5B3DECD6ECC495DC80 (void);
-// 0x00000012 UnityEngine.Vector3 LineComparer/<WalkAlongLine>d__2::System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current()
-extern void U3CWalkAlongLineU3Ed__2_System_Collections_Generic_IEnumeratorU3CUnityEngine_Vector3U3E_get_Current_mB17E9893E76E1772AF782EA04A50094C14CB25E6 (void);
-// 0x00000013 System.Void LineComparer/<WalkAlongLine>d__2::System.Collections.IEnumerator.Reset()
-extern void U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerator_Reset_m8AA100A499805BECC34842E7C2BCC692260242E2 (void);
-// 0x00000014 System.Object LineComparer/<WalkAlongLine>d__2::System.Collections.IEnumerator.get_Current()
-extern void U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerator_get_Current_m19D0E905C005D22C86DC76C7F2A2CBCF1BEA973E (void);
-// 0x00000015 System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> LineComparer/<WalkAlongLine>d__2::System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator()
-extern void U3CWalkAlongLineU3Ed__2_System_Collections_Generic_IEnumerableU3CUnityEngine_Vector3U3E_GetEnumerator_m92686CEE2B4534C1A054C3C40BD0AF3C0A1E83B0 (void);
-// 0x00000016 System.Collections.IEnumerator LineComparer/<WalkAlongLine>d__2::System.Collections.IEnumerable.GetEnumerator()
-extern void U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerable_GetEnumerator_mB674B1C312A0FF0CF0D9F87AE68CB6DBF5895CC6 (void);
-// 0x00000017 System.Void LineComparer/<>c__DisplayClass3_0::.ctor()
-extern void U3CU3Ec__DisplayClass3_0__ctor_m294DD15F7AA6E4B1EAA996F315678A62AC05DF0C (void);
-// 0x00000018 System.Single LineComparer/<>c__DisplayClass3_0::<SqrDistanceToLine>b__0(LineComparer/Segment)
-extern void U3CU3Ec__DisplayClass3_0_U3CSqrDistanceToLineU3Eb__0_m752D52DAB78D7F261968970A99921A2D10290F76 (void);
-// 0x00000019 System.Void LineComparer/<ListSegments>d__5::.ctor(System.Int32)
-extern void U3CListSegmentsU3Ed__5__ctor_mDA17E6813560B95ED564E86E4A15AAE5F5FA1DEE (void);
-// 0x0000001A System.Void LineComparer/<ListSegments>d__5::System.IDisposable.Dispose()
-extern void U3CListSegmentsU3Ed__5_System_IDisposable_Dispose_m0A49B2D2BB182078AE685945011AE2CD486685DC (void);
-// 0x0000001B System.Boolean LineComparer/<ListSegments>d__5::MoveNext()
-extern void U3CListSegmentsU3Ed__5_MoveNext_m4097F18573B91A58C990DD0796943561A33E3815 (void);
-// 0x0000001C System.Void LineComparer/<ListSegments>d__5::<>m__Finally1()
-extern void U3CListSegmentsU3Ed__5_U3CU3Em__Finally1_m6820B388D5ADFB9FD8077A2EC93B249CB7357B5E (void);
-// 0x0000001D System.Void LineComparer/<ListSegments>d__5::<>m__Finally2()
-extern void U3CListSegmentsU3Ed__5_U3CU3Em__Finally2_mA22066A1C1AD5D513E9D8E58CC72DA9B86443185 (void);
-// 0x0000001E LineComparer/Segment LineComparer/<ListSegments>d__5::System.Collections.Generic.IEnumerator<LineComparer.Segment>.get_Current()
-extern void U3CListSegmentsU3Ed__5_System_Collections_Generic_IEnumeratorU3CLineComparer_SegmentU3E_get_Current_m8736EC30427559B84B4AF8C0DA83EEF5EB366829 (void);
-// 0x0000001F System.Void LineComparer/<ListSegments>d__5::System.Collections.IEnumerator.Reset()
-extern void U3CListSegmentsU3Ed__5_System_Collections_IEnumerator_Reset_m0EF56DD81C05170C510C3D0F409EFC8370D34682 (void);
-// 0x00000020 System.Object LineComparer/<ListSegments>d__5::System.Collections.IEnumerator.get_Current()
-extern void U3CListSegmentsU3Ed__5_System_Collections_IEnumerator_get_Current_mA5180A92E8F86B70EB9BA29ED8B6CC4AEDE43058 (void);
-// 0x00000021 System.Collections.Generic.IEnumerator`1<LineComparer/Segment> LineComparer/<ListSegments>d__5::System.Collections.Generic.IEnumerable<LineComparer.Segment>.GetEnumerator()
-extern void U3CListSegmentsU3Ed__5_System_Collections_Generic_IEnumerableU3CLineComparer_SegmentU3E_GetEnumerator_m85EEDA04930BC863049CAE6764AC9DFF76BE975A (void);
-// 0x00000022 System.Collections.IEnumerator LineComparer/<ListSegments>d__5::System.Collections.IEnumerable.GetEnumerator()
-extern void U3CListSegmentsU3Ed__5_System_Collections_IEnumerable_GetEnumerator_m6524FDEC1C2495D14D651594578B37E6789A1A56 (void);
-// 0x00000023 System.Void HippoGamez.Testing_Controls::Awake()
+// 0x00000008 System.Boolean Wand_LineComparer::CompareLines(UnityEngine.Vector3[],UnityEngine.Vector3[],System.Single)
+extern void Wand_LineComparer_CompareLines_m12A7FD7595CFAFDB4E4C550331E9802BFFB90D4A (void);
+// 0x00000009 System.Void Wand_LineComparer::Normalize(UnityEngine.Vector3[]&)
+extern void Wand_LineComparer_Normalize_m78C87944D53F96B4A6082ACC5001AA9BCE1FB8F4 (void);
+// 0x0000000A System.Single Wand_LineComparer::DifferenceBetweenLines(UnityEngine.Vector3[],UnityEngine.Vector3[])
+extern void Wand_LineComparer_DifferenceBetweenLines_mC4CF62B624345155514FBA3EF6FB1FC6AFC8AEA8 (void);
+// 0x0000000B System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer::WalkAlongLine(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>,System.Single)
+extern void Wand_LineComparer_WalkAlongLine_m8E270129A57C25870FBB9DF6B44729B241946C9D (void);
+// 0x0000000C System.Single Wand_LineComparer::SqrDistanceToLine(UnityEngine.Vector3[],UnityEngine.Vector3)
+extern void Wand_LineComparer_SqrDistanceToLine_mA9CB73F21F4BFFD60E1F9F432EB6D44A7A9B76CA (void);
+// 0x0000000D System.Single Wand_LineComparer::SqrDistanceToSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void Wand_LineComparer_SqrDistanceToSegment_mE148C188CE8BF07520A76F05CE865FDF8C826DFF (void);
+// 0x0000000E System.Collections.Generic.IEnumerable`1<Wand_LineComparer/Segment> Wand_LineComparer::ListSegments(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3>)
+extern void Wand_LineComparer_ListSegments_mE4FC239385F0A2C8C66C49B071258B1712288F22 (void);
+// 0x0000000F System.Int32 Wand_LineComparer::PointOnWhichSideOfLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void Wand_LineComparer_PointOnWhichSideOfLineSegment_m39B9421E10D1F608ABFC2F013A53FFBC52E72913 (void);
+// 0x00000010 UnityEngine.Vector3 Wand_LineComparer::ProjectPointOnLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void Wand_LineComparer_ProjectPointOnLine_m9B31F1CD3226380876EE7A3F52C700B209039BBB (void);
+// 0x00000011 UnityEngine.Vector3 Wand_LineComparer::ProjectPointOnLineSegment(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void Wand_LineComparer_ProjectPointOnLineSegment_m97F94388C51ECE811495B4D07D5926EE027BD26A (void);
+// 0x00000012 System.Void Wand_LineComparer::.ctor()
+extern void Wand_LineComparer__ctor_m093A787F6EE0515F7FA717D78EC3B0667150961E (void);
+// 0x00000013 System.Void Wand_LineComparer/<WalkAlongLine>d__3::.ctor(System.Int32)
+extern void U3CWalkAlongLineU3Ed__3__ctor_m0EA7E102545766B76C1CF396F5C6F7B36A9346AD (void);
+// 0x00000014 System.Void Wand_LineComparer/<WalkAlongLine>d__3::System.IDisposable.Dispose()
+extern void U3CWalkAlongLineU3Ed__3_System_IDisposable_Dispose_m1F53F7FCEEB7857CA6C60705663A148CF6937133 (void);
+// 0x00000015 System.Boolean Wand_LineComparer/<WalkAlongLine>d__3::MoveNext()
+extern void U3CWalkAlongLineU3Ed__3_MoveNext_mF1FBA353C93354014485DAD1543E614411167851 (void);
+// 0x00000016 System.Void Wand_LineComparer/<WalkAlongLine>d__3::<>m__Finally1()
+extern void U3CWalkAlongLineU3Ed__3_U3CU3Em__Finally1_m3D80A25F419AC14EA7EA85F59EEFA5E90CCD1371 (void);
+// 0x00000017 UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__3::System.Collections.Generic.IEnumerator<UnityEngine.Vector3>.get_Current()
+extern void U3CWalkAlongLineU3Ed__3_System_Collections_Generic_IEnumeratorU3CUnityEngine_Vector3U3E_get_Current_m3CFB3F1EF5A37A15D50856E8A399F19D754FD46F (void);
+// 0x00000018 System.Void Wand_LineComparer/<WalkAlongLine>d__3::System.Collections.IEnumerator.Reset()
+extern void U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerator_Reset_m4F6294D555B37E2BED80A2DAD438A9CC6E58B2A7 (void);
+// 0x00000019 System.Object Wand_LineComparer/<WalkAlongLine>d__3::System.Collections.IEnumerator.get_Current()
+extern void U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerator_get_Current_m1598F197E3F555FEB012724A08DEEAF52792CF85 (void);
+// 0x0000001A System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__3::System.Collections.Generic.IEnumerable<UnityEngine.Vector3>.GetEnumerator()
+extern void U3CWalkAlongLineU3Ed__3_System_Collections_Generic_IEnumerableU3CUnityEngine_Vector3U3E_GetEnumerator_m015B773DF6D49DC9B4E0DCCA138C16BE2365C7B9 (void);
+// 0x0000001B System.Collections.IEnumerator Wand_LineComparer/<WalkAlongLine>d__3::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerable_GetEnumerator_m9B21C1D53028993A4CB0BCAF6C1E45BD2F18716F (void);
+// 0x0000001C System.Void Wand_LineComparer/<>c__DisplayClass4_0::.ctor()
+extern void U3CU3Ec__DisplayClass4_0__ctor_m18AC08FFC7188E4E055771BAFE904EBE97B1BF1A (void);
+// 0x0000001D System.Single Wand_LineComparer/<>c__DisplayClass4_0::<SqrDistanceToLine>b__0(Wand_LineComparer/Segment)
+extern void U3CU3Ec__DisplayClass4_0_U3CSqrDistanceToLineU3Eb__0_m63BD9AA62E8FFB02160B79A8AE1A21B330465889 (void);
+// 0x0000001E System.Void Wand_LineComparer/<ListSegments>d__6::.ctor(System.Int32)
+extern void U3CListSegmentsU3Ed__6__ctor_m850AF6A787BAB9BA31A3CBA48F03088563116306 (void);
+// 0x0000001F System.Void Wand_LineComparer/<ListSegments>d__6::System.IDisposable.Dispose()
+extern void U3CListSegmentsU3Ed__6_System_IDisposable_Dispose_m58D87E09D5CA0735C955591274A6F68983960045 (void);
+// 0x00000020 System.Boolean Wand_LineComparer/<ListSegments>d__6::MoveNext()
+extern void U3CListSegmentsU3Ed__6_MoveNext_mEDF10CD1AF252E9AF99E20206FB024D2313EBFC6 (void);
+// 0x00000021 System.Void Wand_LineComparer/<ListSegments>d__6::<>m__Finally1()
+extern void U3CListSegmentsU3Ed__6_U3CU3Em__Finally1_mCE93ADA25E90395C53449D4C00E2AE163EAFFD88 (void);
+// 0x00000022 System.Void Wand_LineComparer/<ListSegments>d__6::<>m__Finally2()
+extern void U3CListSegmentsU3Ed__6_U3CU3Em__Finally2_m2ACE7AD6698294B13D849DCE776DE2E0382976FC (void);
+// 0x00000023 Wand_LineComparer/Segment Wand_LineComparer/<ListSegments>d__6::System.Collections.Generic.IEnumerator<Wand_LineComparer.Segment>.get_Current()
+extern void U3CListSegmentsU3Ed__6_System_Collections_Generic_IEnumeratorU3CWand_LineComparer_SegmentU3E_get_Current_m79236A0B853B307D5313E9019D33536A58F65B16 (void);
+// 0x00000024 System.Void Wand_LineComparer/<ListSegments>d__6::System.Collections.IEnumerator.Reset()
+extern void U3CListSegmentsU3Ed__6_System_Collections_IEnumerator_Reset_m5EDC9C4A13FCDD4567E2A646385A7B8A67E5650F (void);
+// 0x00000025 System.Object Wand_LineComparer/<ListSegments>d__6::System.Collections.IEnumerator.get_Current()
+extern void U3CListSegmentsU3Ed__6_System_Collections_IEnumerator_get_Current_m5CCFD3339E37EB1EE6A85BA450098C7BE8BCE4B7 (void);
+// 0x00000026 System.Collections.Generic.IEnumerator`1<Wand_LineComparer/Segment> Wand_LineComparer/<ListSegments>d__6::System.Collections.Generic.IEnumerable<Wand_LineComparer.Segment>.GetEnumerator()
+extern void U3CListSegmentsU3Ed__6_System_Collections_Generic_IEnumerableU3CWand_LineComparer_SegmentU3E_GetEnumerator_mF12D9FCEDC1818E77427952C8ABDD2043608DC2C (void);
+// 0x00000027 System.Collections.IEnumerator Wand_LineComparer/<ListSegments>d__6::System.Collections.IEnumerable.GetEnumerator()
+extern void U3CListSegmentsU3Ed__6_System_Collections_IEnumerable_GetEnumerator_mD085FC9C5C36B0471FE0616E6F1C186F87B97422 (void);
+// 0x00000028 System.Void Iphone_Cameras::SwichCamera()
+extern void Iphone_Cameras_SwichCamera_m8C04631FB4204D92CBFB870FF7A3EEE40759C183 (void);
+// 0x00000029 System.Void Iphone_Cameras::.ctor()
+extern void Iphone_Cameras__ctor_mA76E8736F4F27E1AA52522E7FD75940FE25FA673 (void);
+// 0x0000002A System.Void Iphone_Main::.ctor()
+extern void Iphone_Main__ctor_mADD1BFBD743A926B14591EA95AAF6F1201B9707A (void);
+// 0x0000002B System.Void HippoGamez.Testing_Controls::Awake()
 extern void Testing_Controls_Awake_mBA95A7862A897CE7DAD3EC68ACD3F62E0E1DCB62 (void);
-// 0x00000024 System.Void HippoGamez.Testing_Controls::Update()
+// 0x0000002C System.Void HippoGamez.Testing_Controls::Update()
 extern void Testing_Controls_Update_m643A989F53536C447D276401D55835CF7C10F262 (void);
-// 0x00000025 System.Void HippoGamez.Testing_Controls::.ctor()
+// 0x0000002D System.Void HippoGamez.Testing_Controls::.ctor()
 extern void Testing_Controls__ctor_mF1C9C74C1DDB7EDD66C200AA40CEA58C63431810 (void);
-// 0x00000026 System.Boolean HippoGamez.Controller_InputHandler::GetValue(Pressed)
+// 0x0000002E System.Boolean HippoGamez.Controller_InputHandler::GetValue(Pressed)
 extern void Controller_InputHandler_GetValue_mCE56592DB7325E9CC2F855E7F7FB82A7D7B05293 (void);
-// 0x00000027 System.Boolean HippoGamez.Controller_InputHandler::GetValue(Touched)
+// 0x0000002F System.Boolean HippoGamez.Controller_InputHandler::GetValue(Touched)
 extern void Controller_InputHandler_GetValue_mB20EC8E740148588CA0286FDF88BDFEE10C9CE13 (void);
-// 0x00000028 System.Single HippoGamez.Controller_InputHandler::GetValue(Axis)
+// 0x00000030 System.Single HippoGamez.Controller_InputHandler::GetValue(Axis)
 extern void Controller_InputHandler_GetValue_m5407C667CC8783F7A87734AF10572C29450CBF04 (void);
-// 0x00000029 System.Void HippoGamez.Controller_InputHandler::.ctor()
+// 0x00000031 System.Void HippoGamez.Controller_InputHandler::.ctor()
 extern void Controller_InputHandler__ctor_m11E17C55CA6CB926ABFFBCE6CD5E60784D3D747D (void);
-// 0x0000002A System.Void HippoGamez.Controller_Manager::Awake()
+// 0x00000032 System.Void HippoGamez.Controller_Manager::Awake()
 extern void Controller_Manager_Awake_m348011C2B2B4FC55554D8E149D8EEFB44916C166 (void);
-// 0x0000002B HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Right()
+// 0x00000033 HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Right()
 extern void Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4 (void);
-// 0x0000002C HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Left()
+// 0x00000034 HippoGamez.Controller_InputHandler HippoGamez.Controller_Manager::get_Left()
 extern void Controller_Manager_get_Left_m4EBF71CC9422FBFBBE068EADAA5C3E4A81136D0D (void);
-// 0x0000002D System.Void HippoGamez.Controller_Manager::.ctor()
+// 0x00000035 System.Void HippoGamez.Controller_Manager::.ctor()
 extern void Controller_Manager__ctor_mE0E5764220277331D031E3BBA34F6B62E0B2AC0D (void);
-// 0x0000002E System.Void HippoGamez.LineDrawer::Start()
-extern void LineDrawer_Start_m0BAE89EB2DDBC4AEE0BDFBF45AB58000B346949A (void);
-// 0x0000002F System.Void HippoGamez.LineDrawer::Update()
-extern void LineDrawer_Update_m65FD84FE8416F5B18E129864622D8E55D9A9AD91 (void);
-// 0x00000030 System.Void HippoGamez.LineDrawer::CreateLine()
-extern void LineDrawer_CreateLine_m2225F9F77D2922A204A22ACA16C71840DE2B8637 (void);
-// 0x00000031 System.Void HippoGamez.LineDrawer::UpdateLine(UnityEngine.Vector3)
-extern void LineDrawer_UpdateLine_mC83A53ECA15940E4DC6FB0848B8FFCB17145E372 (void);
-// 0x00000032 System.Void HippoGamez.LineDrawer::.ctor()
-extern void LineDrawer__ctor_mCA1EBCAD9F7D8ECF7E6D9219592984952AF3905B (void);
-// 0x00000033 System.Void RotaryHeart.Lib.DataBaseExample::.ctor()
+// 0x00000036 System.Void HippoGamez.Wand_LineDrawer::Start()
+extern void Wand_LineDrawer_Start_m23930F67630B4FD9F6B585965D3DCF32BF290FE6 (void);
+// 0x00000037 System.Void HippoGamez.Wand_LineDrawer::Update()
+extern void Wand_LineDrawer_Update_mFED8AA11127E40B222E68194039E2B14437DF42E (void);
+// 0x00000038 System.Void HippoGamez.Wand_LineDrawer::Record()
+extern void Wand_LineDrawer_Record_m7C12A42C941235543BFB46245A29D949E367B41E (void);
+// 0x00000039 System.Void HippoGamez.Wand_LineDrawer::CheckRecordingPoints()
+extern void Wand_LineDrawer_CheckRecordingPoints_m21B09CCC30F9A1782862DDBA9EC059EE94D8B9C4 (void);
+// 0x0000003A System.Void HippoGamez.Wand_LineDrawer::CreateLine()
+extern void Wand_LineDrawer_CreateLine_m29F972C0AA57F719D5097DAC8DD8D3FC4F81ED15 (void);
+// 0x0000003B System.Void HippoGamez.Wand_LineDrawer::UpdateLine(UnityEngine.Vector3)
+extern void Wand_LineDrawer_UpdateLine_m7D3A5A7A56B36E855CE82C1116D96EF6DA8531B3 (void);
+// 0x0000003C System.Void HippoGamez.Wand_LineDrawer::ActivateSpell(UnityEngine.GameObject)
+extern void Wand_LineDrawer_ActivateSpell_m3099D91FF5994F4C5DE877114165C10D82708A4D (void);
+// 0x0000003D System.Void HippoGamez.Wand_LineDrawer::.ctor()
+extern void Wand_LineDrawer__ctor_mF695310938ED6C363C8159F6450F98995F9EB091 (void);
+// 0x0000003E System.Void HippoGamez.Wand_LineSaver::Start()
+extern void Wand_LineSaver_Start_m3CFDB596859C953C5D6C663E109B0D532C99EDE9 (void);
+// 0x0000003F System.Void HippoGamez.Wand_LineSaver::Update()
+extern void Wand_LineSaver_Update_m81267D7CEDE4A8CE27E1A9E36E60E13CD58A8ED5 (void);
+// 0x00000040 System.Void HippoGamez.Wand_LineSaver::Save(UnityEngine.LineRenderer)
+extern void Wand_LineSaver_Save_mD1783130AEB9795FCD433D43413BE6A838E3F4EC (void);
+// 0x00000041 System.String HippoGamez.Wand_LineSaver::SerializeVector3Array(UnityEngine.Vector3[])
+extern void Wand_LineSaver_SerializeVector3Array_m15A891C4AB29BAF49B6B1CC2E091809A0B0C4765 (void);
+// 0x00000042 UnityEngine.Vector3[] HippoGamez.Wand_LineSaver::DeserializeVector3Array(System.String)
+extern void Wand_LineSaver_DeserializeVector3Array_mB69336ED8B5CFAD2C0944B8BA9826A84AD53F458 (void);
+// 0x00000043 System.Void HippoGamez.Wand_LineSaver::.ctor()
+extern void Wand_LineSaver__ctor_m7D7D19A8947C1C42EC6DFA43B3C87D08EEC86689 (void);
+// 0x00000044 UnityEngine.Vector3[] HippoGamez.Wand_Spell_Data::GetRecordedPoints()
+extern void Wand_Spell_Data_GetRecordedPoints_m293B02EAF408DBF927B3D4F2642FD8752BDBAACF (void);
+// 0x00000045 System.Void HippoGamez.Wand_Spell_Data::.ctor()
+extern void Wand_Spell_Data__ctor_mBB42C98BE9B491753AA77305F2D6FE93AB4440AC (void);
+// 0x00000046 System.Void RotaryHeart.Lib.DataBaseExample::.ctor()
 extern void DataBaseExample__ctor_mAE8500D2F507D3B17FDC3BC266B7BEE4B49F046B (void);
-// 0x00000034 System.Void RotaryHeart.Lib.DataBaseExample/ChildTest::.ctor()
+// 0x00000047 System.Void RotaryHeart.Lib.DataBaseExample/ChildTest::.ctor()
 extern void ChildTest__ctor_mA5789191220826471A8665143BC5D479E6AAAEF6 (void);
-// 0x00000035 System.Void RotaryHeart.Lib.DataBaseExample/ClassTest::.ctor()
+// 0x00000048 System.Void RotaryHeart.Lib.DataBaseExample/ClassTest::.ctor()
 extern void ClassTest__ctor_m71E94E299C74E9D44F79D52F13BF16C5AC0C5375 (void);
-// 0x00000036 System.Void RotaryHeart.Lib.DataBaseExample/ArrayTest::.ctor()
+// 0x00000049 System.Void RotaryHeart.Lib.DataBaseExample/ArrayTest::.ctor()
 extern void ArrayTest__ctor_m9761DD4A264377A78928280E61863C06E15253A0 (void);
-// 0x00000037 System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass)
+// 0x0000004A System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass)
 extern void AdvancedGenericClass_Equals_mAA940C368AD8933F9D055D26C5D96B837F4CF59C (void);
-// 0x00000038 System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(System.Object)
+// 0x0000004B System.Boolean RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::Equals(System.Object)
 extern void AdvancedGenericClass_Equals_m58EFDCF5550E3A82947CFA4FF024121FB2680B69 (void);
-// 0x00000039 System.Int32 RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::GetHashCode()
+// 0x0000004C System.Int32 RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::GetHashCode()
 extern void AdvancedGenericClass_GetHashCode_m77CAEA1F904B62B7EB63FE51F8B9A1B04CB383D1 (void);
-// 0x0000003A System.Void RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::.ctor()
+// 0x0000004D System.Void RotaryHeart.Lib.DataBaseExample/AdvancedGenericClass::.ctor()
 extern void AdvancedGenericClass__ctor_m5D3355F876D3875AD64CC03E83989947897DB926 (void);
-// 0x0000003B System.Void RotaryHeart.Lib.DataBaseExample/Generic_String::.ctor()
+// 0x0000004E System.Void RotaryHeart.Lib.DataBaseExample/Generic_String::.ctor()
 extern void Generic_String__ctor_m0572D4249402B8FB881EE4414DC8B7AAAE5F4DCC (void);
-// 0x0000003C System.Void RotaryHeart.Lib.DataBaseExample/Generic_Generic::.ctor()
+// 0x0000004F System.Void RotaryHeart.Lib.DataBaseExample/Generic_Generic::.ctor()
 extern void Generic_Generic__ctor_m5C60DFB7E4E9447FDB1E0B8BB74CAA84138920AC (void);
-// 0x0000003D System.Void RotaryHeart.Lib.DataBaseExample/C_Int::.ctor()
+// 0x00000050 System.Void RotaryHeart.Lib.DataBaseExample/C_Int::.ctor()
 extern void C_Int__ctor_m6170840A8D5B516671955325295ABD2B151F72D1 (void);
-// 0x0000003E System.Void RotaryHeart.Lib.DataBaseExample/G_Int::.ctor()
+// 0x00000051 System.Void RotaryHeart.Lib.DataBaseExample/G_Int::.ctor()
 extern void G_Int__ctor_m8442375FBE88D32D7201F2FDC59AEDB2CF35E862 (void);
-// 0x0000003F System.Void RotaryHeart.Lib.DataBaseExample/I_GO::.ctor()
+// 0x00000052 System.Void RotaryHeart.Lib.DataBaseExample/I_GO::.ctor()
 extern void I_GO__ctor_m45E12EE36B08EB4610A4404352D1120DD1EE48D8 (void);
-// 0x00000040 System.Void RotaryHeart.Lib.DataBaseExample/GO_I::.ctor()
+// 0x00000053 System.Void RotaryHeart.Lib.DataBaseExample/GO_I::.ctor()
 extern void GO_I__ctor_mEBB8643C1DAB790741B6F971419D50015B0D81D7 (void);
-// 0x00000041 System.Void RotaryHeart.Lib.DataBaseExample/S_GO::.ctor()
+// 0x00000054 System.Void RotaryHeart.Lib.DataBaseExample/S_GO::.ctor()
 extern void S_GO__ctor_m5167AFD593273611E3AFB1A81F178AE99CC132EF (void);
-// 0x00000042 System.Void RotaryHeart.Lib.DataBaseExample/GO_S::.ctor()
+// 0x00000055 System.Void RotaryHeart.Lib.DataBaseExample/GO_S::.ctor()
 extern void GO_S__ctor_m0CE9D90CFF39489818166504867F3CC5396F7AEC (void);
-// 0x00000043 System.Void RotaryHeart.Lib.DataBaseExample/S_Mat::.ctor()
+// 0x00000056 System.Void RotaryHeart.Lib.DataBaseExample/S_Mat::.ctor()
 extern void S_Mat__ctor_mA8CC0779695BF1D6585C5B59014A1722B0376620 (void);
-// 0x00000044 System.Void RotaryHeart.Lib.DataBaseExample/Mat_S::.ctor()
+// 0x00000057 System.Void RotaryHeart.Lib.DataBaseExample/Mat_S::.ctor()
 extern void Mat_S__ctor_mD721E0462FA9F45AAAF528595937FC479F31931E (void);
-// 0x00000045 System.Void RotaryHeart.Lib.DataBaseExample/S_AC::.ctor()
+// 0x00000058 System.Void RotaryHeart.Lib.DataBaseExample/S_AC::.ctor()
 extern void S_AC__ctor_m470692949338BCF69EDCB5C400C5F2A0D7D50B52 (void);
-// 0x00000046 System.Void RotaryHeart.Lib.DataBaseExample/AC_S::.ctor()
+// 0x00000059 System.Void RotaryHeart.Lib.DataBaseExample/AC_S::.ctor()
 extern void AC_S__ctor_m9510C5470A4D267199A0D88C0DC0163DE395EA23 (void);
-// 0x00000047 System.Void RotaryHeart.Lib.DataBaseExample/S_Sprite::.ctor()
+// 0x0000005A System.Void RotaryHeart.Lib.DataBaseExample/S_Sprite::.ctor()
 extern void S_Sprite__ctor_m4702117B755C8210A04ACB6F46AC3BFC077E6291 (void);
-// 0x00000048 System.Void RotaryHeart.Lib.DataBaseExample/V3_Q::.ctor()
+// 0x0000005B System.Void RotaryHeart.Lib.DataBaseExample/V3_Q::.ctor()
 extern void V3_Q__ctor_m6C4A3DE7861026AF0F1F1C6CF9A61D1A36ADD5D6 (void);
-// 0x00000049 System.Void RotaryHeart.Lib.DataBaseExample/Q_V3::.ctor()
+// 0x0000005C System.Void RotaryHeart.Lib.DataBaseExample/Q_V3::.ctor()
 extern void Q_V3__ctor_m4F55D0A6B45C173E46261575D0FE6F9B7EC7AD42 (void);
-// 0x0000004A System.Void RotaryHeart.Lib.DataBaseExample/S_GenericDictionary::.ctor()
+// 0x0000005D System.Void RotaryHeart.Lib.DataBaseExample/S_GenericDictionary::.ctor()
 extern void S_GenericDictionary__ctor_mA7A1BEF89C13AA3CDAA8D84D6AE53B8AB4544F29 (void);
-// 0x0000004B System.Void RotaryHeart.Lib.DataBaseExample/I_GenericDictionary::.ctor()
+// 0x0000005E System.Void RotaryHeart.Lib.DataBaseExample/I_GenericDictionary::.ctor()
 extern void I_GenericDictionary__ctor_m7F20DC740BD2433DEC2685BE425E535D6B722C16 (void);
-// 0x0000004C System.Void RotaryHeart.Lib.DataBaseExample/Int_IntArray::.ctor()
+// 0x0000005F System.Void RotaryHeart.Lib.DataBaseExample/Int_IntArray::.ctor()
 extern void Int_IntArray__ctor_m569AC7EF9E30F9810FC68CFA578DC9F8D331136D (void);
-// 0x0000004D System.Void RotaryHeart.Lib.DataBaseExample/Enum_String::.ctor()
+// 0x00000060 System.Void RotaryHeart.Lib.DataBaseExample/Enum_String::.ctor()
 extern void Enum_String__ctor_m431B75035DEC2A068405E2E8359B86527DE649A7 (void);
-// 0x0000004E System.Void RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String::.ctor()
+// 0x00000061 System.Void RotaryHeart.Lib.DataBaseExample/AdvanGeneric_String::.ctor()
 extern void AdvanGeneric_String__ctor_m52447A48B56FE282E7573E132BD94856B3A73A2A (void);
-// 0x0000004F System.Void RotaryHeart.Lib.NestedDB::.ctor()
+// 0x00000062 System.Void RotaryHeart.Lib.NestedDB::.ctor()
 extern void NestedDB__ctor_mDAEAB419C3258C8D1D792CD338E5908665212DAE (void);
-// 0x00000050 System.Void RotaryHeart.Lib.Example::.ctor()
+// 0x00000063 System.Void RotaryHeart.Lib.Example::.ctor()
 extern void Example__ctor_mEBB17B53C6A8DEB84043A0A986F795B5316EC709 (void);
-// 0x00000051 System.Void RotaryHeart.Lib.NestedExample::.ctor()
+// 0x00000064 System.Void RotaryHeart.Lib.NestedExample::.ctor()
 extern void NestedExample__ctor_mF138FB3804D51E3754C86B60A066E04986CBC014 (void);
-// 0x00000052 System.Void RotaryHeart.Lib.MainDict::.ctor()
+// 0x00000065 System.Void RotaryHeart.Lib.MainDict::.ctor()
 extern void MainDict__ctor_m70EC696D0331072593C73B42095F255976D4C2D3 (void);
-// 0x00000053 System.Void RotaryHeart.Lib.NestedDict::.ctor()
+// 0x00000066 System.Void RotaryHeart.Lib.NestedDict::.ctor()
 extern void NestedDict__ctor_m8A39DEEB8D4A399A93B37484CFAD5DD0FEFAB148 (void);
-// 0x00000054 System.Void RotaryHeart.Lib.Nested2Dict::.ctor()
+// 0x00000067 System.Void RotaryHeart.Lib.Nested2Dict::.ctor()
 extern void Nested2Dict__ctor_m7E4671F946C8C9D96143B8DA1389A2A31B3C1871 (void);
-// 0x00000055 System.Void RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute::.ctor()
+// 0x00000068 System.Void RotaryHeart.Lib.SerializableDictionary.DrawKeyAsPropertyAttribute::.ctor()
 extern void DrawKeyAsPropertyAttribute__ctor_m6C0A24145A6EC7D0F69C90BA0E837830BF0760AC (void);
-// 0x00000056 System.String RotaryHeart.Lib.SerializableDictionary.IDAttribute::get_Id()
+// 0x00000069 System.String RotaryHeart.Lib.SerializableDictionary.IDAttribute::get_Id()
 extern void IDAttribute_get_Id_m8C420508ADE5DB0E3A5F7F16B2724AE4D29097F4 (void);
-// 0x00000057 System.Void RotaryHeart.Lib.SerializableDictionary.IDAttribute::.ctor(System.String)
+// 0x0000006A System.Void RotaryHeart.Lib.SerializableDictionary.IDAttribute::.ctor(System.String)
 extern void IDAttribute__ctor_mFE72E88BF60846CB4F116DC284BA6FC38BA84F7B (void);
-// 0x00000058 System.Void RotaryHeart.Lib.SerializableDictionary.RequiredReferences::.ctor()
+// 0x0000006B System.Void RotaryHeart.Lib.SerializableDictionary.RequiredReferences::.ctor()
 extern void RequiredReferences__ctor_m581E9AE121F1DCF3359E4EF1F96BBAC11745F0B0 (void);
-// 0x00000059 System.Void RotaryHeart.Lib.SerializableDictionary.ReorderableList::.ctor()
+// 0x0000006C System.Void RotaryHeart.Lib.SerializableDictionary.ReorderableList::.ctor()
 extern void ReorderableList__ctor_m480498869DED78754C4BA726A15C3706F7EFE5C4 (void);
-// 0x0000005A System.Void RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::.ctor()
+// 0x0000006D System.Void RotaryHeart.Lib.SerializableDictionary.DrawableDictionary::.ctor()
 extern void DrawableDictionary__ctor_m11B9870540D9D6CFA91FC7A0003D09034ED25055 (void);
-// 0x0000005B System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyFrom(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x0000005C System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyFrom(System.Object)
-// 0x0000005D System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyTo(System.Collections.Generic.IDictionary`2<TKey,TValue>)
-// 0x0000005E System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Clone()
-// 0x0000005F System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::ContainsValue(TValue)
-// 0x00000060 TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Item(TKey)
-// 0x00000061 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::set_Item(TKey,TValue)
-// 0x00000062 System.Collections.Generic.ICollection`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Keys()
-// 0x00000063 System.Collections.Generic.ICollection`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Values()
-// 0x00000064 System.Int32 RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Count()
-// 0x00000065 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
-// 0x00000066 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::ContainsKey(TKey)
-// 0x00000067 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Add(TKey,TValue)
-// 0x00000068 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Clear()
-// 0x00000069 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Remove(TKey)
-// 0x0000006A System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::TryGetValue(TKey,TValue&)
-// 0x0000006B System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x0000006C System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x0000006D System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-// 0x0000006E System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-// 0x0000006F System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::GetEnumerator()
-// 0x00000070 System.Collections.IEnumerator RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000071 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
-// 0x00000072 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
-// 0x00000073 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
-// 0x00000074 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::.ctor()
-// 0x00000075 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::.cctor()
-static Il2CppMethodPointer s_methodPointers[117] = 
+// 0x0000006E System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyFrom(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x0000006F System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyFrom(System.Object)
+// 0x00000070 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::CopyTo(System.Collections.Generic.IDictionary`2<TKey,TValue>)
+// 0x00000071 System.Collections.Generic.Dictionary`2<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Clone()
+// 0x00000072 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::ContainsValue(TValue)
+// 0x00000073 TValue RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Item(TKey)
+// 0x00000074 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::set_Item(TKey,TValue)
+// 0x00000075 System.Collections.Generic.ICollection`1<TKey> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Keys()
+// 0x00000076 System.Collections.Generic.ICollection`1<TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Values()
+// 0x00000077 System.Int32 RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::get_Count()
+// 0x00000078 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
+// 0x00000079 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::ContainsKey(TKey)
+// 0x0000007A System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Add(TKey,TValue)
+// 0x0000007B System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Clear()
+// 0x0000007C System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::Remove(TKey)
+// 0x0000007D System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::TryGetValue(TKey,TValue&)
+// 0x0000007E System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x0000007F System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000080 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
+// 0x00000081 System.Boolean RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
+// 0x00000082 System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::GetEnumerator()
+// 0x00000083 System.Collections.IEnumerator RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000084 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
+// 0x00000085 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize()
+// 0x00000086 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize()
+// 0x00000087 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::.ctor()
+// 0x00000088 System.Void RotaryHeart.Lib.SerializableDictionary.SerializableDictionaryBase`2::.cctor()
+static Il2CppMethodPointer s_methodPointers[136] = 
 {
+	Avatar_IK_Update_m11F77EB9F53B039806D2F9ECE0C5BFC4642CC413,
+	Avatar_IK_OnAnimatorIK_mAAE86F323254B3E19820DED76D787567455942C6,
+	Avatar_IK_IKFollow_m24E77705A34497260EAF79298FF6EE6C5A0D54FE,
+	Avatar_IK__ctor_mA6CE1556D10B64D9A99E948593285A499F285C8E,
 	PressedDictionary__ctor_mE3A44A2BD3E078FC3AA36E7B24DB79269696D912,
 	TouchedDictionary__ctor_m6DF1DC3CDFDFCD136886BB2BE8FEF676E1EC3183,
 	AxisDictionary__ctor_m2D66A53196C1EEB1426E2CD0532ADEA2C9B79C2D,
-	LineComparer_CompareLines_m8C326F7F49512A3205EF9A890CADA1928BA3F1F3,
-	LineComparer_DifferenceBetweenLines_mE374A06A9F29699E4AABDE584BBAC0CA25E71571,
-	LineComparer_WalkAlongLine_mF2708523134EC05850F24469176927AACBC51FE0,
-	LineComparer_SqrDistanceToLine_m066CB4C679A278A27A68085C30795762B06D7C5A,
-	LineComparer_SqrDistanceToSegment_mE48482CC0441377C31252B4E11EA8CA490DD779B,
-	LineComparer_ListSegments_mF4BEB47FA180CAA89EF7B4525C3DE625413EA6D0,
-	LineComparer_PointOnWhichSideOfLineSegment_mEFA4FE7A0500BED2D625F456D9BB47C49259DDFB,
-	LineComparer_ProjectPointOnLine_mF40E58EC32E9AD851334DA8131A2BF0C5E50E579,
-	LineComparer_ProjectPointOnLineSegment_mD347213313FB440B06482A58F461A3D4F6F7654E,
-	LineComparer__ctor_mEE8C006C8F0972F33AABE339785B34FCD491A98B,
-	U3CWalkAlongLineU3Ed__2__ctor_mBEE21C76F1DE15C985BE71E4DB305EB0B39CDB14,
-	U3CWalkAlongLineU3Ed__2_System_IDisposable_Dispose_m4A498187244F7A1B572257045DA7B54D3F142EBE,
-	U3CWalkAlongLineU3Ed__2_MoveNext_m6403D26FFA094ABD362594D77A937345700A2F7D,
-	U3CWalkAlongLineU3Ed__2_U3CU3Em__Finally1_m4A77B958D09C86A44F1BBB5B3DECD6ECC495DC80,
-	U3CWalkAlongLineU3Ed__2_System_Collections_Generic_IEnumeratorU3CUnityEngine_Vector3U3E_get_Current_mB17E9893E76E1772AF782EA04A50094C14CB25E6,
-	U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerator_Reset_m8AA100A499805BECC34842E7C2BCC692260242E2,
-	U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerator_get_Current_m19D0E905C005D22C86DC76C7F2A2CBCF1BEA973E,
-	U3CWalkAlongLineU3Ed__2_System_Collections_Generic_IEnumerableU3CUnityEngine_Vector3U3E_GetEnumerator_m92686CEE2B4534C1A054C3C40BD0AF3C0A1E83B0,
-	U3CWalkAlongLineU3Ed__2_System_Collections_IEnumerable_GetEnumerator_mB674B1C312A0FF0CF0D9F87AE68CB6DBF5895CC6,
-	U3CU3Ec__DisplayClass3_0__ctor_m294DD15F7AA6E4B1EAA996F315678A62AC05DF0C,
-	U3CU3Ec__DisplayClass3_0_U3CSqrDistanceToLineU3Eb__0_m752D52DAB78D7F261968970A99921A2D10290F76,
-	U3CListSegmentsU3Ed__5__ctor_mDA17E6813560B95ED564E86E4A15AAE5F5FA1DEE,
-	U3CListSegmentsU3Ed__5_System_IDisposable_Dispose_m0A49B2D2BB182078AE685945011AE2CD486685DC,
-	U3CListSegmentsU3Ed__5_MoveNext_m4097F18573B91A58C990DD0796943561A33E3815,
-	U3CListSegmentsU3Ed__5_U3CU3Em__Finally1_m6820B388D5ADFB9FD8077A2EC93B249CB7357B5E,
-	U3CListSegmentsU3Ed__5_U3CU3Em__Finally2_mA22066A1C1AD5D513E9D8E58CC72DA9B86443185,
-	U3CListSegmentsU3Ed__5_System_Collections_Generic_IEnumeratorU3CLineComparer_SegmentU3E_get_Current_m8736EC30427559B84B4AF8C0DA83EEF5EB366829,
-	U3CListSegmentsU3Ed__5_System_Collections_IEnumerator_Reset_m0EF56DD81C05170C510C3D0F409EFC8370D34682,
-	U3CListSegmentsU3Ed__5_System_Collections_IEnumerator_get_Current_mA5180A92E8F86B70EB9BA29ED8B6CC4AEDE43058,
-	U3CListSegmentsU3Ed__5_System_Collections_Generic_IEnumerableU3CLineComparer_SegmentU3E_GetEnumerator_m85EEDA04930BC863049CAE6764AC9DFF76BE975A,
-	U3CListSegmentsU3Ed__5_System_Collections_IEnumerable_GetEnumerator_m6524FDEC1C2495D14D651594578B37E6789A1A56,
+	Wand_LineComparer_CompareLines_m12A7FD7595CFAFDB4E4C550331E9802BFFB90D4A,
+	Wand_LineComparer_Normalize_m78C87944D53F96B4A6082ACC5001AA9BCE1FB8F4,
+	Wand_LineComparer_DifferenceBetweenLines_mC4CF62B624345155514FBA3EF6FB1FC6AFC8AEA8,
+	Wand_LineComparer_WalkAlongLine_m8E270129A57C25870FBB9DF6B44729B241946C9D,
+	Wand_LineComparer_SqrDistanceToLine_mA9CB73F21F4BFFD60E1F9F432EB6D44A7A9B76CA,
+	Wand_LineComparer_SqrDistanceToSegment_mE148C188CE8BF07520A76F05CE865FDF8C826DFF,
+	Wand_LineComparer_ListSegments_mE4FC239385F0A2C8C66C49B071258B1712288F22,
+	Wand_LineComparer_PointOnWhichSideOfLineSegment_m39B9421E10D1F608ABFC2F013A53FFBC52E72913,
+	Wand_LineComparer_ProjectPointOnLine_m9B31F1CD3226380876EE7A3F52C700B209039BBB,
+	Wand_LineComparer_ProjectPointOnLineSegment_m97F94388C51ECE811495B4D07D5926EE027BD26A,
+	Wand_LineComparer__ctor_m093A787F6EE0515F7FA717D78EC3B0667150961E,
+	U3CWalkAlongLineU3Ed__3__ctor_m0EA7E102545766B76C1CF396F5C6F7B36A9346AD,
+	U3CWalkAlongLineU3Ed__3_System_IDisposable_Dispose_m1F53F7FCEEB7857CA6C60705663A148CF6937133,
+	U3CWalkAlongLineU3Ed__3_MoveNext_mF1FBA353C93354014485DAD1543E614411167851,
+	U3CWalkAlongLineU3Ed__3_U3CU3Em__Finally1_m3D80A25F419AC14EA7EA85F59EEFA5E90CCD1371,
+	U3CWalkAlongLineU3Ed__3_System_Collections_Generic_IEnumeratorU3CUnityEngine_Vector3U3E_get_Current_m3CFB3F1EF5A37A15D50856E8A399F19D754FD46F,
+	U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerator_Reset_m4F6294D555B37E2BED80A2DAD438A9CC6E58B2A7,
+	U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerator_get_Current_m1598F197E3F555FEB012724A08DEEAF52792CF85,
+	U3CWalkAlongLineU3Ed__3_System_Collections_Generic_IEnumerableU3CUnityEngine_Vector3U3E_GetEnumerator_m015B773DF6D49DC9B4E0DCCA138C16BE2365C7B9,
+	U3CWalkAlongLineU3Ed__3_System_Collections_IEnumerable_GetEnumerator_m9B21C1D53028993A4CB0BCAF6C1E45BD2F18716F,
+	U3CU3Ec__DisplayClass4_0__ctor_m18AC08FFC7188E4E055771BAFE904EBE97B1BF1A,
+	U3CU3Ec__DisplayClass4_0_U3CSqrDistanceToLineU3Eb__0_m63BD9AA62E8FFB02160B79A8AE1A21B330465889,
+	U3CListSegmentsU3Ed__6__ctor_m850AF6A787BAB9BA31A3CBA48F03088563116306,
+	U3CListSegmentsU3Ed__6_System_IDisposable_Dispose_m58D87E09D5CA0735C955591274A6F68983960045,
+	U3CListSegmentsU3Ed__6_MoveNext_mEDF10CD1AF252E9AF99E20206FB024D2313EBFC6,
+	U3CListSegmentsU3Ed__6_U3CU3Em__Finally1_mCE93ADA25E90395C53449D4C00E2AE163EAFFD88,
+	U3CListSegmentsU3Ed__6_U3CU3Em__Finally2_m2ACE7AD6698294B13D849DCE776DE2E0382976FC,
+	U3CListSegmentsU3Ed__6_System_Collections_Generic_IEnumeratorU3CWand_LineComparer_SegmentU3E_get_Current_m79236A0B853B307D5313E9019D33536A58F65B16,
+	U3CListSegmentsU3Ed__6_System_Collections_IEnumerator_Reset_m5EDC9C4A13FCDD4567E2A646385A7B8A67E5650F,
+	U3CListSegmentsU3Ed__6_System_Collections_IEnumerator_get_Current_m5CCFD3339E37EB1EE6A85BA450098C7BE8BCE4B7,
+	U3CListSegmentsU3Ed__6_System_Collections_Generic_IEnumerableU3CWand_LineComparer_SegmentU3E_GetEnumerator_mF12D9FCEDC1818E77427952C8ABDD2043608DC2C,
+	U3CListSegmentsU3Ed__6_System_Collections_IEnumerable_GetEnumerator_mD085FC9C5C36B0471FE0616E6F1C186F87B97422,
+	Iphone_Cameras_SwichCamera_m8C04631FB4204D92CBFB870FF7A3EEE40759C183,
+	Iphone_Cameras__ctor_mA76E8736F4F27E1AA52522E7FD75940FE25FA673,
+	Iphone_Main__ctor_mADD1BFBD743A926B14591EA95AAF6F1201B9707A,
 	Testing_Controls_Awake_mBA95A7862A897CE7DAD3EC68ACD3F62E0E1DCB62,
 	Testing_Controls_Update_m643A989F53536C447D276401D55835CF7C10F262,
 	Testing_Controls__ctor_mF1C9C74C1DDB7EDD66C200AA40CEA58C63431810,
@@ -266,11 +312,22 @@ static Il2CppMethodPointer s_methodPointers[117] =
 	Controller_Manager_get_Right_mF3FB5D6E65BE4060AF6E3433678BD907FDE0A2E4,
 	Controller_Manager_get_Left_m4EBF71CC9422FBFBBE068EADAA5C3E4A81136D0D,
 	Controller_Manager__ctor_mE0E5764220277331D031E3BBA34F6B62E0B2AC0D,
-	LineDrawer_Start_m0BAE89EB2DDBC4AEE0BDFBF45AB58000B346949A,
-	LineDrawer_Update_m65FD84FE8416F5B18E129864622D8E55D9A9AD91,
-	LineDrawer_CreateLine_m2225F9F77D2922A204A22ACA16C71840DE2B8637,
-	LineDrawer_UpdateLine_mC83A53ECA15940E4DC6FB0848B8FFCB17145E372,
-	LineDrawer__ctor_mCA1EBCAD9F7D8ECF7E6D9219592984952AF3905B,
+	Wand_LineDrawer_Start_m23930F67630B4FD9F6B585965D3DCF32BF290FE6,
+	Wand_LineDrawer_Update_mFED8AA11127E40B222E68194039E2B14437DF42E,
+	Wand_LineDrawer_Record_m7C12A42C941235543BFB46245A29D949E367B41E,
+	Wand_LineDrawer_CheckRecordingPoints_m21B09CCC30F9A1782862DDBA9EC059EE94D8B9C4,
+	Wand_LineDrawer_CreateLine_m29F972C0AA57F719D5097DAC8DD8D3FC4F81ED15,
+	Wand_LineDrawer_UpdateLine_m7D3A5A7A56B36E855CE82C1116D96EF6DA8531B3,
+	Wand_LineDrawer_ActivateSpell_m3099D91FF5994F4C5DE877114165C10D82708A4D,
+	Wand_LineDrawer__ctor_mF695310938ED6C363C8159F6450F98995F9EB091,
+	Wand_LineSaver_Start_m3CFDB596859C953C5D6C663E109B0D532C99EDE9,
+	Wand_LineSaver_Update_m81267D7CEDE4A8CE27E1A9E36E60E13CD58A8ED5,
+	Wand_LineSaver_Save_mD1783130AEB9795FCD433D43413BE6A838E3F4EC,
+	Wand_LineSaver_SerializeVector3Array_m15A891C4AB29BAF49B6B1CC2E091809A0B0C4765,
+	Wand_LineSaver_DeserializeVector3Array_mB69336ED8B5CFAD2C0944B8BA9826A84AD53F458,
+	Wand_LineSaver__ctor_m7D7D19A8947C1C42EC6DFA43B3C87D08EEC86689,
+	Wand_Spell_Data_GetRecordedPoints_m293B02EAF408DBF927B3D4F2642FD8752BDBAACF,
+	Wand_Spell_Data__ctor_mBB42C98BE9B491753AA77305F2D6FE93AB4440AC,
 	DataBaseExample__ctor_mAE8500D2F507D3B17FDC3BC266B7BEE4B49F046B,
 	ChildTest__ctor_mA5789191220826471A8665143BC5D479E6AAAEF6,
 	ClassTest__ctor_m71E94E299C74E9D44F79D52F13BF16C5AC0C5375,
@@ -339,98 +396,117 @@ static Il2CppMethodPointer s_methodPointers[117] =
 	NULL,
 	NULL,
 };
-static const int32_t s_InvokerIndices[117] = 
+static const int32_t s_InvokerIndices[136] = 
 {
-	4665,
-	4665,
-	4665,
-	5634,
-	6333,
-	6281,
-	6335,
-	5826,
-	6801,
-	5728,
-	5856,
-	5856,
-	4665,
-	3691,
-	4665,
-	4491,
-	4665,
-	4657,
-	4665,
-	4572,
-	4572,
-	4572,
-	4665,
-	3349,
-	3691,
-	4665,
-	4491,
-	4665,
-	4665,
-	4726,
-	4665,
-	4572,
-	4572,
-	4572,
-	4665,
-	4665,
-	4665,
-	2603,
-	2603,
-	3335,
-	4665,
-	4665,
-	7098,
-	7098,
-	4665,
-	4665,
-	4665,
-	4665,
-	3784,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	2627,
-	2627,
-	4548,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4665,
-	4572,
-	3713,
-	4665,
-	4665,
-	4665,
+	4908,
+	3876,
+	1117,
+	4908,
+	4908,
+	4908,
+	4908,
+	5888,
+	7240,
+	6603,
+	6550,
+	6605,
+	6088,
+	7078,
+	5987,
+	6118,
+	6118,
+	4908,
+	3876,
+	4908,
+	4719,
+	4908,
+	4899,
+	4908,
+	4804,
+	4804,
+	4804,
+	4908,
+	3504,
+	3876,
+	4908,
+	4719,
+	4908,
+	4908,
+	5015,
+	4908,
+	4804,
+	4804,
+	4804,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	2715,
+	2715,
+	3490,
+	4908,
+	4908,
+	7377,
+	7377,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	3980,
+	3899,
+	4908,
+	4908,
+	4908,
+	3899,
+	7078,
+	7078,
+	4908,
+	4804,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	2740,
+	2740,
+	4779,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4908,
+	4804,
+	3899,
+	4908,
+	4908,
+	4908,
 	0,
 	0,
 	0,
@@ -461,7 +537,7 @@ static const int32_t s_InvokerIndices[117] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
-	{ 0x02000036, { 0, 55 } },
+	{ 0x0200003B, { 0, 55 } },
 };
 extern const uint32_t g_rgctx_IEnumerable_1_tC4DF51ED43F6FF2E9262D23E55967B8067F8B486;
 extern const uint32_t g_rgctx_IEnumerable_1_GetEnumerator_m6AEEBF1BD226E82DB743BAF3340A443FB0CDD65D;
@@ -580,7 +656,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	117,
+	136,
 	s_methodPointers,
 	0,
 	NULL,

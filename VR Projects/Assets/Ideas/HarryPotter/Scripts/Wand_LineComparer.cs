@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using HippoGamez;
 
 public class Wand_LineComparer
 {
     static public bool CompareLines(Vector3[] drawn, Vector3[] toMatch, float threshold)
     {
-        Normalize(ref drawn);
-        Normalize(ref toMatch);
+        // Normalize(ref drawn);
+        // Normalize(ref toMatch);
+        Debug.Log(Wand_LineSaver.SerializeVector3Array(drawn) + " \n" + Wand_LineSaver.SerializeVector3Array(toMatch));
         float diff = DifferenceBetweenLines(drawn, toMatch);
         Debug.Log(diff);
         return diff < threshold;

@@ -5,7 +5,7 @@ namespace HippoGamez
 {
     public class Wand_LineDrawer : MonoBehaviour
     {
-        private const float Threshold = 2f;
+        private const float Threshold = 5f;
         public Transform FollowObject;
         public List<Wand_Spell_Data> SpellList;
         private bool isRecording;
@@ -53,8 +53,11 @@ namespace HippoGamez
                 Vector3[] lineBuffer = new Vector3[] { };
                 Array.Resize(ref lineBuffer, lineRenderer.positionCount);
                 lineRenderer.GetPositions(lineBuffer);
-                Matrix4x4 martix = lineRenderer.worldToLocalMatrix;
-                print(martix);
+
+                for (int i = 0; i < lineBuffer.Length; i++)
+                {
+                    lineBuffer[i] = FollowObject.InverseTransformPoint(lineBuffer[i]);
+                }
 
                 foreach (var spell in SpellList)
                 {

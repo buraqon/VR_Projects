@@ -32,7 +32,11 @@ namespace HippoGamez
             var movement = new Vector3[] { };
             Array.Resize(ref savedPoints, lineRenderer.positionCount);
             lineRenderer.GetPositions(savedPoints);
-            
+
+            for (int i = 0; i < savedPoints.Length; i++)
+            {
+                savedPoints[i] = LineDrawer.FollowObject.InverseTransformPoint(savedPoints[i]);
+            }
 
             var path = Application.dataPath + "/" + SavePath + "/Saves/Text/" + SaveName.text + ".txt";
             File.WriteAllText(path, SerializeVector3Array(savedPoints));
