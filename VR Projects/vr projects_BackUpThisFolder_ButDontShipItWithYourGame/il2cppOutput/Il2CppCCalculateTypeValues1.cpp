@@ -870,6 +870,8 @@ struct TextColorGradient_t22D94E441E8E8CD772B966C167E5C0AEB0919D70;
 struct TextElement_tCEF567A8810788262275B39DC39CBA6EBE7472DA;
 // UnityEngine.TextCore.Text.TextInfo
 struct TextInfo_t27E58E62A7552C66D38C175AF9D22622365F5D09;
+// TMPro.TextMeshProUGUI
+struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 // UnityEngine.TextCore.Text.TextSettings
 struct TextSettings_tB7F55685AFFD4A96F714427BCACFD6958E357D64;
 // UnityEngine.TextCore.Text.TextStyleSheet
@@ -10864,35 +10866,35 @@ struct LinkedAliasAssociationCollectionUnityEvent_t2DE6D8E713516DCFD40DF7F092837
 {
 };
 
-// Wand_LineComparer/<>c__DisplayClass4_0
-struct U3CU3Ec__DisplayClass4_0_tA78761DEC37445BEC6B082EA7959A3BF3B777D87  : public RuntimeObject
+// Wand_LineComparer/<>c__DisplayClass5_0
+struct U3CU3Ec__DisplayClass5_0_t6C883ECE0AAF5ABDE51309CB2AD23A94C0F755DB  : public RuntimeObject
 {
-	// UnityEngine.Vector3 Wand_LineComparer/<>c__DisplayClass4_0::point
+	// UnityEngine.Vector3 Wand_LineComparer/<>c__DisplayClass5_0::point
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___point_0;
 };
 
-// Wand_LineComparer/<WalkAlongLine>d__3
-struct U3CWalkAlongLineU3Ed__3_t0D18F3AF2B01B8BD6445CC1CC8BA9EC42BE6CE68  : public RuntimeObject
+// Wand_LineComparer/<WalkAlongLine>d__4
+struct U3CWalkAlongLineU3Ed__4_tA3948D9549DA925CE86D2BCE783E983BE557006C  : public RuntimeObject
 {
-	// System.Int32 Wand_LineComparer/<WalkAlongLine>d__3::<>1__state
+	// System.Int32 Wand_LineComparer/<WalkAlongLine>d__4::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__3::<>2__current
+	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__4::<>2__current
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CU3E2__current_1;
-	// System.Int32 Wand_LineComparer/<WalkAlongLine>d__3::<>l__initialThreadId
+	// System.Int32 Wand_LineComparer/<WalkAlongLine>d__4::<>l__initialThreadId
 	int32_t ___U3CU3El__initialThreadId_2;
-	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__3::line
+	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__4::line
 	RuntimeObject* ___line_3;
-	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__3::<>3__line
+	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__4::<>3__line
 	RuntimeObject* ___U3CU3E3__line_4;
-	// System.Single Wand_LineComparer/<WalkAlongLine>d__3::maxStep
+	// System.Single Wand_LineComparer/<WalkAlongLine>d__4::maxStep
 	float ___maxStep_5;
-	// System.Single Wand_LineComparer/<WalkAlongLine>d__3::<>3__maxStep
+	// System.Single Wand_LineComparer/<WalkAlongLine>d__4::<>3__maxStep
 	float ___U3CU3E3__maxStep_6;
-	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__3::<lineEnum>5__2
+	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<WalkAlongLine>d__4::<lineEnum>5__2
 	RuntimeObject* ___U3ClineEnumU3E5__2_7;
-	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__3::<pos>5__3
+	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__4::<pos>5__3
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CposU3E5__3_8;
-	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__3::<target>5__4
+	// UnityEngine.Vector3 Wand_LineComparer/<WalkAlongLine>d__4::<target>5__4
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CtargetU3E5__4_9;
 };
 
@@ -12072,22 +12074,22 @@ struct EmitParams_tE76279CE754C7B0A4ECDA7E294587AACB039FBA0_marshaled_com
 	int32_t ___m_ApplyShapeToPosition_11;
 };
 
-// Wand_LineComparer/<ListSegments>d__6
-struct U3CListSegmentsU3Ed__6_t10CED50CCA87A3FBF28EAA1A58D83FF3861A7021  : public RuntimeObject
+// Wand_LineComparer/<ListSegments>d__7
+struct U3CListSegmentsU3Ed__7_t5DA33834FB0541830354E92CA0DBD049131F2B0E  : public RuntimeObject
 {
-	// System.Int32 Wand_LineComparer/<ListSegments>d__6::<>1__state
+	// System.Int32 Wand_LineComparer/<ListSegments>d__7::<>1__state
 	int32_t ___U3CU3E1__state_0;
-	// Wand_LineComparer/Segment Wand_LineComparer/<ListSegments>d__6::<>2__current
+	// Wand_LineComparer/Segment Wand_LineComparer/<ListSegments>d__7::<>2__current
 	Segment_t30C255AB1E91D8DF5298031FDDD8EA07595594F4 ___U3CU3E2__current_1;
-	// System.Int32 Wand_LineComparer/<ListSegments>d__6::<>l__initialThreadId
+	// System.Int32 Wand_LineComparer/<ListSegments>d__7::<>l__initialThreadId
 	int32_t ___U3CU3El__initialThreadId_2;
-	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__6::line
+	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__7::line
 	RuntimeObject* ___line_3;
-	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__6::<>3__line
+	// System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__7::<>3__line
 	RuntimeObject* ___U3CU3E3__line_4;
-	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__6::<pt1>5__2
+	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__7::<pt1>5__2
 	RuntimeObject* ___U3Cpt1U3E5__2_5;
-	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__6::<pt2>5__3
+	// System.Collections.Generic.IEnumerator`1<UnityEngine.Vector3> Wand_LineComparer/<ListSegments>d__7::<pt2>5__3
 	RuntimeObject* ___U3Cpt2U3E5__3_6;
 };
 
@@ -15256,18 +15258,20 @@ struct ValveIndexControllerProfile_tB00771C9F4DA589B16B2D9C8488CDBFF1ACB169B  : 
 // HippoGamez.Wand_LineDrawer
 struct Wand_LineDrawer_t48007C7F7E534DC154B766ED5B3D561CCD31FB08  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
+	// TMPro.TextMeshProUGUI HippoGamez.Wand_LineDrawer::text
+	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___text_5;
 	// UnityEngine.Transform HippoGamez.Wand_LineDrawer::FollowObject
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___FollowObject_5;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___FollowObject_6;
 	// System.Collections.Generic.List`1<HippoGamez.Wand_Spell_Data> HippoGamez.Wand_LineDrawer::SpellList
-	List_1_tAB303B47BE7C059E9B40A5E7BED2F174031D7B9C* ___SpellList_6;
+	List_1_tAB303B47BE7C059E9B40A5E7BED2F174031D7B9C* ___SpellList_7;
 	// System.Boolean HippoGamez.Wand_LineDrawer::isRecording
-	bool ___isRecording_7;
+	bool ___isRecording_8;
 	// UnityEngine.Vector3 HippoGamez.Wand_LineDrawer::oldPosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oldPosition_8;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oldPosition_9;
 	// UnityEngine.LineRenderer HippoGamez.Wand_LineDrawer::lineRenderer
-	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___lineRenderer_9;
+	LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___lineRenderer_10;
 	// UnityEngine.Vector3 HippoGamez.Wand_LineDrawer::direction
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___direction_10;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___direction_11;
 };
 
 // HippoGamez.Wand_LineSaver
@@ -17400,11 +17404,11 @@ const Il2CppTypeDefinitionSizes g_typeDefinitionSize5884 = { sizeof(AxisDictiona
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5885;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5885 = { sizeof(Segment_t30C255AB1E91D8DF5298031FDDD8EA07595594F4)+ sizeof(RuntimeObject), sizeof(Segment_t30C255AB1E91D8DF5298031FDDD8EA07595594F4), 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5886;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5886 = { sizeof(U3CWalkAlongLineU3Ed__3_t0D18F3AF2B01B8BD6445CC1CC8BA9EC42BE6CE68), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5886 = { sizeof(U3CWalkAlongLineU3Ed__4_tA3948D9549DA925CE86D2BCE783E983BE557006C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5887;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5887 = { sizeof(U3CU3Ec__DisplayClass4_0_tA78761DEC37445BEC6B082EA7959A3BF3B777D87), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5887 = { sizeof(U3CU3Ec__DisplayClass5_0_t6C883ECE0AAF5ABDE51309CB2AD23A94C0F755DB), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5888;
-const Il2CppTypeDefinitionSizes g_typeDefinitionSize5888 = { sizeof(U3CListSegmentsU3Ed__6_t10CED50CCA87A3FBF28EAA1A58D83FF3861A7021), -1, 0, 0 };
+const Il2CppTypeDefinitionSizes g_typeDefinitionSize5888 = { sizeof(U3CListSegmentsU3Ed__7_t5DA33834FB0541830354E92CA0DBD049131F2B0E), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5889;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize5889 = { sizeof(Wand_LineComparer_t2A2A8708FFD30FF805DA0750BA37C19427C0F86C), -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize5890;

@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -15,6 +13,16 @@ public class Wand_LineComparer
         float diff = DifferenceBetweenLines(drawn, toMatch);
         Debug.Log(diff);
         return diff < threshold;
+    }
+
+    static public float CompareLines(Vector3[] drawn, Vector3[] toMatch)
+    {
+        // Normalize(ref drawn);
+        // Normalize(ref toMatch);
+        Debug.Log(Wand_LineSaver.SerializeVector3Array(drawn) + " \n" + Wand_LineSaver.SerializeVector3Array(toMatch));
+        float diff = DifferenceBetweenLines(drawn, toMatch);
+        Debug.Log(diff);
+        return diff;
     }
 
     private static void Normalize(ref Vector3[] points)

@@ -1,11 +1,14 @@
 using System;
 using UnityEngine;
 using System.Collections.Generic;
+using TMPro;
+
 namespace HippoGamez
 {
     public class Wand_LineDrawer : MonoBehaviour
     {
-        private const float Threshold = 5f;
+        private const float Threshold = 10f;
+        public TextMeshProUGUI text;
         public Transform FollowObject;
         public List<Wand_Spell_Data> SpellList;
         private bool isRecording;
@@ -28,6 +31,10 @@ namespace HippoGamez
                 Record();
             else
                 CheckRecordingPoints();
+
+            Vector3 temp = transform.rotation.eulerAngles;
+            temp.x = 0;
+            transform.rotation = Quaternion.Euler(temp);
         }
 
         private void Record()
@@ -62,10 +69,12 @@ namespace HippoGamez
                 foreach (var spell in SpellList)
                 {
                     var isSame = Wand_LineComparer.CompareLines(lineBuffer, spell.GetRecordedPoints(), Threshold);
+                    text.text = Wand_LineComparer.CompareLines(lineBuffer, spell.GetRecordedPoints()).ToString();
 
                     if (isSame)
                     {
                         ActivateSpell(spell.Prefab);
+                        text.text = "kaboom";
                         break;
                     }
                 }
