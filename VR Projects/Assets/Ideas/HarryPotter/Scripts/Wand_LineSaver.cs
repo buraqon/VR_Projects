@@ -8,7 +8,6 @@ namespace HippoGamez
 {
     public class Wand_LineSaver : MonoBehaviour
     {
-        public Wand_LineDrawer LineDrawer;
         public TMP_InputField SaveName;
 
         private Vector3[] savedPoints;
@@ -19,23 +18,15 @@ namespace HippoGamez
             SaveName.gameObject.SetActive(true);
         }
 
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.G))
-            {
-                Save(LineDrawer.FollowObject.GetComponent<LineRenderer>());
-            }
-        }
-
-        void Save(LineRenderer lineRenderer)
+        public void Save(Wand_LineRenderer renderer)
         {
             var movement = new Vector3[] { };
-            Array.Resize(ref savedPoints, lineRenderer.positionCount);
-            lineRenderer.GetPositions(savedPoints);
+            Array.Resize(ref savedPoints, renderer.Line.positionCount);
+            renderer.Line.GetPositions(savedPoints);
 
             for (int i = 0; i < savedPoints.Length; i++)
             {
-                savedPoints[i] = LineDrawer.FollowObject.InverseTransformPoint(savedPoints[i]);
+                savedPoints[i] = renderer.transform.InverseTransformPoint(savedPoints[i]);
             }
 
             var path = Application.dataPath + "/" + SavePath + "/Saves/Text/" + SaveName.text + ".txt";

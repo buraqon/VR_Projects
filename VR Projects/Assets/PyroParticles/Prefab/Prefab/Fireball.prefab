@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8228610}
   - component: {fileID: 11462752}
   - component: {fileID: 11450262}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Fireball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 245887334a601354cb1853676e37a7e6, type: 3}
   m_Name: 
@@ -332,7 +332,7 @@ MonoBehaviour:
   ProjectileDirection: {x: 0, y: 0, z: 1}
   ProjectileCollisionLayers:
     serializedVersion: 2
-    m_Bits: 4294967039
+    m_Bits: 128
   ProjectileDestroyParticleSystemsOnCollision:
   - {fileID: 19810394}
   - {fileID: 19886674}
@@ -349,7 +349,7 @@ GameObject:
   - component: {fileID: 5453920}
   - component: {fileID: 10860366}
   - component: {fileID: 11437010}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: FireballCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 419864}
   - component: {fileID: 19886674}
   - component: {fileID: 19993248}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: FireballProjectiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5271,7 +5271,7 @@ GameObject:
   - component: {fileID: 492682}
   - component: {fileID: 19810394}
   - component: {fileID: 19908910}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: FireballTail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
