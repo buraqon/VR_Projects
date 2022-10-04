@@ -5,6 +5,7 @@ namespace HippoGamez
     [CreateAssetMenu(menuName = "Spell")]
     public class Wand_Spell_Data : ScriptableObject
     {
+        public bool IsChild = false;
         public GameObject Prefab;
         [SerializeField] private TextAsset recordedPoints;
 

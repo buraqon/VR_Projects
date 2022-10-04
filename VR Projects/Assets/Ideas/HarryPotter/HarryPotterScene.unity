@@ -1038,7 +1038,7 @@ PrefabInstance:
     - target: {fileID: 1179871894200429043, guid: ff077f1c35499ff46b4383b3711737da,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1179871894200429044, guid: ff077f1c35499ff46b4383b3711737da,
         type: 3}
@@ -1167,20 +1167,6 @@ PrefabInstance:
       propertyPath: NotificationText
       value: 
       objectReference: {fileID: 910029745}
-    - target: {fileID: 967692683, guid: 6bfc5f80cfac6184ba5a766844c2e679, type: 3}
-      propertyPath: SpellList.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 967692683, guid: 6bfc5f80cfac6184ba5a766844c2e679, type: 3}
-      propertyPath: SpellList.Array.data[1]
-      value: 
-      objectReference: {fileID: 11400000, guid: 3e7cb69613d49964cb1a41cb145b1624,
-        type: 2}
-    - target: {fileID: 967692683, guid: 6bfc5f80cfac6184ba5a766844c2e679, type: 3}
-      propertyPath: SpellList.Array.data[2]
-      value: 
-      objectReference: {fileID: 11400000, guid: cda02add178970b4886152778a8589ca,
-        type: 2}
     - target: {fileID: 5240252855876252009, guid: 6bfc5f80cfac6184ba5a766844c2e679,
         type: 3}
       propertyPath: m_Name

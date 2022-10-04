@@ -48,6 +48,8 @@ MonoBehaviour:
   NotificationText: {fileID: 0}
   SpellList:
   - {fileID: 11400000, guid: 06903b7f3ec49204e898090d48a6161a, type: 2}
+  - {fileID: 11400000, guid: 3e7cb69613d49964cb1a41cb145b1624, type: 2}
+  - {fileID: 11400000, guid: cda02add178970b4886152778a8589ca, type: 2}
   LineRenderer: {fileID: 2548222573615159380}
   LineSaver: {fileID: 967692682}
   Wand: {fileID: 2548222572636020856}
@@ -7899,20 +7901,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 6915805511099623193}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2548222573615159380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2548222572636020855}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33471538a85b3114b9501025456e4da3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Line: {fileID: 2548222572636020857}
-  Trail: {fileID: 2548222573615159387}
 --- !u!96 &2548222573615159387
 TrailRenderer:
   serializedVersion: 2
@@ -8021,6 +8009,20 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &2548222573615159380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2548222572636020855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33471538a85b3114b9501025456e4da3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Line: {fileID: 2548222572636020857}
+  Trail: {fileID: 2548222573615159387}
 --- !u!4 &2548222572636020856 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8981579075987572577, guid: 94ee43dbda6df17439fc04aab2ce2ea3,

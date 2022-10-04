@@ -9,6 +9,7 @@ namespace HippoGamez
     public class Wand_Main : MonoBehaviour
     {
         private const float Threshold = 10f;
+        private Vector3 TipPosition = new Vector3(0, 1, 0);
         public TextMeshProUGUI NotificationText;
         public List<Wand_Spell_Data> SpellList;
         private bool isRecording;
@@ -20,6 +21,11 @@ namespace HippoGamez
         private void Start()
         {
             LineRenderer.Initialize();
+            Controller_Manager.Right.PressedDict[Pressed.Primary].ActivationStateChanged.AddListener((bool b) =>
+            {
+                if (b == false) return;
+                isRecording = !isRecording;
+            });
         }
 
 
@@ -30,7 +36,7 @@ namespace HippoGamez
                 LineSaver.Save(LineRenderer);
             }
 
-            if (Controller_Manager.Right.PressedDict[Pressed.Primary].IsActivated || Input.GetKeyDown(KeyCode.A))
+            if (Input.GetKeyDown(KeyCode.A))
                 isRecording = !isRecording;
 
             if (isRecording)
@@ -38,9 +44,11 @@ namespace HippoGamez
             else
                 CheckRecordingPoints();
 
+            Wand.up = transform.root.up;
             Vector3 temp = Wand.rotation.eulerAngles;
             temp.x = 0;
             Wand.rotation = Quaternion.Euler(temp);
+            // Wand.localPosition = Vector3.zero;
         }
 
         private void CheckRecordingPoints()
@@ -62,20 +70,20 @@ namespace HippoGamez
 
                 if (isSame)
                 {
-                    ActivateSpell(spell.Prefab);
+                    ActivateSpell(spell.Prefab, spell.IsChild);
                     NotificationText.text = "kaboom";
                     break;
                 }
             }
         }
 
-        private void ActivateSpell(GameObject SpellPrefab)
+        private void ActivateSpell(GameObject SpellPrefab, bool IsChild)
         {
             var tipTransform = LineRenderer.transform;
-            StartCoroutine(SpawnSpell(tipTransform, SpellPrefab));
+            StartCoroutine(SpawnSpell(tipTransform, SpellPrefab, IsChild));
         }
 
-        IEnumerator SpawnSpell(Transform trans, GameObject prefab)
+        IEnumerator SpawnSpell(Transform trans, GameObject prefab, bool IsChild)
         {
             var time = 1f;
             while (time > 0)
@@ -83,8 +91,14 @@ namespace HippoGamez
                 time -= Time.deltaTime;
                 yield return new WaitForEndOfFrame();
             }
-            var obj = Instantiate(prefab, trans.position, Quaternion.identity, trans);
-            obj.transform.forward = trans.up;
+            GameObject obj;
+
+            if (IsChild)
+                obj = Instantiate(prefab, trans.position, Quaternion.identity, trans);
+            else
+                obj = Instantiate(prefab, trans.position, Quaternion.identity);
+
+            obj.transform.forward = transform.root.up;
             Destroy(obj, 5f);
             yield return null;
         }
