@@ -16,9 +16,9 @@ namespace HippoGamez
 
         private void Update()
         {
-            var press = Controller_Manager.Right.GetValue(Pressed.Primary);
-            var touch = Controller_Manager.Right.GetValue(Touched.Secondary);
-            var axis = Controller_Manager.Right.GetValue(Axis.ThumbstickHorizontal);
+            var press = Controller_InputManager.GetRight(Pressed.Primary);
+            var touch = Controller_InputManager.GetRight(Touched.Secondary);
+            var axis = Controller_InputManager.GetRight(Axis.ThumbstickHorizontal);
 
             var Color = new Color(Convert.ToInt32(press), Convert.ToInt32(touch), axis);
 

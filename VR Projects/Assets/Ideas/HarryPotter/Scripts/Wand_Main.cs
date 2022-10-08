@@ -21,7 +21,7 @@ namespace HippoGamez
         private void Start()
         {
             LineRenderer.Initialize();
-            Controller_Manager.Right.PressedDict[Pressed.Primary].ActivationStateChanged.AddListener((bool b) =>
+            Controller_InputManager.Right.PressedDict[Pressed.Primary].ActivationStateChanged.AddListener((bool b) =>
             {
                 if (b == false) return;
                 isRecording = !isRecording;

@@ -15,17 +15,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 3
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
@@ -50,17 +50,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
@@ -87,13 +87,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wraith_Cyberninja_Animated
       objectReference: {fileID: 0}
+    - target: {fileID: 3658603549348649400, guid: eb59065d1cc823b4fa6098f24517da36,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4987420358223247321, guid: eb59065d1cc823b4fa6098f24517da36,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: eb59065d1cc823b4fa6098f24517da36,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 1547170d845bb2b408a551503817e1dd, type: 2}
+    - target: {fileID: 5866666021909216657, guid: eb59065d1cc823b4fa6098f24517da36,
+        type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb59065d1cc823b4fa6098f24517da36, type: 3}
+--- !u!95 &2242693701763521529 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: eb59065d1cc823b4fa6098f24517da36,
+    type: 3}
+  m_PrefabInstance: {fileID: 5653481686204049000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4806566148090059577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eb59065d1cc823b4fa6098f24517da36,
@@ -112,3 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09b3b48526e11694c940717633593aa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LeftHand: {fileID: 0}
+  RightHand: {fileID: 0}
+  HeadTarget: {fileID: 0}
+  Animator: {fileID: 2242693701763521529}
