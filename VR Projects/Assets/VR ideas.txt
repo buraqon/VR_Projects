@@ -7,3 +7,5 @@ Naruto
 Shooting Firballs
 Fornite Building
 Car driving
+ragdol punching bag
+Ifinite room (doors + render texture)

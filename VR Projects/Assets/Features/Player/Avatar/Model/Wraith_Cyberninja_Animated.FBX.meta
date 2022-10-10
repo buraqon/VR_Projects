@@ -1250,7 +1250,7 @@ ModelImporter:
     - name: def_l_shoulder
       parentName: def_l_clav
       position: {x: -0.046587724, y: -0.000000114440915, z: 0.000000009536743}
-      rotation: {x: 0.09698615, y: 0.0088754315, z: 0.13293041, w: 0.9863287}
+      rotation: {x: 0.09698616, y: 0.008875432, z: 0.13293043, w: 0.9863288}
       scale: {x: 1, y: 1, z: 1}
     - name: def_l_shoulderMid
       parentName: def_l_shoulder
@@ -1346,7 +1346,7 @@ ModelImporter:
     - name: def_l_finThumbB
       parentName: def_l_finThumbA
       position: {x: -0.01919056, y: 0.000000019073486, z: -0.000000019073486}
-      rotation: {x: -0.0000003874301, y: -0.0000015944239, z: 0.03362403, w: 0.99943465}
+      rotation: {x: 0.0014548893, y: -0.0018120252, z: 0.03530519, w: 0.99937385}
       scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
     - name: def_l_finThumbC
       parentName: def_l_finThumbB
@@ -1482,7 +1482,7 @@ ModelImporter:
     - name: def_r_scarf_jiggle_long_06
       parentName: def_r_scarf_jiggle_long_05
       position: {x: 0.000000014305114, y: 0.000000019073486, z: 0.047139376}
-      rotation: {x: 0.06864173, y: -0.04614022, z: -0.023838954, w: 0.99628866}
+      rotation: {x: 0.06864174, y: -0.04614022, z: -0.023838956, w: 0.99628866}
       scale: {x: 1, y: 1, z: 1}
     - name: def_r_scarf_jiggle_long_07
       parentName: def_r_scarf_jiggle_long_06
@@ -1507,7 +1507,7 @@ ModelImporter:
     - name: def_r_elbow
       parentName: def_r_shoulderMid
       position: {x: 0.050962295, y: -0.0000009727478, z: 0}
-      rotation: {x: -0.012380821, y: 0.002715256, z: -0.01080702, w: 0.99986124}
+      rotation: {x: -0.012380822, y: 0.0027152563, z: -0.010807021, w: 0.9998613}
       scale: {x: 0.99999994, y: 1.0000002, z: 1.0000007}
     - name: def_r_forearm
       parentName: def_r_elbow
@@ -1559,7 +1559,7 @@ ModelImporter:
     - name: def_r_finPinkyA
       parentName: def_r_finRingCarpal
       position: {x: -0.00027469636, y: 0.0015557861, z: 0.005316696}
-      rotation: {x: -0.13291574, y: 0.03562777, z: 0.08171853, w: 0.9871101}
+      rotation: {x: -0.13291572, y: 0.03562777, z: 0.08171852, w: 0.9871101}
       scale: {x: 1.0000001, y: 1, z: 0.99999994}
     - name: def_r_finPinkyB
       parentName: def_r_finPinkyA
@@ -1710,7 +1710,7 @@ ModelImporter:
     - name: eye_base
       parentName: Wraith_Cyber_Ninja
       position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -0, y: 0.8108841, z: 1.7763568e-15, w: 0.5852068}
       scale: {x: 1, y: 1, z: 1}
     - name: gauntlet
       parentName: Wraith_Cyber_Ninja
@@ -1720,12 +1720,12 @@ ModelImporter:
     - name: head
       parentName: Wraith_Cyber_Ninja
       position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -0, y: 0.8108841, z: 1.7763568e-15, w: 0.5852068}
       scale: {x: 1, y: 1, z: 1}
     - name: helm
       parentName: Wraith_Cyber_Ninja
       position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: 1}
+      rotation: {x: -0, y: 0.8108841, z: 1.7763568e-15, w: 0.5852068}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
