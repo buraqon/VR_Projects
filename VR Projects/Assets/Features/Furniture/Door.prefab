@@ -474,6 +474,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3215529165737661150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7653917926505350388 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5091309964541761066, guid: 345900e9a5776bb49a23e6dda2bc42e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 3215529165737661150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3215529166183077936
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -495,7 +501,7 @@ PrefabInstance:
         type: 3}
       propertyPath: elements.Array.data[0]
       value: 
-      objectReference: {fileID: 3075754300176785861}
+      objectReference: {fileID: 7653917926505350388}
     - target: {fileID: 2308899400092309998, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.data[1]
@@ -569,13 +575,13 @@ PrefabInstance:
     - target: {fileID: 6881649458171551087, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.size
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6881649458171551087, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.data[0]
       value: 
-      objectReference: {fileID: 3215529165177789165}
+      objectReference: {fileID: 3215529165973569449}
     - target: {fileID: 6881649458171551087, guid: 27357be074b04234fa032891fbbeb20b,
         type: 3}
       propertyPath: elements.Array.data[1]
@@ -588,12 +594,6 @@ PrefabInstance:
       objectReference: {fileID: 3215529164462648654}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27357be074b04234fa032891fbbeb20b, type: 3}
---- !u!1 &3075754300176785861 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 446028437168781813, guid: 27357be074b04234fa032891fbbeb20b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3215529166183077936}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6953009572906303690 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5539946387736140026, guid: 27357be074b04234fa032891fbbeb20b,
