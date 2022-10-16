@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 390462665120617776}
   - component: {fileID: 5250465354087271596}
+  - component: {fileID: 504287350}
+  - component: {fileID: 504287349}
   m_Layer: 0
   m_Name: Mech
   m_TagString: Untagged
@@ -45,6 +47,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91ce58f18deb09a4d8adbcec2bc7b3e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &504287350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4273269041973932455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb50d869835c3864f99ce17936a8816d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+--- !u!143 &504287349
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4273269041973932455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &2569186057649345209
 PrefabInstance:
   m_ObjectHideFlags: 0
