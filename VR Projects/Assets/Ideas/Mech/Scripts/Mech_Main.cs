@@ -8,10 +8,12 @@ namespace HippoGamez
     {
         public Mech_Movement Movement;
         public Mech_InputCollector Input;
+        public Mech_BodyController Body;
         private void Update()
         {
             var input = Input.GetInput();
             Movement.SetValues(input.MoveDirection);
+            Body.SetValues(input);
         }
     }
 }

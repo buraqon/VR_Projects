@@ -48,8 +48,8 @@ public class Joystick : MonoBehaviour
         var target = GetTarget();
         if (target)
             FollowTarget(target.position);
-        else
-            FollowTarget(transform.position + Vector3.up);
+        // else
+        //     FollowTarget(transform.position + Vector3.up);
     }
 
 
