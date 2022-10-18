@@ -9,3 +9,6 @@ Fornite Building
 Car driving
 ragdol punching bag
 Ifinite room (doors + render texture)
+arcade
+plane
+pacman leaves the screen
