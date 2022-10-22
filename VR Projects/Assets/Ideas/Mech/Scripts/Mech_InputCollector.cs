@@ -15,8 +15,8 @@ namespace HippoGamez
         {
             data.MoveDirection = LeftJoystick.GetValues();
             data.LookDirection = RightJoystick.GetValues();
-            data.IsShootRight = Controller_InputManager.GetRight(Pressed.Trigger);
-            data.IsShootLeft = Controller_InputManager.GetRight(Pressed.Trigger);
+            data.IsShootRight = Controller_InputManager.GetRight(Pressed.Trigger); // 
+            data.IsShootLeft = Controller_InputManager.GetRight(Pressed.Trigger); // 
             return data;
         }
     }

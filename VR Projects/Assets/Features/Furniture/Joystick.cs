@@ -2,23 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Tilia.Interactions.Interactables.Interactables;
-using Tilia.Interactions.Interactables.Interactors;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Joystick : MonoBehaviour
 {
     public InteractableFacade Interactable;
-    public float SmoothFactor = 0.2f;
+    public Transform Visual;
     public float MaxAngle = 120f;
 
-    private Vector3 rotVel;
     private bool isActive = true;
     private Vector2 inputValues;
 
     public Vector2 GetValues()
     {
-        var euler = transform.localEulerAngles;
+        var euler = Visual.localEulerAngles;
         inputValues.x = GetNormalValue(euler.x);
         inputValues.y = GetNormalValue(euler.z);
         return inputValues;
@@ -63,7 +60,8 @@ public class Joystick : MonoBehaviour
 
     private void FollowTarget(Vector3 targetPos)
     {
-        transform.up = (targetPos - transform.position).normalized;
-        transform.Rotate(transform.up, 90);
+        Quaternion quat = Quaternion.FromToRotation(targetPos - transform.position, transform.up);
+        Vector3 euler = new Vector3(quat.eulerAngles.z, 0, -quat.eulerAngles.x);
+        Visual.localEulerAngles = euler;
     }
 }
