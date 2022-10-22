@@ -16,25 +16,26 @@ public class Joystick : MonoBehaviour
     private bool isActive = true;
     private Vector2 inputValues;
 
-
     public Vector2 GetValues()
     {
         var euler = transform.localEulerAngles;
-        inputValues.x = NormalizeAngle(euler.x);
-        inputValues.y = NormalizeAngle(euler.z);
+        inputValues.x = GetNormalValue(euler.x);
+        inputValues.y = GetNormalValue(euler.z);
         return inputValues;
     }
 
-    private float NormalizeAngle(float angle)
+    private float GetNormalValue(float angle)
     {
-        float modifiedAngle;
-        if (angle > 180)
-            modifiedAngle = angle - 360;
-        else
-            modifiedAngle = angle;
+        float modifiedAngle = NormalAngle(angle);
+        return Mathf.Clamp(modifiedAngle / MaxAngle, -1, 1);
+    }
 
-        modifiedAngle = Mathf.Clamp(modifiedAngle / MaxAngle, -1, 1);
-        return modifiedAngle;
+    private float NormalAngle(float angle)
+    {
+        if (angle > 180)
+            return angle - 360;
+
+        return angle;
     }
 
     private void Update()
@@ -48,10 +49,9 @@ public class Joystick : MonoBehaviour
         var target = GetTarget();
         if (target)
             FollowTarget(target.position);
-        // else
-        //     FollowTarget(transform.position + Vector3.up);
+        else
+            FollowTarget(transform.position + Vector3.up);
     }
-
 
     private Transform GetTarget()
     {
@@ -63,6 +63,7 @@ public class Joystick : MonoBehaviour
 
     private void FollowTarget(Vector3 targetPos)
     {
-        transform.up = Vector3.SmoothDamp(transform.up, targetPos - transform.position, ref rotVel, SmoothFactor);
+        transform.up = (targetPos - transform.position).normalized;
+        transform.Rotate(transform.up, 90);
     }
 }

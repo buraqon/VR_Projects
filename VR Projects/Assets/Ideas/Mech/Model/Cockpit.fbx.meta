@@ -7,8 +7,48 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.002
-    second: {fileID: 2100000, guid: 5a2ec9d6962e57340a7db28f0f048dae, type: 2}
+      name: DarkMATTE
+    second: {fileID: 2100000, guid: 212e24b80288a77469215131ce4c975e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hull
+    second: {fileID: 2100000, guid: 5ebd7d85d7ae847439c4f2a1d2dda0c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leather
+    second: {fileID: 2100000, guid: 3f807c69733724d4cb2f80e65d1a5c6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightMetal
+    second: {fileID: 2100000, guid: ff6ca03364450864dbc463cf16841a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 5318b1c9b14812b439222fcb8fd28032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tubing1
+    second: {fileID: 2100000, guid: 150c806c14287b84ab25c1765ac6b090, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: console-elements
+    second: {fileID: 2100000, guid: 4c584995559a4d549864e1259d9058bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mattecolor
+    second: {fileID: 2100000, guid: d30350234f6501040b37ffc2c7b87842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tank
+    second: {fileID: 2100000, guid: f5e71224aa8f0e141a6002047396a19a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

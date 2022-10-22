@@ -19,6 +19,7 @@ namespace HippoGamez
         {
             var moveDir = GetInput(direction);
             characterController.Move(moveDir * Speed);
+            // characterController.
         }
 
         private Vector3 GetInput()
