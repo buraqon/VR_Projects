@@ -16,15 +16,10 @@ namespace HippoGamez
         private float rotVel;
         private float rotAcc;
 
-        private void Start()
-        {
-
-        }
-
         private void Update()
         {
             rotVel = Mathf.SmoothDamp(rotVel, direction.x * RotationSpeed, ref rotAcc, RotationSpeedSmooth);
-            transform.RotateAround(transform.position, transform.up, rotVel);
+            transform.RotateAround(transform.position, transform.up, rotVel * Time.deltaTime);
             linVel = Speed * direction.y;
             CharacterController.Move(linVel * transform.forward);
         }

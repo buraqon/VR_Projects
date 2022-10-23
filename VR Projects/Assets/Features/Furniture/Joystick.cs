@@ -16,8 +16,8 @@ public class Joystick : MonoBehaviour
     public Vector2 GetValues()
     {
         var euler = Visual.localEulerAngles;
-        inputValues.x = GetNormalValue(euler.x);
-        inputValues.y = GetNormalValue(euler.z);
+        inputValues.x = -GetNormalValue(euler.z);
+        inputValues.y = GetNormalValue(euler.x);
         return inputValues;
     }
 
@@ -47,7 +47,7 @@ public class Joystick : MonoBehaviour
         if (target)
             FollowTarget(target.position);
         else
-            FollowTarget(transform.position + Vector3.up);
+            FollowTarget(Visual.position + Vector3.up);
     }
 
     private Transform GetTarget()
@@ -60,8 +60,8 @@ public class Joystick : MonoBehaviour
 
     private void FollowTarget(Vector3 targetPos)
     {
-        Quaternion quat = Quaternion.FromToRotation(targetPos - transform.position, transform.up);
-        Vector3 euler = new Vector3(quat.eulerAngles.z, 0, -quat.eulerAngles.x);
+        Quaternion quat = Quaternion.FromToRotation(targetPos - Visual.position, transform.up);
+        Vector3 euler = new Vector3(-quat.eulerAngles.x, 0, -quat.eulerAngles.z);
         Visual.localEulerAngles = euler;
     }
 }

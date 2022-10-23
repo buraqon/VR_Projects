@@ -23,7 +23,7 @@ public class Mech_BodyController : MonoBehaviour
     public float MaxHorizontal;
 
     [Header("Other")]
-    public float RotationSpeed = 0.03f;
+    public float RotationSpeed = 15;
 
     private void Update()
     {
