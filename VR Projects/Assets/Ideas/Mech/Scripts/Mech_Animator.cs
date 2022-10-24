@@ -13,6 +13,6 @@ public class Mech_Animator : AnimatorHandler
 
     public override void AnimationEvent()
     {
-        // shake that booty yeah baby shake it
+
     }
 }

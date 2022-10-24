@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimatorEventInvokerMultiple : StateMachineBehaviour
 {
     public List<AnimationEventTrigger> triggerList;
-    public AnimatorHandler handler;
+    private AnimatorHandler handler;
 
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -35,6 +35,7 @@ public class AnimatorEventInvokerMultiple : StateMachineBehaviour
 [System.Serializable]
 public class AnimationEventTrigger
 {
+    [Range(0, 1f)]
     public float Time;
     public bool IsDone { get; set; }
 }
