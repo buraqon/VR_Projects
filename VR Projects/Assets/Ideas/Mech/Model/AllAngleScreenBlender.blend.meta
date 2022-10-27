@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 7c55454480265034f95b77e5cc2a4a25
+guid: 5500d8d7c8bc6ec46aebee97418f91bd
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Hull
-    second: {fileID: 2100000, guid: f91b3bdab73f9f1428859142555bc05e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

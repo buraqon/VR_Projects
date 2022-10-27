@@ -52,6 +52,7 @@ MonoBehaviour:
   Movement: {fileID: 504287350}
   Input: {fileID: -3742474003883779828}
   Body: {fileID: 2569186055878044474}
+  Animator: {fileID: 2569186056839321111}
 --- !u!114 &504287350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,9 +65,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb50d869835c3864f99ce17936a8816d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0.2
-  RotationSpeed: 10
+  Speed: 0.1
+  RotationSpeed: 20
   RotationSpeedSmooth: 0.1
+  CharacterController: {fileID: 504287349}
 --- !u!114 &-3742474003883779828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,6 +180,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: faa5a03c705533a48a26a869e05696eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2569186056839321111 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1071121582, guid: 441752041306b3f4aaf577ecf73e20dd,
+    type: 3}
+  m_PrefabInstance: {fileID: 2569186057649345209}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc052b1186036849bd8c2325c2f7014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &5717283541294899534 stripped

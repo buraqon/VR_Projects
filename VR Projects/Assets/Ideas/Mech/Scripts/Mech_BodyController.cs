@@ -11,8 +11,8 @@ public class Mech_BodyController : MonoBehaviour
     public float BodySmooth = 0.1f;
     private Vector3 bodyTarget;
     private Vector3 bodyVel;
+    private Vector3 bodyInit;
     public float MaxVertical;
-
 
     [Header("Head")]
     public Transform Head;
@@ -20,10 +20,17 @@ public class Mech_BodyController : MonoBehaviour
     public float HeadSmooth = 0.1f;
     private Vector3 headTarget;
     private Vector3 headVel;
+    private Vector3 headInit;
     public float MaxHorizontal;
 
     [Header("Other")]
     public float RotationSpeed = 15;
+
+    private void Start()
+    {
+        headInit = HeadLook.transform.localPosition;
+        bodyInit = BodyLook.transform.localPosition;
+    }
 
     private void Update()
     {
@@ -45,6 +52,7 @@ public class Mech_BodyController : MonoBehaviour
     {
         if (Mathf.Abs(inputValue) > 0.2f)
         {
+            // return initPos + inputValue * direction * maxValue;
             var nextPos = trans.localPosition + RotationSpeed / 1000 * inputValue * direction * Time.deltaTime;
             var pureVect = Vector3.Scale(nextPos, direction);
             if (pureVect.magnitude < maxValue / 1000)
@@ -53,6 +61,7 @@ public class Mech_BodyController : MonoBehaviour
                 return nextPos;
             }
         }
+        // return initPos;
         return trans.localPosition;
     }
 }
